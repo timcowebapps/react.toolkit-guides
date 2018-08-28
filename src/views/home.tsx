@@ -56,7 +56,7 @@ export class Home extends React.Component<AppProps.IProps, AppState.IState> {
 		return (
 			<React.Fragment>
 				<h3>Home</h3>
-				<Link to="/example">Example</Link>
+				<Link to="/react.toolkit-guides/example">Example</Link>
 			</React.Fragment>
 		);
 	}

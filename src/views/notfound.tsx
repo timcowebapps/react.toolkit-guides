@@ -56,9 +56,9 @@ export class NotFound extends React.Component<AppProps.IProps, AppState.IState> 
 		return (
 			<React.Fragment>
 				<h3>NotFound</h3>
-				<Link to="/">Home</Link>
+				<Link to="/react.toolkit-guides/">Home</Link>
 				<br />
-				<Link to="/example">Example</Link>
+				<Link to="/react.toolkit-guides/example">Example</Link>
 			</React.Fragment>
 		);
 	}
