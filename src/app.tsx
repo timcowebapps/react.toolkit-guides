@@ -62,7 +62,7 @@ export class App extends React.Component<AppProps.IProps, AppState.IState> {
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route path="/example" component={Example} />
-				<Route component={NotFound} />
+				<Route path="*" component={NotFound} />
 			</Switch>
 		);
 	}

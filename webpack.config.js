@@ -1,15 +1,14 @@
 'use strict';
 
 const path = require('path');
-const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 const ROOT_PATH = path.resolve(__dirname);
-const APP_PATH = path.resolve(ROOT_PATH, 'src');
-const BUILD_PATH = path.resolve(ROOT_PATH, 'docs');
+const APP_PATH = path.resolve(ROOT_PATH, "src");
+const BUILD_PATH = path.resolve(ROOT_PATH, "docs");
 
 const config = {
 	mode: NODE_ENV,
@@ -19,6 +18,7 @@ const config = {
 	output: {
 		pathinfo: true,
 		path: BUILD_PATH,
+		publicPath: "/docs/",
 		filename: "[name].js"
 	},
 	resolve: {
@@ -49,43 +49,43 @@ const config = {
 					}, {
 						loader: "sass-loader",
 						options: {
-                            sourceMap: true
-                        }
+							sourceMap: true
+						}
 					}]
 				})
 			}
 		]
+	},
+	optimization: {
+		minimizer: (NODE_ENV === "production") ? [
+			new UglifyJsPlugin({
+				sourceMap: true,
+				cache: false,
+				parallel: 4,
+				extractComments: false
+			})
+		] : []
 	},
 	plugins: [
 		new ExtractTextPlugin({ filename: "[name].css" }),
 		new HtmlWebpackPlugin({
 			inject: false,
 			hash: true,
-			template: './public/index.html',
-			filename: './index.html'
+			template: './index.html',
+			filename: 'index.html'
 		})
 	],
 	devServer: {
-		publicPath: '/',
-		contentBase: BUILD_PATH,
+		publicPath: "/",
 		historyApiFallback: true,
 		open: true,
 		port: 2283,
-		host: '0.0.0.0',
+		host: "0.0.0.0",
 		watchOptions: {
 			poll: true,
 			ignored: /node_modules/
 		}
 	}
-}
-
-if(NODE_ENV === 'production') {
-	config.optimization.minimizer.push(new UglifyJsPlugin({
-		sourceMap: true,
-		cache: false,
-		parallel: 4,
-		extractComments: false
-	}));
 }
 
 module.exports = config;

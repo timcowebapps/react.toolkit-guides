@@ -3,6 +3,7 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { AppProps } from '../app-props';
 import { AppState } from '../app-state';
 
@@ -53,7 +54,12 @@ export class NotFound extends React.Component<AppProps.IProps, AppState.IState> 
 	 */
 	public render(): JSX.Element {
 		return (
-			<div>NotFound</div>
+			<React.Fragment>
+				<h3>NotFound</h3>
+				<Link to="/">Home</Link>
+				<br />
+				<Link to="/example">Example</Link>
+			</React.Fragment>
 		);
 	}
 };

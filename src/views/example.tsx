@@ -3,6 +3,7 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { AppProps } from '../app-props';
 import { AppState } from '../app-state';
 
@@ -53,7 +54,10 @@ export class Example extends React.Component<AppProps.IProps, AppState.IState> {
 	 */
 	public render(): JSX.Element {
 		return (
-			<div>Example</div>
+			<React.Fragment>
+				<h3>Example</h3>
+				<Link to="/">Home</Link>
+			</React.Fragment>
 		);
 	}
 };

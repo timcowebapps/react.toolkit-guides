@@ -11,8 +11,8 @@
 	"scripts": {
 		"preclean": "rm -rf docs/*",
 		"postclean": "rm -f docs/*.d.ts && rm -rf docs/views/*",
-		"build": "npm run preclean && webpack --production --display-used-exports --hide-modules && npm run postclean",
-		"start": "npm run preclean && webpack-dev-server --hot --inline"
+		"build": "npm run preclean && NODE_ENV=production webpack --display-used-exports --hide-modules && npm run postclean",
+		"start": "npm run preclean && webpack-dev-server --hot --inline --content-base ./docs"
 	},
 	"dependencies": {
 		"lodash": "^4.17.10",
