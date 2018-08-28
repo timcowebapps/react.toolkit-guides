@@ -62,7 +62,7 @@ export class App extends React.Component<AppProps.IProps, AppState.IState> {
 			<Switch>
 				<Route exact path="/react.toolkit-guides/" component={Home} />
 				<Route path="/react.toolkit-guides/example" component={Example} />
-				<Route path="*" component={NotFound} />
+				<Route component={NotFound} />
 			</Switch>
 		);
 	}
