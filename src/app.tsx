@@ -60,8 +60,8 @@ export class App extends React.Component<AppProps.IProps, AppState.IState> {
 	public render(): JSX.Element {
 		return (
 			<Switch>
-				<Route exact path="/" component={Home} />
-				<Route path="/example" component={Example} />
+				<Route exact path="/react.toolkit-guides/" component={Home} />
+				<Route path="/react.toolkit-guides/example" component={Example} />
 				<Route path="*" component={NotFound} />
 			</Switch>
 		);
