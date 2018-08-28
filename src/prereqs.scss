@@ -1,0 +1,42 @@
+/* #region 1.Импортируем утилиты */
+@import '~timcowebapps-react.utils/src/classname/bem.scss';
+@import '~timcowebapps-react.utils/src/unit/convert.scss';
+@import '~timcowebapps-react.utils/src/typography/responsive-font-size.scss';
+@import '~timcowebapps-react.utils/src/typography/text-align.scss';
+@import '~timcowebapps-react.utils/src/color/color-helpers.scss';
+/* #endregion */
+/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
+@import '~timcowebapps-react.toolkit/src/global-vars.scss';
+$body-fontFamily: Arial, sans-serif;
+$body-fontSize: 16px;
+$body-line-height: 1.5;
+$body-font-color: #333;
+$body-background: #fff;
+$enable-rounded-corners: true;
+$enable-shadows: true;
+@import '~timcowebapps-react.toolkit/src/global-screen.scss';
+@import '~timcowebapps-react.toolkit/src/global-reboot.scss';
+/* #endregion */
+/* #region 3.Импортируем миксины */
+@import '~timcowebapps-react.toolkit/src/mixins/box-sizing.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/flex.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/list.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/linear-gradient.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/border-radius.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/box-shadow.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/transform.scss';
+@import '~timcowebapps-react.toolkit/src/mixins/transition.scss';
+/* #endregion */
+/* #region 4.Импортируем экстракты */
+@import '~timcowebapps-react.toolkit/src/extracts/spacing.scss';
+@import '~timcowebapps-react.toolkit/src/extracts/block.scss';
+@import '~timcowebapps-react.toolkit/src/extracts/list.scss';
+@import '~timcowebapps-react.toolkit/src/extracts/hidden.scss';
+/* #endregion */
+/* #region 5.Импортируем сетку */
+@import '~timcowebapps-react.toolkit/src/grid/grid-vars.scss';
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+@import '~timcowebapps-react.toolkit/src/grid/grid-flex.scss';
+@import '~timcowebapps-react.toolkit/src/grid/grid.scss';
+/* #endregion */

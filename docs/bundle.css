@@ -1,0 +1,837 @@
+@charset "UTF-8";
+/* #region 1.Импортируем утилиты */
+/**
+ * Блок-элемент.
+ *
+ * @access public
+ * @param {String[]} $names Имена элементов.
+ */
+/**
+ * Модификатор блока.
+ *
+ * @access public
+ * @param {String[]} $names Имена модификаторов.
+ */
+/**
+ * Отрицание модификатора.
+ *
+ * @access public
+ * @param {String} $name Имя модификатора.
+ */
+/**
+ * Обрезает единицу измерения.
+ *
+ * @param {String | Number} $target Целевое значение.
+ * @return {Number} Числовое значение.
+ */
+/**
+ * Переводит px в rem.
+ *
+ * @param {String | Number} $target Значение в px, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} rem
+ */
+/**
+ * Переводит rem в px.
+ *
+ * @param {String | Number} $target Значение в rem, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} px
+ */
+/**
+ * Переводит percentage в fr.
+ *
+ * @param {String | Number} $target Значение в percentage.
+ * @return {String} fr
+ */
+/**
+ * Отзывчивый размер шрифта, основанный на viewport-юнитах.
+ *
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
+ * @param {String} $min Минимальный размер шрифта в пикселях.
+ * @param {String} $max [false] Максимальный размер шрифта в пикселях.
+ * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
+ * @example:
+ *    // scss
+ *    .text {
+ *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
+ *    }
+ */
+._3VjAw {
+  /** Выравнивание текста по левому краю. */
+  /** Выравнивание текста по центру. */
+  /** Выравнивание текста по правому краю. */
+  /** Выравнивание по ширине. */ }
+  ._2E1LV {
+    text-align: left; }
+  ._1t_Mk {
+    text-align: center; }
+  ._3_ONi {
+    text-align: right; }
+  ._2JVBa {
+    text-align: justify; }
+
+/**
+ * Получает цвет.
+ *
+ * @param {Map} $color-map Карта цветов.
+ * @param {String} $color-name Имя цвета.
+ * @param {String} $color-variant Вариант цвета.
+ * @param {Number} $level Уровень.
+ * @param {String} $step Шаг в процентах.
+ * @return {String} Цвет, полученный в результате смешивания.
+ */
+/* #endregion */
+/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
+/**
+ * Шрифт тела по умолчанию.
+ * @type List
+ */
+/**
+ * Размер шрифта по умолчанию.
+ * @type Number
+ */
+/**
+ * Высота строки по умолчанию.
+ * @type Number
+ */
+/**
+ * Цвет текста тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Цвет фона тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Включает `<true>` округление углов.
+ * @type Boolean
+ */
+/**
+ * Включает `<true>` тени у элементов.
+ * @type Boolean
+ */
+/* #region Определение блочной модели */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+/* #endregion */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
+  text-decoration-skip: objects;
+  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
+  -webkit-text-size-adjust: 100%;
+  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
+  -webkit-font-smoothing: antialiased;
+  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
+  -webkit-tap-highlight-color: transparent;
+  /* Убирает синее подсвечивание при клике на девайсах */ }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+legend {
+  display: block;
+  padding: 0;
+  white-space: normal; }
+
+img {
+  border: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+/* #endregion */
+/* #region 3.Импортируем миксины */
+/**
+ * Миксина очистки стилей у списка.
+ */
+/**
+ * Миксина линейного градиента.
+ * @param {Keyword | Angle} $direction Линейное направление градиента.
+ */
+/**
+ * Миксина округления углов (все углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (верхнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (левые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (нижнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (правые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {Arglist} $args Значение тени.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {List} $shadow Значение тени.
+ */
+/**
+ * Миксина перехода.
+ * @param {Arglist} $args Значение перехода.
+ */
+/**
+ * Миксина перехода.
+ * @param {List} $transition Значение перехода.
+ */
+/* #endregion */
+/* #region 4.Импортируем экстракты */
+._2xu87 {
+  padding-top: 15px; }
+
+._1pIrd {
+  padding-top: 22.5px; }
+
+._1FQ0f {
+  padding-top: 30px; }
+
+._1QR1_ {
+  padding-top: 50px; }
+
+._1kBj0 {
+  padding-top: 100px; }
+
+.ykBQR {
+  padding-bottom: 15px; }
+
+.rNL5r {
+  padding-bottom: 22.5px; }
+
+.PYkrw {
+  padding-bottom: 30px; }
+
+._3wGwy {
+  padding-bottom: 50px; }
+
+._3DhFi {
+  padding-bottom: 100px; }
+
+._1LSxy {
+  display: block;
+  width: 100%; }
+
+._3HInB {
+  padding-left: 0;
+  list-style: none; }
+
+._2468Q {
+  display: inline-block; }
+  ._2468Q:not(:last-child) {
+    margin-right: 0.313em; }
+
+@media (max-width: 47.9375rem) {
+  ._3P9RK {
+    display: none; } }
+
+@media (min-width: 30rem) {
+  ._1xPLq {
+    display: none; } }
+
+@media (max-width: 61.9375rem) {
+  .x99Ww {
+    display: none; } }
+
+@media (min-width: 48rem) {
+  ._1rprO {
+    display: none; } }
+
+@media (max-width: 74.9375rem) {
+  .-J_fX {
+    display: none; } }
+
+@media (min-width: 62rem) {
+  ._1nEK4 {
+    display: none; } }
+
+/* #endregion */
+/* #region 5.Импортируем сетку */
+/**
+ * Количество колонок сетки.
+ * @type Number
+ */
+/**
+ * Размер отступов сетки.
+ * @type Number
+ */
+/* #region Построение ряда */
+/* #endregion */
+/* #region Построение колонок */
+/* #endregion */
+/* #region Размеры контейнера */
+/** Маленький размер контейнера. */
+/** Средний размер контейнера. */
+/** Большой размер контейнера. */
+/* #endregion */
+/* #region Построение контейнера */
+.ZeZkv {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+  @media only screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    .ZeZkv {
+      width: 46.875rem; } }
+  @media only screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+    .ZeZkv {
+      width: 60.625rem; } }
+  @media only screen and (min-width: 75rem) {
+    .ZeZkv {
+      width: 73.125rem; } }
+
+._3Jc65 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+
+/* #endregion */
+/* #region Построение ряда */
+._1sdPK {
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  ._2IfGu {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+  .qQ1IK {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  .TTw-n {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; }
+  ._3jKj7 {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  ._1_Ao0 {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+  ._28xyG {
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+  .kzDg0 {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  ._1yrIE {
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end; }
+
+/* #endregion */
+/* #region Построение колонок */
+.jHMB4 {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0; }
+  @media only screen and (max-width: 47.9375rem) {
+    .hFyT- {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._1jE0i {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._5YmBI {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._3pDMH {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._2op4i {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    .X1yGH {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._1cVZM {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._16LRF {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    .DxZi9 {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    .Z2CMy {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._3GY8l {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._1OikH {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    ._3TRpv {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._33mCJ {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._2kW8v {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._19Kv1 {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._2sx_5 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    .gs8_a {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._1rW4t {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._3sJSj {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1mw_j {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._31csW {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._26o7m {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    .-NXpR {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 62rem) and (max-width: 74.9375rem) {
+    .SRrE4 {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._1xRxO {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._2xvLB {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._2RjXw {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._2ky7M {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    .Hk-fa {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._2F-lD {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._1So5g {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1QFyL {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._2h3FU {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._1tw9v {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._238Il {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 75rem) {
+    .zJtuE {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._3GVk6 {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._1dWTp {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    .QgSWo {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._3jTJp {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._3uOHz {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._2sNgW {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._1RRyY {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1EleA {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._3WprG {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._248q8 {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._2NIIs {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+
+/* #endregion */
+/* #endregion */
+
+/*# sourceMappingURL=bundle.css.map*/

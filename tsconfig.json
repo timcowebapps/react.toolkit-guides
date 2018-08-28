@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"outDir": "./",
+		"target": "es5",
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"declaration": true,
+		"sourceMap": true,
+		"jsx": "react",
+		"lib": [
+			"es2015",
+            "dom"
+        ]
+	},
+	"include": [
+		"./src/**/*.tsx",
+		"./src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
