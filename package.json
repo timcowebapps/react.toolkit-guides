@@ -11,7 +11,7 @@
 	"scripts": {
 		"preclean": "rm -rf docs/*",
 		"postclean": "rm -f docs/*.d.ts && rm -rf docs/views/*",
-		"build": "npm run preclean && NODE_ENV=production webpack --display-used-exports --hide-modules && npm run postclean",
+		"build": "npm run preclean && NODE_ENV=production webpack --display-used-exports --hide-modules && npm run postclean && cp 404.html ./docs/",
 		"start": "npm run preclean && webpack-dev-server --hot --inline --content-base ./docs"
 	},
 	"dependencies": {
@@ -22,7 +22,7 @@
 		"react-router-dom": "^4.3.1"
 	},
 	"devDependencies": {
-		"@timcowebapps/react.toolkit": "^0.19.21",
+		"@timcowebapps/react.toolkit": "^0.21.31",
 		"@timcowebapps/react.utils": "^0.4.35",
 		"@types/lodash": "^4.14.116",
 		"@types/node": "^10.9.2",

@@ -1,0 +1,27 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/field/field-vars.scss';
+$field-name: 'field';
+
+/* #region Переменные метки */
+$field-label-color: #000;
+/* #endregion */
+
+/* #region Переменные поля */
+$field-input-fontFamily: inherit;
+$field-input-fontColor: #000;
+$field-input-fontSize: pxToRem(14px, $body-fontSize);
+$field-input-background: #fff;
+$field-input-background--focused: scale-color(#fff, $lightness: -2%);
+$field-input-borderWidth: 1px;
+$field-input-borderStyle: solid;
+$field-input-borderRadius: 3px;
+$field-input-borderColor: scale-color(#fff, $lightness: -20%);
+$field-input-borderColor--focused: scale-color(#fff, $lightness: -40%);
+$field-input-borderColor--error: #f00;
+$field-input-boxShadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+$field-input-placeholder-fontColor: inherit;
+$field-input-spinbutton: true;
+/* #endregion */
+@import '~timcowebapps-react.toolkit/src/components/field/field.scss';
+@import '~timcowebapps-react.toolkit/src/components/field/placeholder.scss';

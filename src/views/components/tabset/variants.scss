@@ -1,0 +1,33 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/tabset/tabset-vars.scss';
+$tabset-name: 'tabset';
+$tabset-borderRadius: 2px;
+
+/* #region Переменные списка */
+$tabset-tablist-padding: 0;
+$tabset-tablist-margin: 0 0 1rem;
+$tabset-tablist-borderColor: #dfdfdf;
+$tabset-tablist-borderStyle: solid;
+$tabset-tablist-borderWidth: 2px;
+/* #endregion */
+
+/* #region Переменные пункта списка */
+$tabset-tab-color: get-color($main-colors, 'primary', 'dark');
+$tabset-tab-color--active: get-color($main-colors, 'primary', 'dark');
+$tabset-tab-fontWeight: 300;
+$tabset-tab-fontWeight--active: 700;
+$tabset-tab-background: transparent;
+$tabset-tab-background--active: get-color($main-colors, 'background');
+$tabset-tab-borderColor: transparent;
+$tabset-tab-borderColor--active: get-color($main-colors, 'primary', 'base');
+$tabset-tab-borderStyle: $tabset-tablist-borderStyle;
+$tabset-tab-borderWidth: $tabset-tablist-borderWidth;
+$tabset-tab-padding: 8px 15px;
+/* #endregion */
+
+/* #region Переменные панели */
+$tabset-tabpanel-background: #fafafa;
+$tabset-tabpanel-padding: 42px 70px 62px;
+/* #endregion */
+@import '~timcowebapps-react.toolkit/src/components/tabset/tabset.scss';

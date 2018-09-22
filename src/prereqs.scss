@@ -1,3 +1,25 @@
+$main-colors: (
+	'primary': (
+		'base': #268297,
+		'dark': #34495e,
+		'lght': #eff3fd
+	),
+	'secondary': (
+		// Empty
+	),
+	'accent': (
+		// Empty
+	),
+	'background': #f9fafa,
+	'foreground': #fff
+);
+
+:export {
+	primaryLghtClr: #ecf9f5;
+	primaryBaseClr: #5cb85c;
+	primaryDarkClr: #3c7c3d;
+}
+
 /* #region 1.Импортируем утилиты */
 @import '~timcowebapps-react.utils/src/classname/bem.scss';
 @import '~timcowebapps-react.utils/src/unit/convert.scss';
@@ -7,10 +29,17 @@
 /* #endregion */
 /* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
 @import '~timcowebapps-react.toolkit/src/global-vars.scss';
-$body-fontFamily: Arial, sans-serif;
-$body-fontSize: 16px;
-$body-line-height: 1.5;
-$body-font-color: #333;
+$default-colors: (
+	brand-primary: #268297,
+	brand-info: #35bda8,
+	brand-success: #86b34d,
+	brand-warning: #e66c40,
+	brand-danger: #cb3e4b
+);
+$body-fontFamily: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+$body-fontColor: #586e75;
+$body-fontSize: 15px;
+$body-lineHeight: 1.5;
 $body-background: #fff;
 $enable-rounded-corners: true;
 $enable-shadows: true;
@@ -40,3 +69,26 @@ $grid-gutter-width: 30px;
 @import '~timcowebapps-react.toolkit/src/grid/grid-flex.scss';
 @import '~timcowebapps-react.toolkit/src/grid/grid.scss';
 /* #endregion */
+
+@import './views/components/table/variants.scss';
+
+code {
+	font-family: 'Roboto Mono', Monaco, courier, monospace;
+    font-size: .8em;
+    -webkit-font-smoothing: initial;
+    -moz-osx-font-smoothing: initial;
+	color: get-color($main-colors, 'primary', 'base');
+	padding: 2px 5px;
+	margin: 0 2px;
+	border-radius: 2px;
+	border: 1px solid #edeeee;
+	white-space: nowrap;
+}
+
+.component-preview {
+	position: relative;
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 30px;
+	border: 2px solid #f9fafb;
+}

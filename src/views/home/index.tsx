@@ -4,15 +4,17 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { AppProps } from '../app-props';
-import { AppState } from '../app-state';
+import { HomePageProps } from './index-props';
+import { HomePageState } from './index-state';
 
-export class Home extends React.Component<AppProps.IProps, AppState.IState> {
+import { Layout } from '../layout';
+
+export class HomePage extends React.Component<HomePageProps.IProps, HomePageState.IState> {
 	//#region Статические переменные
 
 	public static displayName: string = "Home";
-	public static propTypes: PropTypes.ValidationMap<any> = AppProps.types;
-	public static defaultProps: AppProps.IProps = AppProps.defaults;
+	public static propTypes: PropTypes.ValidationMap<HomePageProps.IProps> = HomePageProps.types;
+	public static defaultProps: HomePageProps.IProps = HomePageProps.defaults;
 
 	//#endregion
 
@@ -23,12 +25,12 @@ export class Home extends React.Component<AppProps.IProps, AppState.IState> {
 	/**
 	 * Конструктор класса.
 	 * 
-	 * @class Home
+	 * @class HomePage
 	 * @public
 	 * @constructor
-	 * @param {AppProps.IProps} props Свойства компонента.
+	 * @param {HomePageProps.IProps} props Свойства компонента.
 	 */
-	public constructor(props?: AppProps.IProps) {
+	public constructor(props?: HomePageProps.IProps) {
 		super(props);
 
 		this.state = this._getInitialState();
@@ -37,10 +39,10 @@ export class Home extends React.Component<AppProps.IProps, AppState.IState> {
 	/**
 	 * Начальное состояние свойств по умолчанию.
 	 * 
-	 * @class Home
+	 * @class HomePage
 	 * @private
 	 */
-	private _getInitialState(): AppState.IState {
+	private _getInitialState(): HomePageState.IState {
 		return {
 			// Empty
 		}
@@ -49,15 +51,14 @@ export class Home extends React.Component<AppProps.IProps, AppState.IState> {
 	/**
 	 * Отрисовывает компонент.
 	 * 
-	 * @class Home
+	 * @class HomePage
 	 * @public
 	 */
 	public render(): JSX.Element {
 		return (
-			<React.Fragment>
-				<h3>Home</h3>
-				<Link to="/react.toolkit-guides/example">Example</Link>
-			</React.Fragment>
+			<Layout>
+				<h3>Overview</h3>
+			</Layout>
 		);
 	}
 };

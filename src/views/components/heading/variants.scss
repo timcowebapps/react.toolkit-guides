@@ -1,0 +1,29 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/heading/heading-vars.scss';
+$heading-name: 'heading';
+$heading-font-sizes: (
+	'h1': ('size': 40px, 'reduction': 10px),
+	'h2': ('size': 32px, 'reduction': 10px),
+	'h3': ('size': 28px, 'reduction': 5px),
+	'h4': ('size': 24px, 'reduction': 5px),
+	'h5': ('size': 20px, 'reduction': 0px),
+	'h6': ('size': 18px, 'reduction': 0px)
+);
+@import '~timcowebapps-react.toolkit/src/components/heading/heading.scss';
+
+h1.heading {
+	color: get-color($main-colors, 'primary', 'dark');
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0 0 .7em;
+}
+
+h2.heading {
+	color: get-color($main-colors, 'primary', 'dark');
+	font-size: 24px;
+	font-weight: 600;
+	margin: 1em 0 .8em;
+	padding-bottom: .4em;
+	border-bottom: 1px solid #ddd;
+}

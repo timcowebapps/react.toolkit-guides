@@ -1,6 +1,6 @@
 'use strict';
 
-export namespace AppState {
+export namespace HomePageState {
 	export interface IState {
 		// Empty
 	}

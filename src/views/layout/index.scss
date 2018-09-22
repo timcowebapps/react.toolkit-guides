@@ -1,0 +1,22 @@
+@import '../../prereqs.scss';
+
+@supports (display: grid) {
+	.grid-container {
+		display: grid;
+		grid-template-columns:
+			[header-start] minmax(15.625em/*250px*/, auto) 
+			1fr [header-end];
+		grid-template-rows:
+			[header-start] 3.875em/*62px*/ 
+			[sidebar-start] auto [sidebar-end];
+		min-height: calc(100vh - .1rem);
+	}
+
+	.grid-item-header {
+		grid-column: header-start / header-end;
+	}
+
+	.grid-item-aside {
+		grid-row: sidebar-start / sidebar-end;
+	}
+}

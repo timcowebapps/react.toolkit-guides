@@ -1,0 +1,21 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/menu/menu-vars.scss';
+$menu-name: 'navbar-menu';
+@import '~timcowebapps-react.toolkit/src/components/menu/menu.scss';
+
+.#{$menu-name} {
+	@include element((), "list") {
+		padding-left: 40px;
+		
+		@include element((), "list-item") {
+			a {
+				color: get-color($main-colors, 'primary', 'dark');
+				line-height: 1.8em;
+				text-decoration: none;
+				outline: 0;
+				cursor: pointer;
+			}
+		}
+	}
+}

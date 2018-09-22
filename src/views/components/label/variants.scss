@@ -1,0 +1,7 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/label/label-vars.scss';
+/* #region Общие переменные */
+$label-name: 'label';
+/* #endregion*/
+@import '~timcowebapps-react.toolkit/src/components/label/label.scss';

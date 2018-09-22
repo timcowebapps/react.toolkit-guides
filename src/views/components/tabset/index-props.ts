@@ -3,12 +3,12 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 
-export namespace AppProps {
-	export interface IProps extends React.Props<any> {
+export namespace TabSetCompProps {
+	export interface IProps {
 		// Empty
 	}
 
-	export const types: PropTypes.ValidationMap<any> = {
+	export const types: PropTypes.ValidationMap<IProps> = {
 		// Empty
 	}
 

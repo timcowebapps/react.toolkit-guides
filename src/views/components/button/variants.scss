@@ -1,0 +1,32 @@
+@import '../../../prereqs.scss';
+
+$link-color: get-color($main-colors, 'primary', 'base');
+$link-color--hover: get-color($main-colors, 'primary', 'dark');
+$link-background--hover: get-color($main-colors, 'primary', 'lght');
+
+@import '~timcowebapps-react.toolkit/src/components/button/button-vars.scss';
+$button-name: 'btn';
+$button-fontFamily: inherit; /** Необходимо наследовать значение свойства у родительского элемента */
+$button-fontWeight: bold;
+$button-borderWidth: 1px;
+$button-borderStyle: solid;
+$button-hover: darken 10%;
+$button-easing: ease-in-out;
+@import '~timcowebapps-react.toolkit/src/components/button/button.scss';
+@import '~timcowebapps-react.toolkit/src/components/button/button-sizes.scss';
+
+a.hyperlink {
+	color: $link-color;
+	font-weight: 700;
+	padding: 0 2px;
+	transition: all .3s ease;
+	border-bottom: 1px dotted $link-color;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+
+	&:hover {
+		color: $link-color--hover;
+		background-color: $link-background--hover;
+	}
+}

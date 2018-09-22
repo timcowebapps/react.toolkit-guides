@@ -1,0 +1,36 @@
+$table-border: 1px solid #eee !default;
+$table-thead-borderBottom: 2px solid #dfdfdf !default;
+$table-tbody-borderBottom: 2px solid #dfdfdf !default;
+$table-tbody-row-background--2n: #fafafa !default;
+$table-cell-padding: 8px !default;
+
+table {
+	border: $table-border;
+	border: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2em;
+
+	thead > tr > th, tbody > tr > td {
+		text-align: left;
+		vertical-align: top;
+		padding: $table-cell-padding;
+	}
+
+	thead {
+		border-bottom: $table-thead-borderBottom;
+
+		> tr > th {
+			font-weight: 700;
+		}
+	}
+
+	tbody {
+		border-bottom: $table-tbody-borderBottom;
+
+		> tr:nth-child(2n) {
+			background: $table-tbody-row-background--2n;
+		}
+	}
+}
