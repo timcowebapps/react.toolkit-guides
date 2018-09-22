@@ -58,7 +58,7 @@ export class Gist extends React.Component<GistProps.IProps, GistState.IState> {
 		var link = doc.createElement('link');
         link.setAttribute('rel', 'stylesheet');
         link.setAttribute('type', 'text/css');
-        link.setAttribute('href', "../index.css");
+        link.setAttribute('href', "iframe.css");
         doc.body.appendChild(link);
 	}
 

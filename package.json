@@ -1,6 +1,6 @@
 {
 	"name": "@timcowebapps/react.toolkit-guides",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Front-end фреймворк для разработки адаптивных web-проектов",
 	"author": "Victor Timoshin <victor-timoshin@hotmail.com>",
 	"license": "MIT",
@@ -11,7 +11,8 @@
 	"scripts": {
 		"preclean": "rm -rf docs/*",
 		"postclean": "rm -f docs/*.d.ts && rm -rf docs/views/*",
-		"build": "npm run preclean && NODE_ENV=production webpack --display-used-exports --hide-modules && npm run postclean && cp 404.html ./docs/",
+		"copyfiles": "cp 404.html ./docs/ && cp src/views/partials/gist/iframe.css ./docs/",
+		"build": "npm run preclean && NODE_ENV=production webpack --display-used-exports --hide-modules && npm run postclean && npm run copyfiles",
 		"start": "npm run preclean && webpack-dev-server --hot --inline --content-base ./docs"
 	},
 	"dependencies": {

@@ -1,0 +1,18 @@
+.gist .gist-data {
+	background: #f9fafa !important;
+	border-bottom: 0 !important;
+}
+
+.gist .gist-file {
+	border: 0 !important;
+}
+
+.gist .highlight {
+	background: transparent !important;
+	margin: 15px 0 !important;
+}
+
+.gist .blob-num,
+.gist .gist-meta {
+	display: none !important;
+}

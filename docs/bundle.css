@@ -2887,18 +2887,18 @@ a.ZwW_K {
  *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
  *    }
  */
-._46546 {
+._2XMih {
   /** Выравнивание текста по левому краю. */
   /** Выравнивание текста по центру. */
   /** Выравнивание текста по правому краю. */
   /** Выравнивание по ширине. */ }
-  ._3iiwv {
+  .L8ttf {
     text-align: left; }
-  ._1UXZK {
+  ._1BOgy {
     text-align: center; }
-  ._3fe7Q {
+  ._3rdfi {
     text-align: right; }
-  ._10PK0 {
+  ._3ycr0 {
     text-align: justify; }
 
 /**
@@ -3057,71 +3057,71 @@ svg:not(:root) {
  */
 /* #endregion */
 /* #region 4.Импортируем экстракты */
-._1C_E6 {
+.phL_S {
   padding-top: 15px; }
 
-._1ZHHe {
+.edIsq {
   padding-top: 22.5px; }
 
-._23kel {
+._342nn {
   padding-top: 30px; }
 
-._1za8P {
+._1yU1B {
   padding-top: 50px; }
 
-.GCd5f {
+._2Gw-Q {
   padding-top: 100px; }
 
-._2tj0P {
+._91qyB {
   padding-bottom: 15px; }
 
-._21vij {
+._2TCEN {
   padding-bottom: 22.5px; }
 
-._2tXfa {
+._1XlwP {
   padding-bottom: 30px; }
 
-.z8h8V {
+._3IFCy {
   padding-bottom: 50px; }
 
-._1BdgQ {
+._2FjGE {
   padding-bottom: 100px; }
 
-.Ac7aS {
+._1ems4 {
   display: block;
   width: 100%; }
 
-._6O4Jm {
+._1KKOr {
   padding-left: 0;
   list-style: none; }
 
-._1JOxO {
+._22E2d {
   display: inline-block; }
-  ._1JOxO:not(:last-child) {
+  ._22E2d:not(:last-child) {
     margin-right: 0.313em; }
 
 @media (max-width: 51.13333rem) {
-  ._1EG4r {
+  .bhiu4 {
     display: none; } }
 
 @media (min-width: 32rem) {
-  ._1Ijc7 {
+  ._3lgVK {
     display: none; } }
 
 @media (max-width: 66.06667rem) {
-  .rRAwF {
+  ._127GT {
     display: none; } }
 
 @media (min-width: 51.2rem) {
-  ._2kQDj {
+  ._24A8p {
     display: none; } }
 
 @media (max-width: 79.93333rem) {
-  ._1Aj_2 {
+  ._3-PcR {
     display: none; } }
 
 @media (min-width: 66.13333rem) {
-  ._3VhrV {
+  ._2H2cm {
     display: none; } }
 
 /* #endregion */
@@ -3144,23 +3144,23 @@ svg:not(:root) {
 /** Большой размер контейнера. */
 /* #endregion */
 /* #region Построение контейнера */
-.yDoGE {
+._1GSAd {
   position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-left: 1rem;
   padding-right: 1rem; }
   @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    .yDoGE {
+    ._1GSAd {
       width: 50rem; } }
   @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    .yDoGE {
+    ._1GSAd {
       width: 64.66667rem; } }
   @media only screen and (min-width: 80rem) {
-    .yDoGE {
+    ._1GSAd {
       width: 78rem; } }
 
-._2hui3 {
+._3Fs8e {
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -3169,7 +3169,7 @@ svg:not(:root) {
 
 /* #endregion */
 /* #region Построение ряда */
-._37X7I {
+._3YVQR {
   margin-left: -1rem;
   margin-right: -1rem;
   display: -webkit-box;
@@ -3180,50 +3180,50 @@ svg:not(:root) {
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
-  ._292oA {
+  .i0E9C {
     -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
     justify-content: space-around; }
-  .I7LL7 {
+  ._1O36l {
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between; }
-  ._1rzsC {
+  ._2Veic {
     -webkit-box-pack: start;
     -moz-box-pack: start;
     -ms-flex-pack: start;
     -webkit-justify-content: flex-start;
     justify-content: flex-start; }
-  ._3P5t3 {
+  ._1zOYD {
     -webkit-box-pack: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center; }
-  ._2Bv4d {
+  ._3AteZ {
     -webkit-box-pack: end;
     -moz-box-pack: end;
     -ms-flex-pack: end;
     -webkit-justify-content: flex-end;
     justify-content: flex-end; }
-  .ATXGc {
+  ._3cFGH {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start; }
-  ._1ipUk {
+  .L8qvb {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center; }
-  ._6Hu5v {
+  ._12IEa {
     -webkit-align-content: flex-end;
     -ms-flex-line-pack: end;
     align-content: flex-end; }
 
 /* #endregion */
 /* #region Построение колонок */
-.hztlw {
+._1wH5I {
   position: relative;
   max-width: 100%;
   min-height: 1px;
@@ -3232,7 +3232,7 @@ svg:not(:root) {
   -webkit-flex: 1 0 0;
   flex: 1 0 0; }
   @media only screen and (max-width: 51.13333rem) {
-    ._3XtFy {
+    ._2oU1n {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3241,7 +3241,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._3zW67 {
+    ._35U2d {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3250,7 +3250,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    .tuRJw {
+    ._3PivM {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3259,7 +3259,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._2gGxR {
+    ._3IC2A {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3268,7 +3268,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._2TFkx {
+    ._3VlyF {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3277,7 +3277,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._3iMeg {
+    .Csn31 {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3286,7 +3286,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._1jcMh {
+    ._17Y2z {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3295,7 +3295,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._2Mgfs {
+    ._2XzfI {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3304,7 +3304,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    ._3omPR {
+    ._3xWYO {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3313,7 +3313,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    .o9PaM {
+    ._2UIZ- {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3322,7 +3322,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    .R9DI6 {
+    ._3K4HF {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3331,7 +3331,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    .tOipr {
+    ._24H4W {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3341,7 +3341,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._1ZS4E {
+    ._2eUVA {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3350,7 +3350,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._2HMfp {
+    ._2g607 {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3359,7 +3359,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._36AXR {
+    ._2l3o0 {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3368,7 +3368,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._2gRkg {
+    ._3GuVB {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3377,7 +3377,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._25tUV {
+    .l9ejQ {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3386,7 +3386,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._1ub0p {
+    ._1N7bG {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3395,7 +3395,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._2QbJJ {
+    .K93wD {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3404,7 +3404,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._38Y7Q {
+    ._2bZjx {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3413,7 +3413,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    ._2mDIH {
+    ._3Wdj6 {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3422,7 +3422,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._2p_1D {
+    ._3Tevp {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3431,7 +3431,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    .JCEL1 {
+    .kspQe {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3440,7 +3440,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._1Le9B {
+    ._3atZg {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3450,7 +3450,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._1QPMv {
+    ._3lHOP {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3459,7 +3459,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._1HR59 {
+    .Pbiky {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3468,7 +3468,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._1H3j7 {
+    ._20eAr {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3477,7 +3477,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._1_1e6 {
+    ._1i0Zt {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3486,7 +3486,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._2L-cE {
+    ._23GL8 {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3495,7 +3495,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._1zpfP {
+    ._3xQiD {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3504,7 +3504,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._3z1r- {
+    ._2faGB {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3513,7 +3513,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._2Cmuy {
+    ._1wtsc {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3522,7 +3522,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    .UiMBO {
+    ._3vMyb {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3531,7 +3531,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._1JQA7 {
+    ._2o5VE {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3540,7 +3540,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    ._2N4er {
+    ._2sG8q {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3549,7 +3549,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._2wlXv {
+    ._3F8rB {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3559,7 +3559,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 80rem) {
-    ._2-cUv {
+    ._1EFKW {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3568,7 +3568,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._29ZT6 {
+    ._3gzBt {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3577,7 +3577,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._28aud {
+    ._1UX93 {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3586,7 +3586,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._2Cx45 {
+    ._1iFGX {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3595,7 +3595,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    .fSeeQ {
+    ._3mdNT {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3604,7 +3604,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._14Rbb {
+    ._1fBb6 {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3613,7 +3613,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._1VWPB {
+    ._2HAuX {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3622,7 +3622,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._3TRox {
+    ._3f0sK {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3631,7 +3631,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    .BmX7Y {
+    .b_jiJ {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3640,7 +3640,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._5X8XP {
+    ._3HwZv {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3649,7 +3649,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    ._35U7N {
+    ._2yBJv {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3658,7 +3658,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._3iy8p {
+    .xlRlV {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -3702,80 +3702,12 @@ code {
   border: 1px solid #edeeee;
   white-space: nowrap; }
 
-.SrNpF {
+._2-0JX {
   position: relative;
   background: #fff;
   padding: 15px;
   margin-bottom: 30px;
   border: 2px solid #f9fafb; }
-
-/*62px*/
-._1jq3m {
-  background-color: #268297;
-  /* #region Относительное позиционирование */
-  position: relative;
-  /* #endregion */
-  padding: 0;
-  /* #region Размеры элемента */
-  width: unset;
-  height: 3.875em;
-  /* #endregion */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: horizontal;
-  -moz-box-direction: normal;
-  -moz-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row; }
-  .ayTmC {
-    /* #region Фиксированное позиционирование */
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* #endregion */
-    z-index: 10; }
-  ._3A-Rt {
-    left: unset;
-    right: 0; }
-
-/*250px*/
-.u3QS8 {
-  background-color: #f9fafa;
-  /* #region Относительное позиционирование */
-  position: relative;
-  /* #endregion */
-  padding: 20px 0;
-  /* #region Размеры элемента */
-  width: 15.625em;
-  height: 100%;
-  /* #endregion */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-direction: normal;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  ._2FgQk {
-    /* #region Фиксированное позиционирование */
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* #endregion */
-    z-index: 10; }
-  ._3yKJs {
-    left: unset;
-    right: 0; }
 @charset "UTF-8";
 
 /* #region 1.Импортируем утилиты */
@@ -4732,18 +4664,18 @@ code {
  *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
  *    }
  */
-._2XMih {
+._46546 {
   /** Выравнивание текста по левому краю. */
   /** Выравнивание текста по центру. */
   /** Выравнивание текста по правому краю. */
   /** Выравнивание по ширине. */ }
-  .L8ttf {
+  ._3iiwv {
     text-align: left; }
-  ._1BOgy {
+  ._1UXZK {
     text-align: center; }
-  ._3rdfi {
+  ._3fe7Q {
     text-align: right; }
-  ._3ycr0 {
+  ._10PK0 {
     text-align: justify; }
 
 /**
@@ -4902,71 +4834,71 @@ svg:not(:root) {
  */
 /* #endregion */
 /* #region 4.Импортируем экстракты */
-.phL_S {
+._1C_E6 {
   padding-top: 15px; }
 
-.edIsq {
+._1ZHHe {
   padding-top: 22.5px; }
 
-._342nn {
+._23kel {
   padding-top: 30px; }
 
-._1yU1B {
+._1za8P {
   padding-top: 50px; }
 
-._2Gw-Q {
+.GCd5f {
   padding-top: 100px; }
 
-._91qyB {
+._2tj0P {
   padding-bottom: 15px; }
 
-._2TCEN {
+._21vij {
   padding-bottom: 22.5px; }
 
-._1XlwP {
+._2tXfa {
   padding-bottom: 30px; }
 
-._3IFCy {
+.z8h8V {
   padding-bottom: 50px; }
 
-._2FjGE {
+._1BdgQ {
   padding-bottom: 100px; }
 
-._1ems4 {
+.Ac7aS {
   display: block;
   width: 100%; }
 
-._1KKOr {
+._6O4Jm {
   padding-left: 0;
   list-style: none; }
 
-._22E2d {
+._1JOxO {
   display: inline-block; }
-  ._22E2d:not(:last-child) {
+  ._1JOxO:not(:last-child) {
     margin-right: 0.313em; }
 
 @media (max-width: 51.13333rem) {
-  .bhiu4 {
+  ._1EG4r {
     display: none; } }
 
 @media (min-width: 32rem) {
-  ._3lgVK {
+  ._1Ijc7 {
     display: none; } }
 
 @media (max-width: 66.06667rem) {
-  ._127GT {
+  .rRAwF {
     display: none; } }
 
 @media (min-width: 51.2rem) {
-  ._24A8p {
+  ._2kQDj {
     display: none; } }
 
 @media (max-width: 79.93333rem) {
-  ._3-PcR {
+  ._1Aj_2 {
     display: none; } }
 
 @media (min-width: 66.13333rem) {
-  ._2H2cm {
+  ._3VhrV {
     display: none; } }
 
 /* #endregion */
@@ -4989,23 +4921,23 @@ svg:not(:root) {
 /** Большой размер контейнера. */
 /* #endregion */
 /* #region Построение контейнера */
-._1GSAd {
+.yDoGE {
   position: relative;
   margin-right: auto;
   margin-left: auto;
   padding-left: 1rem;
   padding-right: 1rem; }
   @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._1GSAd {
+    .yDoGE {
       width: 50rem; } }
   @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._1GSAd {
+    .yDoGE {
       width: 64.66667rem; } }
   @media only screen and (min-width: 80rem) {
-    ._1GSAd {
+    .yDoGE {
       width: 78rem; } }
 
-._3Fs8e {
+._2hui3 {
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -5014,7 +4946,7 @@ svg:not(:root) {
 
 /* #endregion */
 /* #region Построение ряда */
-._3YVQR {
+._37X7I {
   margin-left: -1rem;
   margin-right: -1rem;
   display: -webkit-box;
@@ -5025,50 +4957,50 @@ svg:not(:root) {
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap; }
-  .i0E9C {
+  ._292oA {
     -ms-flex-pack: distribute;
     -webkit-justify-content: space-around;
     justify-content: space-around; }
-  ._1O36l {
+  .I7LL7 {
     -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between; }
-  ._2Veic {
+  ._1rzsC {
     -webkit-box-pack: start;
     -moz-box-pack: start;
     -ms-flex-pack: start;
     -webkit-justify-content: flex-start;
     justify-content: flex-start; }
-  ._1zOYD {
+  ._3P5t3 {
     -webkit-box-pack: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center; }
-  ._3AteZ {
+  ._2Bv4d {
     -webkit-box-pack: end;
     -moz-box-pack: end;
     -ms-flex-pack: end;
     -webkit-justify-content: flex-end;
     justify-content: flex-end; }
-  ._3cFGH {
+  .ATXGc {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start; }
-  .L8qvb {
+  ._1ipUk {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center; }
-  ._12IEa {
+  ._6Hu5v {
     -webkit-align-content: flex-end;
     -ms-flex-line-pack: end;
     align-content: flex-end; }
 
 /* #endregion */
 /* #region Построение колонок */
-._1wH5I {
+.hztlw {
   position: relative;
   max-width: 100%;
   min-height: 1px;
@@ -5077,7 +5009,7 @@ svg:not(:root) {
   -webkit-flex: 1 0 0;
   flex: 1 0 0; }
   @media only screen and (max-width: 51.13333rem) {
-    ._2oU1n {
+    ._3XtFy {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5086,7 +5018,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._35U2d {
+    ._3zW67 {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5095,7 +5027,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._3PivM {
+    .tuRJw {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5104,7 +5036,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._3IC2A {
+    ._2gGxR {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5113,7 +5045,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._3VlyF {
+    ._2TFkx {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5122,7 +5054,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    .Csn31 {
+    ._3iMeg {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5131,7 +5063,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._17Y2z {
+    ._1jcMh {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5140,7 +5072,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._2XzfI {
+    ._2Mgfs {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5149,7 +5081,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    ._3xWYO {
+    ._3omPR {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5158,7 +5090,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._2UIZ- {
+    .o9PaM {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5167,7 +5099,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    ._3K4HF {
+    .R9DI6 {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5176,7 +5108,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._24H4W {
+    .tOipr {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5186,7 +5118,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._2eUVA {
+    ._1ZS4E {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5195,7 +5127,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._2g607 {
+    ._2HMfp {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5204,7 +5136,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._2l3o0 {
+    ._36AXR {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5213,7 +5145,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._3GuVB {
+    ._2gRkg {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5222,7 +5154,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    .l9ejQ {
+    ._25tUV {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5231,7 +5163,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._1N7bG {
+    ._1ub0p {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5240,7 +5172,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    .K93wD {
+    ._2QbJJ {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5249,7 +5181,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._2bZjx {
+    ._38Y7Q {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5258,7 +5190,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    ._3Wdj6 {
+    ._2mDIH {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5267,7 +5199,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._3Tevp {
+    ._2p_1D {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5276,7 +5208,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    .kspQe {
+    .JCEL1 {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5285,7 +5217,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._3atZg {
+    ._1Le9B {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5295,7 +5227,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._3lHOP {
+    ._1QPMv {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5304,7 +5236,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    .Pbiky {
+    ._1HR59 {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5313,7 +5245,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._20eAr {
+    ._1H3j7 {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5322,7 +5254,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._1i0Zt {
+    ._1_1e6 {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5331,7 +5263,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._23GL8 {
+    ._2L-cE {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5340,7 +5272,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._3xQiD {
+    ._1zpfP {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5349,7 +5281,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._2faGB {
+    ._3z1r- {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5358,7 +5290,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._1wtsc {
+    ._2Cmuy {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5367,7 +5299,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    ._3vMyb {
+    .UiMBO {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5376,7 +5308,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._2o5VE {
+    ._1JQA7 {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5385,7 +5317,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    ._2sG8q {
+    ._2N4er {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5394,7 +5326,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    ._3F8rB {
+    ._2wlXv {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5404,7 +5336,7 @@ svg:not(:root) {
       -webkit-flex-basis: 100%;
       flex-basis: 100%; } }
   @media only screen and (min-width: 80rem) {
-    ._1EFKW {
+    ._2-cUv {
       max-width: 8.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5413,7 +5345,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 8.33333%;
       flex-basis: 8.33333%; }
-    ._3gzBt {
+    ._29ZT6 {
       max-width: 16.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5422,7 +5354,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 16.66667%;
       flex-basis: 16.66667%; }
-    ._1UX93 {
+    ._28aud {
       max-width: 25%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5431,7 +5363,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 25%;
       flex-basis: 25%; }
-    ._1iFGX {
+    ._2Cx45 {
       max-width: 33.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5440,7 +5372,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 33.33333%;
       flex-basis: 33.33333%; }
-    ._3mdNT {
+    .fSeeQ {
       max-width: 41.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5449,7 +5381,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 41.66667%;
       flex-basis: 41.66667%; }
-    ._1fBb6 {
+    ._14Rbb {
       max-width: 50%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5458,7 +5390,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 50%;
       flex-basis: 50%; }
-    ._2HAuX {
+    ._1VWPB {
       max-width: 58.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5467,7 +5399,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 58.33333%;
       flex-basis: 58.33333%; }
-    ._3f0sK {
+    ._3TRox {
       max-width: 66.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5476,7 +5408,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 66.66667%;
       flex-basis: 66.66667%; }
-    .b_jiJ {
+    .BmX7Y {
       max-width: 75%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5485,7 +5417,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 75%;
       flex-basis: 75%; }
-    ._3HwZv {
+    ._5X8XP {
       max-width: 83.33333%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5494,7 +5426,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 83.33333%;
       flex-basis: 83.33333%; }
-    ._2yBJv {
+    ._35U7N {
       max-width: 91.66667%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5503,7 +5435,7 @@ svg:not(:root) {
       flex-grow: 0;
       -webkit-flex-basis: 91.66667%;
       flex-basis: 91.66667%; }
-    .xlRlV {
+    ._3iy8p {
       max-width: 100%;
       -webkit-box-flex: 0;
       -moz-box-flex: 0;
@@ -5547,1792 +5479,80 @@ code {
   border: 1px solid #edeeee;
   white-space: nowrap; }
 
-._2-0JX {
+.SrNpF {
   position: relative;
   background: #fff;
   padding: 15px;
   margin-bottom: 30px;
   border: 2px solid #f9fafb; }
-@charset "UTF-8";
 
-/* #region 1.Импортируем утилиты */
-/**
- * Блок-элемент.
- *
- * @access public
- * @param {String[]} $names Имена элементов.
- */
-/**
- * Модификатор блока.
- *
- * @access public
- * @param {String[]} $names Имена модификаторов.
- */
-/**
- * Отрицание модификатора.
- *
- * @access public
- * @param {String} $name Имя модификатора.
- */
-/**
- * Обрезает единицу измерения.
- *
- * @param {String | Number} $target Целевое значение.
- * @return {Number} Числовое значение.
- */
-/**
- * Переводит px в rem.
- *
- * @param {String | Number} $target Значение в px, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} rem
- */
-/**
- * Переводит rem в px.
- *
- * @param {String | Number} $target Значение в rem, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} px
- */
-/**
- * Переводит percentage в fr.
- *
- * @param {String | Number} $target Значение в percentage.
- * @return {String} fr
- */
-/**
- * Отзывчивый размер шрифта, основанный на viewport-юнитах.
- *
- * @param {String | Number} $context Базовый размер пикселя.
- * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
- * @param {String} $min Минимальный размер шрифта в пикселях.
- * @param {String} $max [false] Максимальный размер шрифта в пикселях.
- * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
- * @example:
- *    // scss
- *    .text {
- *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
- *    }
- */
-._2V8hZ {
-  /** Выравнивание текста по левому краю. */
-  /** Выравнивание текста по центру. */
-  /** Выравнивание текста по правому краю. */
-  /** Выравнивание по ширине. */ }
-  .gBy9t {
-    text-align: left; }
-  ._2heZ5 {
-    text-align: center; }
-  ._3ZWat {
-    text-align: right; }
-  ._13oS- {
-    text-align: justify; }
-
-/**
- * Получает цвет.
- *
- * @param {Map} $color-map Карта цветов.
- * @param {String} $color-name Имя цвета.
- * @param {String} $color-variant Вариант цвета.
- * @param {Number} $level Уровень.
- * @param {String} $step Шаг в процентах.
- * @return {String} Цвет, полученный в результате смешивания.
- */
-/* #endregion */
-/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
-/**
- * Оттенки серого.
- * @type Map
- */
-/**
- * Цвета по умолчанию.
- * @type Map
- */
-/**
- * Шрифт тела по умолчанию.
- * @type List
- */
-/**
- * Размер шрифта по умолчанию (указывается в пикселях)
- * @type Number
- */
-/**
- * Высота строки по умолчанию.
- * @type Number
- */
-/**
- * Цвет текста тела по умолчанию.
- * @type Color
- */
-/**
- * Цвет фона тела по умолчанию.
- * @type Color
- */
-/**
- * Включает `<true>` округление углов.
- * @type Boolean
- */
-/**
- * Включает `<true>` тени у элементов.
- * @type Boolean
- */
-/* #region Определение блочной модели */
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-html {
-  box-sizing: border-box; }
-
-/* #endregion */
-body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #586e75;
-  background: #fff;
+/*62px*/
+._1jq3m {
+  background-color: #268297;
+  /* #region Относительное позиционирование */
   position: relative;
-  margin: 0;
+  /* #endregion */
   padding: 0;
-  text-rendering: optimizeLegibility;
-  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
-  text-decoration-skip: objects;
-  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
-  -webkit-text-size-adjust: 100%;
-  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
-  -webkit-font-smoothing: antialiased;
-  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
-  -webkit-tap-highlight-color: transparent;
-  /* Убирает синее подсвечивание при клике на девайсах */ }
-
-body, html {
-  width: 100%;
-  height: 100%; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0; }
-
-legend {
-  display: block;
-  padding: 0;
-  white-space: normal; }
-
-img {
-  border: none; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-/* #endregion */
-/* #region 3.Импортируем миксины */
-/**
- * Миксина очистки стилей у списка.
- */
-/**
- * Миксина линейного градиента.
- * @param {Keyword | Angle} $direction Линейное направление градиента.
- */
-/**
- * Миксина округления углов (все углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (верхнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (левые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (нижнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (правые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {Arglist} $args Значение тени.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {List} $shadow Значение тени.
- */
-/**
- * Миксина перехода.
- * @param {Arglist} $args Значение перехода.
- */
-/**
- * Миксина перехода.
- * @param {List} $transition Значение перехода.
- */
-/* #endregion */
-/* #region 4.Импортируем экстракты */
-._3RZCF {
-  padding-top: 15px; }
-
-.h5kQq {
-  padding-top: 22.5px; }
-
-._2zA8- {
-  padding-top: 30px; }
-
-.p24JJ {
-  padding-top: 50px; }
-
-._3F_Zv {
-  padding-top: 100px; }
-
-._3ROK7 {
-  padding-bottom: 15px; }
-
-.bE9Fx {
-  padding-bottom: 22.5px; }
-
-._22nqz {
-  padding-bottom: 30px; }
-
-._2TmL2 {
-  padding-bottom: 50px; }
-
-._2iw6G {
-  padding-bottom: 100px; }
-
-._1RgbD {
-  display: block;
-  width: 100%; }
-
-._23sr8 {
-  padding-left: 0;
-  list-style: none; }
-
-._2EzeI {
-  display: inline-block; }
-  ._2EzeI:not(:last-child) {
-    margin-right: 0.313em; }
-
-@media (max-width: 51.13333rem) {
-  ._3bFIv {
-    display: none; } }
-
-@media (min-width: 32rem) {
-  .zFZvp {
-    display: none; } }
-
-@media (max-width: 66.06667rem) {
-  ._37imH {
-    display: none; } }
-
-@media (min-width: 51.2rem) {
-  .-hWN0 {
-    display: none; } }
-
-@media (max-width: 79.93333rem) {
-  ._3NDg2 {
-    display: none; } }
-
-@media (min-width: 66.13333rem) {
-  ._3OyWM {
-    display: none; } }
-
-/* #endregion */
-/* #region 5.Импортируем сетку */
-/**
- * Количество колонок сетки.
- * @type Number
- */
-/**
- * Размер отступов сетки.
- * @type Number
- */
-/* #region Построение ряда */
-/* #endregion */
-/* #region Построение колонок */
-/* #endregion */
-/* #region Размеры контейнера */
-/** Маленький размер контейнера. */
-/** Средний размер контейнера. */
-/** Большой размер контейнера. */
-/* #endregion */
-/* #region Построение контейнера */
-._3gP1k {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._3gP1k {
-      width: 50rem; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._3gP1k {
-      width: 64.66667rem; } }
-  @media only screen and (min-width: 80rem) {
-    ._3gP1k {
-      width: 78rem; } }
-
-._2aiNi {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-
-/* #endregion */
-/* #region Построение ряда */
-._1N-x9 {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  /* #region Размеры элемента */
+  width: unset;
+  height: 3.875em;
+  /* #endregion */
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap; }
-  ._30roZ {
-    -ms-flex-pack: distribute;
-    -webkit-justify-content: space-around;
-    justify-content: space-around; }
-  .TOsyz {
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between; }
-  ._16C3k {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start; }
-  .t2nnp {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center; }
-  ._3JVxn {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end; }
-  ._1QruB {
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start; }
-  ._3dP3E {
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center; }
-  ._1ipcP {
-    -webkit-align-content: flex-end;
-    -ms-flex-line-pack: end;
-    align-content: flex-end; }
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .ayTmC {
+    /* #region Фиксированное позиционирование */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* #endregion */
+    z-index: 10; }
+  ._3A-Rt {
+    left: unset;
+    right: 0; }
 
-/* #endregion */
-/* #region Построение колонок */
-._1qmgB {
+/*250px*/
+.u3QS8 {
+  background-color: #f9fafa;
+  /* #region Относительное позиционирование */
   position: relative;
-  max-width: 100%;
-  min-height: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  -webkit-flex: 1 0 0;
-  flex: 1 0 0; }
-  @media only screen and (max-width: 51.13333rem) {
-    ._1C3IS {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._3Cklc {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._1cNtd {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    .kioug {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._36h_4 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._2yWkS {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    .rSO9J {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._3JWxH {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._1Hl4r {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._2lLF_ {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._1aWqH {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3oMG3 {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._3iv1n {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._2EwpK {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._2ZWig {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._3tsXF {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._1Rwm0 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._2j_Jd {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._36ESO {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._2Tpkc {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._2vYiT {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._11VWh {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._1hmF9 {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3XhU6 {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._158aV {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._2x4yn {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._3NgOE {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._3LzT1 {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    .Sf7bN {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._2HisE {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._2gWz3 {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._1eqcv {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._1h4a4 {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._9vMam {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    .d3llH {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3Quqw {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 80rem) {
-    ._3wWsm {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._2tnGd {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._3BOcw {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._2yW7y {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._3XA27 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._37Rgx {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    .xDlIy {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._2oXeg {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._1mvzK {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._3kXui {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._2iXvP {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._1BTPZ {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-
-/* #endregion */
-/* #endregion */
-table {
-  border: 1px solid #eee;
-  border: 0;
-  border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 2em; }
-  table thead > tr > th, table tbody > tr > td {
-    text-align: left;
-    vertical-align: top;
-    padding: 8px; }
-  table thead {
-    border-bottom: 2px solid #dfdfdf; }
-    table thead > tr > th {
-      font-weight: 700; }
-  table tbody {
-    border-bottom: 2px solid #dfdfdf; }
-    table tbody > tr:nth-child(2n) {
-      background: #fafafa; }
-
-code {
-  font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: .8em;
-  -webkit-font-smoothing: initial;
-  -moz-osx-font-smoothing: initial;
-  color: #268297;
-  padding: 2px 5px;
-  margin: 0 2px;
-  border-radius: 2px;
-  border: 1px solid #edeeee;
-  white-space: nowrap; }
-
-._3wUWT {
-  position: relative;
-  background: #fff;
-  padding: 15px;
-  margin-bottom: 30px;
-  border: 2px solid #f9fafb; }
-
-/* #region Общие переменные */
-/* #endregion*/
-/* #region Общие переменные */
-/* #endregion*/
-@charset "UTF-8";
-
-/* #region 1.Импортируем утилиты */
-/**
- * Блок-элемент.
- *
- * @access public
- * @param {String[]} $names Имена элементов.
- */
-/**
- * Модификатор блока.
- *
- * @access public
- * @param {String[]} $names Имена модификаторов.
- */
-/**
- * Отрицание модификатора.
- *
- * @access public
- * @param {String} $name Имя модификатора.
- */
-/**
- * Обрезает единицу измерения.
- *
- * @param {String | Number} $target Целевое значение.
- * @return {Number} Числовое значение.
- */
-/**
- * Переводит px в rem.
- *
- * @param {String | Number} $target Значение в px, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} rem
- */
-/**
- * Переводит rem в px.
- *
- * @param {String | Number} $target Значение в rem, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} px
- */
-/**
- * Переводит percentage в fr.
- *
- * @param {String | Number} $target Значение в percentage.
- * @return {String} fr
- */
-/**
- * Отзывчивый размер шрифта, основанный на viewport-юнитах.
- *
- * @param {String | Number} $context Базовый размер пикселя.
- * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
- * @param {String} $min Минимальный размер шрифта в пикселях.
- * @param {String} $max [false] Максимальный размер шрифта в пикселях.
- * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
- * @example:
- *    // scss
- *    .text {
- *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
- *    }
- */
-._27UqT {
-  /** Выравнивание текста по левому краю. */
-  /** Выравнивание текста по центру. */
-  /** Выравнивание текста по правому краю. */
-  /** Выравнивание по ширине. */ }
-  ._3J8my {
-    text-align: left; }
-  ._1QEJt {
-    text-align: center; }
-  ._39VPS {
-    text-align: right; }
-  ._3ki41 {
-    text-align: justify; }
-
-/**
- * Получает цвет.
- *
- * @param {Map} $color-map Карта цветов.
- * @param {String} $color-name Имя цвета.
- * @param {String} $color-variant Вариант цвета.
- * @param {Number} $level Уровень.
- * @param {String} $step Шаг в процентах.
- * @return {String} Цвет, полученный в результате смешивания.
- */
-/* #endregion */
-/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
-/**
- * Оттенки серого.
- * @type Map
- */
-/**
- * Цвета по умолчанию.
- * @type Map
- */
-/**
- * Шрифт тела по умолчанию.
- * @type List
- */
-/**
- * Размер шрифта по умолчанию (указывается в пикселях)
- * @type Number
- */
-/**
- * Высота строки по умолчанию.
- * @type Number
- */
-/**
- * Цвет текста тела по умолчанию.
- * @type Color
- */
-/**
- * Цвет фона тела по умолчанию.
- * @type Color
- */
-/**
- * Включает `<true>` округление углов.
- * @type Boolean
- */
-/**
- * Включает `<true>` тени у элементов.
- * @type Boolean
- */
-/* #region Определение блочной модели */
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-html {
-  box-sizing: border-box; }
-
-/* #endregion */
-body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #586e75;
-  background: #fff;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  text-rendering: optimizeLegibility;
-  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
-  text-decoration-skip: objects;
-  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
-  -webkit-text-size-adjust: 100%;
-  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
-  -webkit-font-smoothing: antialiased;
-  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
-  -webkit-tap-highlight-color: transparent;
-  /* Убирает синее подсвечивание при клике на девайсах */ }
-
-body, html {
-  width: 100%;
-  height: 100%; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0; }
-
-legend {
-  display: block;
-  padding: 0;
-  white-space: normal; }
-
-img {
-  border: none; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-/* #endregion */
-/* #region 3.Импортируем миксины */
-/**
- * Миксина очистки стилей у списка.
- */
-/**
- * Миксина линейного градиента.
- * @param {Keyword | Angle} $direction Линейное направление градиента.
- */
-/**
- * Миксина округления углов (все углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (верхнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (левые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (нижнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (правые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {Arglist} $args Значение тени.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {List} $shadow Значение тени.
- */
-/**
- * Миксина перехода.
- * @param {Arglist} $args Значение перехода.
- */
-/**
- * Миксина перехода.
- * @param {List} $transition Значение перехода.
- */
-/* #endregion */
-/* #region 4.Импортируем экстракты */
-._2kyjn {
-  padding-top: 15px; }
-
-.TrKuY {
-  padding-top: 22.5px; }
-
-.tq-HW {
-  padding-top: 30px; }
-
-._3dZ-U {
-  padding-top: 50px; }
-
-._18YS5 {
-  padding-top: 100px; }
-
-._19vn2 {
-  padding-bottom: 15px; }
-
-.M_RrD {
-  padding-bottom: 22.5px; }
-
-.u34Dz {
-  padding-bottom: 30px; }
-
-.Z0wpi {
-  padding-bottom: 50px; }
-
-._2_lO1 {
-  padding-bottom: 100px; }
-
-._124Fm {
-  display: block;
-  width: 100%; }
-
-.TDaT7 {
-  padding-left: 0;
-  list-style: none; }
-
-._1SqeS {
-  display: inline-block; }
-  ._1SqeS:not(:last-child) {
-    margin-right: 0.313em; }
-
-@media (max-width: 51.13333rem) {
-  ._2lMdy {
-    display: none; } }
-
-@media (min-width: 32rem) {
-  ._39LGx {
-    display: none; } }
-
-@media (max-width: 66.06667rem) {
-  ._2REpM {
-    display: none; } }
-
-@media (min-width: 51.2rem) {
-  ._1N5Mr {
-    display: none; } }
-
-@media (max-width: 79.93333rem) {
-  .i7Ns5 {
-    display: none; } }
-
-@media (min-width: 66.13333rem) {
-  ._1Tx5- {
-    display: none; } }
-
-/* #endregion */
-/* #region 5.Импортируем сетку */
-/**
- * Количество колонок сетки.
- * @type Number
- */
-/**
- * Размер отступов сетки.
- * @type Number
- */
-/* #region Построение ряда */
-/* #endregion */
-/* #region Построение колонок */
-/* #endregion */
-/* #region Размеры контейнера */
-/** Маленький размер контейнера. */
-/** Средний размер контейнера. */
-/** Большой размер контейнера. */
-/* #endregion */
-/* #region Построение контейнера */
-._3c5y1 {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._3c5y1 {
-      width: 50rem; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._3c5y1 {
-      width: 64.66667rem; } }
-  @media only screen and (min-width: 80rem) {
-    ._3c5y1 {
-      width: 78rem; } }
-
-._3KFfd {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-
-/* #endregion */
-/* #region Построение ряда */
-._16_-l {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  /* #endregion */
+  padding: 20px 0;
+  /* #region Размеры элемента */
+  width: 15.625em;
+  height: 100%;
+  /* #endregion */
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap; }
-  ._1RsG0 {
-    -ms-flex-pack: distribute;
-    -webkit-justify-content: space-around;
-    justify-content: space-around; }
-  .GfkWg {
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between; }
-  .ZGH3B {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start; }
-  .RGgaa {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center; }
-  .ej20k {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end; }
-  ._18ft1 {
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start; }
-  ._2AylD {
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center; }
-  .ZHtIt {
-    -webkit-align-content: flex-end;
-    -ms-flex-line-pack: end;
-    align-content: flex-end; }
-
-/* #endregion */
-/* #region Построение колонок */
-._3sIoS {
-  position: relative;
-  max-width: 100%;
-  min-height: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  -webkit-flex: 1 0 0;
-  flex: 1 0 0; }
-  @media only screen and (max-width: 51.13333rem) {
-    ._2MO9m {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._2Va0w {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    .PQ-LU {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._1Oyjh {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._1JUPx {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    .ePCAq {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._9RAxj {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._1TzvY {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._1ZPT5 {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._31A0g {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._2Tysv {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._19-ct {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    .snuhs {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._3AdFF {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    .mc4I2 {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._1bVK9 {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._1pl5m {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._2EU0Q {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._2nKh5 {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._3XpEm {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._3oUZ0 {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._1mkhY {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    .vQWn4 {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    .Gf4nj {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._2ktor {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    .BjBbs {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    .iZHoK {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    .GAjm1 {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._3PA-9 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._1ejoi {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    .KuvKw {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    .eObPN {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    .Hskfq {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    .N8vDL {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._32Szy {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3ejGy {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 80rem) {
-    ._3pgtC {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._14fuo {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._2KQYS {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._5leKV {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._14pl5 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._1dK2o {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._3c_aR {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    .Cecry {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._zESj {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._1o4R8 {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._1-JhM {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._2wPML {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-
-/* #endregion */
-/* #endregion */
-table {
-  border: 1px solid #eee;
-  border: 0;
-  border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 2em; }
-  table thead > tr > th, table tbody > tr > td {
-    text-align: left;
-    vertical-align: top;
-    padding: 8px; }
-  table thead {
-    border-bottom: 2px solid #dfdfdf; }
-    table thead > tr > th {
-      font-weight: 700; }
-  table tbody {
-    border-bottom: 2px solid #dfdfdf; }
-    table tbody > tr:nth-child(2n) {
-      background: #fafafa; }
-
-code {
-  font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: .8em;
-  -webkit-font-smoothing: initial;
-  -moz-osx-font-smoothing: initial;
-  color: #268297;
-  padding: 2px 5px;
-  margin: 0 2px;
-  border-radius: 2px;
-  border: 1px solid #edeeee;
-  white-space: nowrap; }
-
-._2KpKp {
-  position: relative;
-  background: #fff;
-  padding: 15px;
-  margin-bottom: 30px;
-  border: 2px solid #f9fafb; }
-
-@supports (display: grid) {
-  ._2tbcS {
-    display: grid;
-    grid-template-columns: [header-start] minmax(15.625em, auto) 1fr [header-end];
-    grid-template-rows: [header-start] 3.875em [sidebar-start] auto [sidebar-end];
-    min-height: calc(100vh - .1rem); }
-  .-phtF {
-    grid-column: header-start / header-end; }
-  ._8MhO- {
-    grid-row: sidebar-start / sidebar-end; } }
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-direction: normal;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  ._2FgQk {
+    /* #region Фиксированное позиционирование */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* #endregion */
+    z-index: 10; }
+  ._3yKJs {
+    left: unset;
+    right: 0; }
 @charset "UTF-8";
 
 /* #region 1.Импортируем утилиты */
@@ -8317,6 +6537,2805 @@ h2._1xXGE {
   margin: 1em 0 .8em;
   padding-bottom: .4em;
   border-bottom: 1px solid #ddd; }
+@charset "UTF-8";
+
+/* #region 1.Импортируем утилиты */
+/**
+ * Блок-элемент.
+ *
+ * @access public
+ * @param {String[]} $names Имена элементов.
+ */
+/**
+ * Модификатор блока.
+ *
+ * @access public
+ * @param {String[]} $names Имена модификаторов.
+ */
+/**
+ * Отрицание модификатора.
+ *
+ * @access public
+ * @param {String} $name Имя модификатора.
+ */
+/**
+ * Обрезает единицу измерения.
+ *
+ * @param {String | Number} $target Целевое значение.
+ * @return {Number} Числовое значение.
+ */
+/**
+ * Переводит px в rem.
+ *
+ * @param {String | Number} $target Значение в px, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} rem
+ */
+/**
+ * Переводит rem в px.
+ *
+ * @param {String | Number} $target Значение в rem, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} px
+ */
+/**
+ * Переводит percentage в fr.
+ *
+ * @param {String | Number} $target Значение в percentage.
+ * @return {String} fr
+ */
+/**
+ * Отзывчивый размер шрифта, основанный на viewport-юнитах.
+ *
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
+ * @param {String} $min Минимальный размер шрифта в пикселях.
+ * @param {String} $max [false] Максимальный размер шрифта в пикселях.
+ * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
+ * @example:
+ *    // scss
+ *    .text {
+ *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
+ *    }
+ */
+._27UqT {
+  /** Выравнивание текста по левому краю. */
+  /** Выравнивание текста по центру. */
+  /** Выравнивание текста по правому краю. */
+  /** Выравнивание по ширине. */ }
+  ._3J8my {
+    text-align: left; }
+  ._1QEJt {
+    text-align: center; }
+  ._39VPS {
+    text-align: right; }
+  ._3ki41 {
+    text-align: justify; }
+
+/**
+ * Получает цвет.
+ *
+ * @param {Map} $color-map Карта цветов.
+ * @param {String} $color-name Имя цвета.
+ * @param {String} $color-variant Вариант цвета.
+ * @param {Number} $level Уровень.
+ * @param {String} $step Шаг в процентах.
+ * @return {String} Цвет, полученный в результате смешивания.
+ */
+/* #endregion */
+/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
+/**
+ * Оттенки серого.
+ * @type Map
+ */
+/**
+ * Цвета по умолчанию.
+ * @type Map
+ */
+/**
+ * Шрифт тела по умолчанию.
+ * @type List
+ */
+/**
+ * Размер шрифта по умолчанию (указывается в пикселях)
+ * @type Number
+ */
+/**
+ * Высота строки по умолчанию.
+ * @type Number
+ */
+/**
+ * Цвет текста тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Цвет фона тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Включает `<true>` округление углов.
+ * @type Boolean
+ */
+/**
+ * Включает `<true>` тени у элементов.
+ * @type Boolean
+ */
+/* #region Определение блочной модели */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+/* #endregion */
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #586e75;
+  background: #fff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
+  text-decoration-skip: objects;
+  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
+  -webkit-text-size-adjust: 100%;
+  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
+  -webkit-font-smoothing: antialiased;
+  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
+  -webkit-tap-highlight-color: transparent;
+  /* Убирает синее подсвечивание при клике на девайсах */ }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+legend {
+  display: block;
+  padding: 0;
+  white-space: normal; }
+
+img {
+  border: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+/* #endregion */
+/* #region 3.Импортируем миксины */
+/**
+ * Миксина очистки стилей у списка.
+ */
+/**
+ * Миксина линейного градиента.
+ * @param {Keyword | Angle} $direction Линейное направление градиента.
+ */
+/**
+ * Миксина округления углов (все углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (верхнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (левые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (нижнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (правые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {Arglist} $args Значение тени.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {List} $shadow Значение тени.
+ */
+/**
+ * Миксина перехода.
+ * @param {Arglist} $args Значение перехода.
+ */
+/**
+ * Миксина перехода.
+ * @param {List} $transition Значение перехода.
+ */
+/* #endregion */
+/* #region 4.Импортируем экстракты */
+._2kyjn {
+  padding-top: 15px; }
+
+.TrKuY {
+  padding-top: 22.5px; }
+
+.tq-HW {
+  padding-top: 30px; }
+
+._3dZ-U {
+  padding-top: 50px; }
+
+._18YS5 {
+  padding-top: 100px; }
+
+._19vn2 {
+  padding-bottom: 15px; }
+
+.M_RrD {
+  padding-bottom: 22.5px; }
+
+.u34Dz {
+  padding-bottom: 30px; }
+
+.Z0wpi {
+  padding-bottom: 50px; }
+
+._2_lO1 {
+  padding-bottom: 100px; }
+
+._124Fm {
+  display: block;
+  width: 100%; }
+
+.TDaT7 {
+  padding-left: 0;
+  list-style: none; }
+
+._1SqeS {
+  display: inline-block; }
+  ._1SqeS:not(:last-child) {
+    margin-right: 0.313em; }
+
+@media (max-width: 51.13333rem) {
+  ._2lMdy {
+    display: none; } }
+
+@media (min-width: 32rem) {
+  ._39LGx {
+    display: none; } }
+
+@media (max-width: 66.06667rem) {
+  ._2REpM {
+    display: none; } }
+
+@media (min-width: 51.2rem) {
+  ._1N5Mr {
+    display: none; } }
+
+@media (max-width: 79.93333rem) {
+  .i7Ns5 {
+    display: none; } }
+
+@media (min-width: 66.13333rem) {
+  ._1Tx5- {
+    display: none; } }
+
+/* #endregion */
+/* #region 5.Импортируем сетку */
+/**
+ * Количество колонок сетки.
+ * @type Number
+ */
+/**
+ * Размер отступов сетки.
+ * @type Number
+ */
+/* #region Построение ряда */
+/* #endregion */
+/* #region Построение колонок */
+/* #endregion */
+/* #region Размеры контейнера */
+/** Маленький размер контейнера. */
+/** Средний размер контейнера. */
+/** Большой размер контейнера. */
+/* #endregion */
+/* #region Построение контейнера */
+._3c5y1 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    ._3c5y1 {
+      width: 50rem; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._3c5y1 {
+      width: 64.66667rem; } }
+  @media only screen and (min-width: 80rem) {
+    ._3c5y1 {
+      width: 78rem; } }
+
+._3KFfd {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* #endregion */
+/* #region Построение ряда */
+._16_-l {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  ._1RsG0 {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+  .GfkWg {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  .ZGH3B {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; }
+  .RGgaa {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  .ej20k {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+  ._18ft1 {
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+  ._2AylD {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  .ZHtIt {
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end; }
+
+/* #endregion */
+/* #region Построение колонок */
+._3sIoS {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0; }
+  @media only screen and (max-width: 51.13333rem) {
+    ._2MO9m {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._2Va0w {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    .PQ-LU {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._1Oyjh {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._1JUPx {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    .ePCAq {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._9RAxj {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._1TzvY {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1ZPT5 {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._31A0g {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._2Tysv {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._19-ct {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    .snuhs {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._3AdFF {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    .mc4I2 {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._1bVK9 {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._1pl5m {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._2EU0Q {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._2nKh5 {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._3XpEm {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._3oUZ0 {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._1mkhY {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    .vQWn4 {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    .Gf4nj {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._2ktor {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    .BjBbs {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    .iZHoK {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    .GAjm1 {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._3PA-9 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._1ejoi {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    .KuvKw {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    .eObPN {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    .Hskfq {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    .N8vDL {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._32Szy {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3ejGy {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 80rem) {
+    ._3pgtC {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._14fuo {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._2KQYS {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._5leKV {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._14pl5 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._1dK2o {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._3c_aR {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    .Cecry {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._zESj {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._1o4R8 {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._1-JhM {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._2wPML {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+
+/* #endregion */
+/* #endregion */
+table {
+  border: 1px solid #eee;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2em; }
+  table thead > tr > th, table tbody > tr > td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px; }
+  table thead {
+    border-bottom: 2px solid #dfdfdf; }
+    table thead > tr > th {
+      font-weight: 700; }
+  table tbody {
+    border-bottom: 2px solid #dfdfdf; }
+    table tbody > tr:nth-child(2n) {
+      background: #fafafa; }
+
+code {
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  font-size: .8em;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  color: #268297;
+  padding: 2px 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  border: 1px solid #edeeee;
+  white-space: nowrap; }
+
+._2KpKp {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 2px solid #f9fafb; }
+
+@supports (display: grid) {
+  ._2tbcS {
+    display: grid;
+    grid-template-columns: [header-start] minmax(15.625em, auto) 1fr [header-end];
+    grid-template-rows: [header-start] 3.875em [sidebar-start] auto [sidebar-end];
+    min-height: calc(100vh - .1rem); }
+  .-phtF {
+    grid-column: header-start / header-end; }
+  ._8MhO- {
+    grid-row: sidebar-start / sidebar-end; } }
+@charset "UTF-8";
+
+/* #region 1.Импортируем утилиты */
+/**
+ * Блок-элемент.
+ *
+ * @access public
+ * @param {String[]} $names Имена элементов.
+ */
+/**
+ * Модификатор блока.
+ *
+ * @access public
+ * @param {String[]} $names Имена модификаторов.
+ */
+/**
+ * Отрицание модификатора.
+ *
+ * @access public
+ * @param {String} $name Имя модификатора.
+ */
+/**
+ * Обрезает единицу измерения.
+ *
+ * @param {String | Number} $target Целевое значение.
+ * @return {Number} Числовое значение.
+ */
+/**
+ * Переводит px в rem.
+ *
+ * @param {String | Number} $target Значение в px, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} rem
+ */
+/**
+ * Переводит rem в px.
+ *
+ * @param {String | Number} $target Значение в rem, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} px
+ */
+/**
+ * Переводит percentage в fr.
+ *
+ * @param {String | Number} $target Значение в percentage.
+ * @return {String} fr
+ */
+/**
+ * Отзывчивый размер шрифта, основанный на viewport-юнитах.
+ *
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
+ * @param {String} $min Минимальный размер шрифта в пикселях.
+ * @param {String} $max [false] Максимальный размер шрифта в пикселях.
+ * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
+ * @example:
+ *    // scss
+ *    .text {
+ *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
+ *    }
+ */
+._2V8hZ {
+  /** Выравнивание текста по левому краю. */
+  /** Выравнивание текста по центру. */
+  /** Выравнивание текста по правому краю. */
+  /** Выравнивание по ширине. */ }
+  .gBy9t {
+    text-align: left; }
+  ._2heZ5 {
+    text-align: center; }
+  ._3ZWat {
+    text-align: right; }
+  ._13oS- {
+    text-align: justify; }
+
+/**
+ * Получает цвет.
+ *
+ * @param {Map} $color-map Карта цветов.
+ * @param {String} $color-name Имя цвета.
+ * @param {String} $color-variant Вариант цвета.
+ * @param {Number} $level Уровень.
+ * @param {String} $step Шаг в процентах.
+ * @return {String} Цвет, полученный в результате смешивания.
+ */
+/* #endregion */
+/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
+/**
+ * Оттенки серого.
+ * @type Map
+ */
+/**
+ * Цвета по умолчанию.
+ * @type Map
+ */
+/**
+ * Шрифт тела по умолчанию.
+ * @type List
+ */
+/**
+ * Размер шрифта по умолчанию (указывается в пикселях)
+ * @type Number
+ */
+/**
+ * Высота строки по умолчанию.
+ * @type Number
+ */
+/**
+ * Цвет текста тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Цвет фона тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Включает `<true>` округление углов.
+ * @type Boolean
+ */
+/**
+ * Включает `<true>` тени у элементов.
+ * @type Boolean
+ */
+/* #region Определение блочной модели */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+/* #endregion */
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #586e75;
+  background: #fff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
+  text-decoration-skip: objects;
+  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
+  -webkit-text-size-adjust: 100%;
+  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
+  -webkit-font-smoothing: antialiased;
+  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
+  -webkit-tap-highlight-color: transparent;
+  /* Убирает синее подсвечивание при клике на девайсах */ }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+legend {
+  display: block;
+  padding: 0;
+  white-space: normal; }
+
+img {
+  border: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+/* #endregion */
+/* #region 3.Импортируем миксины */
+/**
+ * Миксина очистки стилей у списка.
+ */
+/**
+ * Миксина линейного градиента.
+ * @param {Keyword | Angle} $direction Линейное направление градиента.
+ */
+/**
+ * Миксина округления углов (все углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (верхнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (левые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (нижнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (правые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {Arglist} $args Значение тени.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {List} $shadow Значение тени.
+ */
+/**
+ * Миксина перехода.
+ * @param {Arglist} $args Значение перехода.
+ */
+/**
+ * Миксина перехода.
+ * @param {List} $transition Значение перехода.
+ */
+/* #endregion */
+/* #region 4.Импортируем экстракты */
+._3RZCF {
+  padding-top: 15px; }
+
+.h5kQq {
+  padding-top: 22.5px; }
+
+._2zA8- {
+  padding-top: 30px; }
+
+.p24JJ {
+  padding-top: 50px; }
+
+._3F_Zv {
+  padding-top: 100px; }
+
+._3ROK7 {
+  padding-bottom: 15px; }
+
+.bE9Fx {
+  padding-bottom: 22.5px; }
+
+._22nqz {
+  padding-bottom: 30px; }
+
+._2TmL2 {
+  padding-bottom: 50px; }
+
+._2iw6G {
+  padding-bottom: 100px; }
+
+._1RgbD {
+  display: block;
+  width: 100%; }
+
+._23sr8 {
+  padding-left: 0;
+  list-style: none; }
+
+._2EzeI {
+  display: inline-block; }
+  ._2EzeI:not(:last-child) {
+    margin-right: 0.313em; }
+
+@media (max-width: 51.13333rem) {
+  ._3bFIv {
+    display: none; } }
+
+@media (min-width: 32rem) {
+  .zFZvp {
+    display: none; } }
+
+@media (max-width: 66.06667rem) {
+  ._37imH {
+    display: none; } }
+
+@media (min-width: 51.2rem) {
+  .-hWN0 {
+    display: none; } }
+
+@media (max-width: 79.93333rem) {
+  ._3NDg2 {
+    display: none; } }
+
+@media (min-width: 66.13333rem) {
+  ._3OyWM {
+    display: none; } }
+
+/* #endregion */
+/* #region 5.Импортируем сетку */
+/**
+ * Количество колонок сетки.
+ * @type Number
+ */
+/**
+ * Размер отступов сетки.
+ * @type Number
+ */
+/* #region Построение ряда */
+/* #endregion */
+/* #region Построение колонок */
+/* #endregion */
+/* #region Размеры контейнера */
+/** Маленький размер контейнера. */
+/** Средний размер контейнера. */
+/** Большой размер контейнера. */
+/* #endregion */
+/* #region Построение контейнера */
+._3gP1k {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    ._3gP1k {
+      width: 50rem; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._3gP1k {
+      width: 64.66667rem; } }
+  @media only screen and (min-width: 80rem) {
+    ._3gP1k {
+      width: 78rem; } }
+
+._2aiNi {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* #endregion */
+/* #region Построение ряда */
+._1N-x9 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  ._30roZ {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+  .TOsyz {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  ._16C3k {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; }
+  .t2nnp {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  ._3JVxn {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+  ._1QruB {
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+  ._3dP3E {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  ._1ipcP {
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end; }
+
+/* #endregion */
+/* #region Построение колонок */
+._1qmgB {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0; }
+  @media only screen and (max-width: 51.13333rem) {
+    ._1C3IS {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._3Cklc {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._1cNtd {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    .kioug {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._36h_4 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._2yWkS {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    .rSO9J {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._3JWxH {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1Hl4r {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._2lLF_ {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._1aWqH {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3oMG3 {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    ._3iv1n {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._2EwpK {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._2ZWig {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._3tsXF {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._1Rwm0 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._2j_Jd {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._36ESO {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._2Tpkc {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._2vYiT {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._11VWh {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._1hmF9 {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3XhU6 {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._158aV {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._2x4yn {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._3NgOE {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._3LzT1 {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    .Sf7bN {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._2HisE {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._2gWz3 {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._1eqcv {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1h4a4 {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._9vMam {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    .d3llH {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3Quqw {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 80rem) {
+    ._3wWsm {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._2tnGd {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._3BOcw {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._2yW7y {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._3XA27 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._37Rgx {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    .xDlIy {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._2oXeg {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1mvzK {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._3kXui {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._2iXvP {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._1BTPZ {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+
+/* #endregion */
+/* #endregion */
+table {
+  border: 1px solid #eee;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2em; }
+  table thead > tr > th, table tbody > tr > td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px; }
+  table thead {
+    border-bottom: 2px solid #dfdfdf; }
+    table thead > tr > th {
+      font-weight: 700; }
+  table tbody {
+    border-bottom: 2px solid #dfdfdf; }
+    table tbody > tr:nth-child(2n) {
+      background: #fafafa; }
+
+code {
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  font-size: .8em;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  color: #268297;
+  padding: 2px 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  border: 1px solid #edeeee;
+  white-space: nowrap; }
+
+._3wUWT {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 2px solid #f9fafb; }
+
+/* #region Общие переменные */
+/* #endregion*/
+/* #region Общие переменные */
+/* #endregion*/
+@charset "UTF-8";
+
+/* #region 1.Импортируем утилиты */
+/**
+ * Блок-элемент.
+ *
+ * @access public
+ * @param {String[]} $names Имена элементов.
+ */
+/**
+ * Модификатор блока.
+ *
+ * @access public
+ * @param {String[]} $names Имена модификаторов.
+ */
+/**
+ * Отрицание модификатора.
+ *
+ * @access public
+ * @param {String} $name Имя модификатора.
+ */
+/**
+ * Обрезает единицу измерения.
+ *
+ * @param {String | Number} $target Целевое значение.
+ * @return {Number} Числовое значение.
+ */
+/**
+ * Переводит px в rem.
+ *
+ * @param {String | Number} $target Значение в px, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} rem
+ */
+/**
+ * Переводит rem в px.
+ *
+ * @param {String | Number} $target Значение в rem, которое следует перевести.
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @return {String} px
+ */
+/**
+ * Переводит percentage в fr.
+ *
+ * @param {String | Number} $target Значение в percentage.
+ * @return {String} fr
+ */
+/**
+ * Отзывчивый размер шрифта, основанный на viewport-юнитах.
+ *
+ * @param {String | Number} $context Базовый размер пикселя.
+ * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
+ * @param {String} $min Минимальный размер шрифта в пикселях.
+ * @param {String} $max [false] Максимальный размер шрифта в пикселях.
+ * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
+ * @example:
+ *    // scss
+ *    .text {
+ *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
+ *    }
+ */
+._3x6_- {
+  /** Выравнивание текста по левому краю. */
+  /** Выравнивание текста по центру. */
+  /** Выравнивание текста по правому краю. */
+  /** Выравнивание по ширине. */ }
+  ._1cUIN {
+    text-align: left; }
+  ._33FNN {
+    text-align: center; }
+  ._1sBUd {
+    text-align: right; }
+  .F6Flj {
+    text-align: justify; }
+
+/**
+ * Получает цвет.
+ *
+ * @param {Map} $color-map Карта цветов.
+ * @param {String} $color-name Имя цвета.
+ * @param {String} $color-variant Вариант цвета.
+ * @param {Number} $level Уровень.
+ * @param {String} $step Шаг в процентах.
+ * @return {String} Цвет, полученный в результате смешивания.
+ */
+/* #endregion */
+/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
+/**
+ * Оттенки серого.
+ * @type Map
+ */
+/**
+ * Цвета по умолчанию.
+ * @type Map
+ */
+/**
+ * Шрифт тела по умолчанию.
+ * @type List
+ */
+/**
+ * Размер шрифта по умолчанию (указывается в пикселях)
+ * @type Number
+ */
+/**
+ * Высота строки по умолчанию.
+ * @type Number
+ */
+/**
+ * Цвет текста тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Цвет фона тела по умолчанию.
+ * @type Color
+ */
+/**
+ * Включает `<true>` округление углов.
+ * @type Boolean
+ */
+/**
+ * Включает `<true>` тени у элементов.
+ * @type Boolean
+ */
+/* #region Определение блочной модели */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+/* #endregion */
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #586e75;
+  background: #fff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
+  text-decoration-skip: objects;
+  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
+  -webkit-text-size-adjust: 100%;
+  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
+  -webkit-font-smoothing: antialiased;
+  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
+  -webkit-tap-highlight-color: transparent;
+  /* Убирает синее подсвечивание при клике на девайсах */ }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+legend {
+  display: block;
+  padding: 0;
+  white-space: normal; }
+
+img {
+  border: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+/* #endregion */
+/* #region 3.Импортируем миксины */
+/**
+ * Миксина очистки стилей у списка.
+ */
+/**
+ * Миксина линейного градиента.
+ * @param {Keyword | Angle} $direction Линейное направление градиента.
+ */
+/**
+ * Миксина округления углов (все углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (верхнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (левые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (нижнии углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина округления углов (правые углы).
+ * @param {Number} $radius Значение радиуса.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {Arglist} $args Значение тени.
+ */
+/**
+ * Миксина добавляет тень к элементу.
+ * @param {List} $shadow Значение тени.
+ */
+/**
+ * Миксина перехода.
+ * @param {Arglist} $args Значение перехода.
+ */
+/**
+ * Миксина перехода.
+ * @param {List} $transition Значение перехода.
+ */
+/* #endregion */
+/* #region 4.Импортируем экстракты */
+.XkqLu {
+  padding-top: 15px; }
+
+._1rrqY {
+  padding-top: 22.5px; }
+
+._2RoqC {
+  padding-top: 30px; }
+
+._2nr_5 {
+  padding-top: 50px; }
+
+._2BLRs {
+  padding-top: 100px; }
+
+._3sHyK {
+  padding-bottom: 15px; }
+
+.wA_z1 {
+  padding-bottom: 22.5px; }
+
+._3uEDP {
+  padding-bottom: 30px; }
+
+.ivMeR {
+  padding-bottom: 50px; }
+
+._1FmzQ {
+  padding-bottom: 100px; }
+
+._3jiKM {
+  display: block;
+  width: 100%; }
+
+._3QMgJ {
+  padding-left: 0;
+  list-style: none; }
+
+.vh_lF {
+  display: inline-block; }
+  .vh_lF:not(:last-child) {
+    margin-right: 0.313em; }
+
+@media (max-width: 51.13333rem) {
+  ._1U1zP {
+    display: none; } }
+
+@media (min-width: 32rem) {
+  ._3jtNa {
+    display: none; } }
+
+@media (max-width: 66.06667rem) {
+  ._11bz_ {
+    display: none; } }
+
+@media (min-width: 51.2rem) {
+  ._12ZA_ {
+    display: none; } }
+
+@media (max-width: 79.93333rem) {
+  ._2ZMj1 {
+    display: none; } }
+
+@media (min-width: 66.13333rem) {
+  ._1e59p {
+    display: none; } }
+
+/* #endregion */
+/* #region 5.Импортируем сетку */
+/**
+ * Количество колонок сетки.
+ * @type Number
+ */
+/**
+ * Размер отступов сетки.
+ * @type Number
+ */
+/* #region Построение ряда */
+/* #endregion */
+/* #region Построение колонок */
+/* #endregion */
+/* #region Размеры контейнера */
+/** Маленький размер контейнера. */
+/** Средний размер контейнера. */
+/** Большой размер контейнера. */
+/* #endregion */
+/* #region Построение контейнера */
+._3qG5R {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    ._3qG5R {
+      width: 50rem; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._3qG5R {
+      width: 64.66667rem; } }
+  @media only screen and (min-width: 80rem) {
+    ._3qG5R {
+      width: 78rem; } }
+
+._2nvPH {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* #endregion */
+/* #region Построение ряда */
+._3YiRw {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  ._1qZKU {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    justify-content: space-around; }
+  .LbB5X {
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  .ftwWh {
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; }
+  .Kc0YE {
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+  ._3bzgZ {
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+  ._3n27u {
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start; }
+  ._1dc2D {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  ._1BqSf {
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end; }
+
+/* #endregion */
+/* #region Построение колонок */
+._327er {
+  position: relative;
+  max-width: 100%;
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0; }
+  @media only screen and (max-width: 51.13333rem) {
+    ._3N0MI {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._1wf6C {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._2vaDs {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    .c5UDT {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._155Qc {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._2lFdm {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._22PdQ {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._6S8Kh {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._1PfiF {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    .r2W8n {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._2zOuR {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3otv8 {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
+    ._3xbOd {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._3tVN- {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    .Hb3MK {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._1lBWU {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._3qUou {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._3zPUP {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._3RKZU {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._29iiu {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._2p-FK {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._1OqJG {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._3T-LM {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._1EcjP {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
+    ._1O0k2 {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._1FrSN {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    ._3pJiH {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    .zPQpm {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._11xv0 {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._1qLDO {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._2r2xo {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    .A8VB0 {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._26cNH {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._2QuP- {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._20qoF {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._3lwMy {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+  @media only screen and (min-width: 80rem) {
+    .hb5oT {
+      max-width: 8.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 8.33333%;
+      flex-basis: 8.33333%; }
+    ._2QLW7 {
+      max-width: 16.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 16.66667%;
+      flex-basis: 16.66667%; }
+    .zo1e5 {
+      max-width: 25%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 25%;
+      flex-basis: 25%; }
+    ._2IIxF {
+      max-width: 33.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 33.33333%;
+      flex-basis: 33.33333%; }
+    ._3cABE {
+      max-width: 41.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 41.66667%;
+      flex-basis: 41.66667%; }
+    ._3Cbyp {
+      max-width: 50%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 50%;
+      flex-basis: 50%; }
+    ._1u5QA {
+      max-width: 58.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 58.33333%;
+      flex-basis: 58.33333%; }
+    ._2Dabp {
+      max-width: 66.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 66.66667%;
+      flex-basis: 66.66667%; }
+    ._2x8zC {
+      max-width: 75%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 75%;
+      flex-basis: 75%; }
+    ._6H9Qp {
+      max-width: 83.33333%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 83.33333%;
+      flex-basis: 83.33333%; }
+    ._2PjWK {
+      max-width: 91.66667%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 91.66667%;
+      flex-basis: 91.66667%; }
+    ._2tjlo {
+      max-width: 100%;
+      -webkit-box-flex: 0;
+      -moz-box-flex: 0;
+      -webkit-flex-grow: 0;
+      -ms-flex: 0;
+      flex-grow: 0;
+      -webkit-flex-basis: 100%;
+      flex-basis: 100%; } }
+
+/* #endregion */
+/* #endregion */
+table {
+  border: 1px solid #eee;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2em; }
+  table thead > tr > th, table tbody > tr > td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px; }
+  table thead {
+    border-bottom: 2px solid #dfdfdf; }
+    table thead > tr > th {
+      font-weight: 700; }
+  table tbody {
+    border-bottom: 2px solid #dfdfdf; }
+    table tbody > tr:nth-child(2n) {
+      background: #fafafa; }
+
+code {
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  font-size: .8em;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  color: #268297;
+  padding: 2px 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  border: 1px solid #edeeee;
+  white-space: nowrap; }
+
+._2lALM {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  border: 2px solid #f9fafb; }
+
+/* #region Общие переменные */
+/* #endregion*/
+/* #region Переменные метки */
+/* #endregion */
+/* #region Переменные поля */
+/* #endregion */
+/* #region Переменные метки */
+/* #endregion */
+/* #region Переменные поля */
+/* #endregion */
+._17qUR ._26tf6 {
+  background-color: #fafafa;
+  border-color: #999999; }
+
+._1xgdP ._26tf6 {
+  -webkit-box-shadow: none;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: none;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: none;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+._2jWOY ._26tf6 {
+  border-color: #cccccc; }
+
+._1y4Zo ._26tf6 {
+  border-color: #f00; }
+
+.nQ6y0 {
+  margin-bottom: 15px; }
+  ._26tf6 {
+    /* #region Цвет заливки */
+    background-color: #fff;
+    background-image: none;
+    /* #endregion */
+    /* #region Обводка элемента / Скругление углов */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    -webkit-border-radius: 3px;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -moz-border-radius: 3px;
+    /* Firefox 1-3.6 */
+    border-radius: 3px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    /* #endregion */
+    /* #region Тень */
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    /* #endregion */
+    /* #region Относительное позиционирование */
+    position: relative;
+    /* #endregion */
+    /* #region Размер элемента */
+    width: 100%;
+    height: auto;
+    /* #endregion */
+    /* #region Внешний и внутренний отступ */
+    margin: 0;
+    padding: 8px 16px;
+    /* #endregion */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    /* #region Стили шрифта */
+    font-family: inherit;
+    color: #000;
+    font-size: 0.93333rem;
+    /* #endregion */ }
+  .nQ6y0 input[type=number]::-webkit-inner-spin-button,
+  .nQ6y0 input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  ._3YOlk {
+    display: inline-block;
+    margin-bottom: 5px;
+    /* #region Стили шрифта */
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    /* #endregion */ }
+
+.sBFGc {
+  display: block;
+  margin-top: 5px; }
+  ._3T5R8 {
+    color: #f00; }
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+
+::-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+
+:-ms-input-placeholder {
+  color: inherit;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+
+:-moz-placeholder {
+  color: inherit;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+
+:focus::-webkit-input-placeholder {
+  opacity: 0; }
+
+:focus::-moz-placeholder {
+  opacity: 0; }
+
+:focus:-ms-input-placeholder {
+  opacity: 0; }
+
+:focus:-moz-placeholder {
+  opacity: 0; }
 @charset "UTF-8";
 
 /* #region 1.Импортируем утилиты */
@@ -10081,1025 +11100,6 @@ code {
   padding: 15px;
   margin-bottom: 30px;
   border: 2px solid #f9fafb; }
-@charset "UTF-8";
-
-/* #region 1.Импортируем утилиты */
-/**
- * Блок-элемент.
- *
- * @access public
- * @param {String[]} $names Имена элементов.
- */
-/**
- * Модификатор блока.
- *
- * @access public
- * @param {String[]} $names Имена модификаторов.
- */
-/**
- * Отрицание модификатора.
- *
- * @access public
- * @param {String} $name Имя модификатора.
- */
-/**
- * Обрезает единицу измерения.
- *
- * @param {String | Number} $target Целевое значение.
- * @return {Number} Числовое значение.
- */
-/**
- * Переводит px в rem.
- *
- * @param {String | Number} $target Значение в px, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} rem
- */
-/**
- * Переводит rem в px.
- *
- * @param {String | Number} $target Значение в rem, которое следует перевести.
- * @param {String | Number} $context Базовый размер пикселя.
- * @return {String} px
- */
-/**
- * Переводит percentage в fr.
- *
- * @param {String | Number} $target Значение в percentage.
- * @return {String} fr
- */
-/**
- * Отзывчивый размер шрифта, основанный на viewport-юнитах.
- *
- * @param {String | Number} $context Базовый размер пикселя.
- * @param {String | Number} $responsive viewport-юнит (процент от ширины / высоты).
- * @param {String} $min Минимальный размер шрифта в пикселях.
- * @param {String} $max [false] Максимальный размер шрифта в пикселях.
- * @param {String | Number} $fallback [false] Промежуточный фиксированный размер в пикселях.
- * @example:
- *    // scss
- *    .text {
- *    	  @include responsive-font-size(3vw, 14px, 18px, 16px);
- *    }
- */
-._3x6_- {
-  /** Выравнивание текста по левому краю. */
-  /** Выравнивание текста по центру. */
-  /** Выравнивание текста по правому краю. */
-  /** Выравнивание по ширине. */ }
-  ._1cUIN {
-    text-align: left; }
-  ._33FNN {
-    text-align: center; }
-  ._1sBUd {
-    text-align: right; }
-  .F6Flj {
-    text-align: justify; }
-
-/**
- * Получает цвет.
- *
- * @param {Map} $color-map Карта цветов.
- * @param {String} $color-name Имя цвета.
- * @param {String} $color-variant Вариант цвета.
- * @param {Number} $level Уровень.
- * @param {String} $step Шаг в процентах.
- * @return {String} Цвет, полученный в результате смешивания.
- */
-/* #endregion */
-/* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
-/**
- * Оттенки серого.
- * @type Map
- */
-/**
- * Цвета по умолчанию.
- * @type Map
- */
-/**
- * Шрифт тела по умолчанию.
- * @type List
- */
-/**
- * Размер шрифта по умолчанию (указывается в пикселях)
- * @type Number
- */
-/**
- * Высота строки по умолчанию.
- * @type Number
- */
-/**
- * Цвет текста тела по умолчанию.
- * @type Color
- */
-/**
- * Цвет фона тела по умолчанию.
- * @type Color
- */
-/**
- * Включает `<true>` округление углов.
- * @type Boolean
- */
-/**
- * Включает `<true>` тени у элементов.
- * @type Boolean
- */
-/* #region Определение блочной модели */
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-html {
-  box-sizing: border-box; }
-
-/* #endregion */
-body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #586e75;
-  background: #fff;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  text-rendering: optimizeLegibility;
-  /* Качественное отображение важнее скорости, разрешает кернинг и лигатуры */
-  text-decoration-skip: objects;
-  /* Делает подчеркивание с помощью text-decoration: underline; необрывистым */
-  -webkit-text-size-adjust: 100%;
-  /* Запрещает корректировку размера шрифта после изменения ориентации в iOS */
-  -webkit-font-smoothing: antialiased;
-  /* Делает текст более тонким в Сафари на Маках (начертание сглаженное и четкое одновременно) */
-  -webkit-tap-highlight-color: transparent;
-  /* Убирает синее подсвечивание при клике на девайсах */ }
-
-body, html {
-  width: 100%;
-  height: 100%; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: .5rem; }
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0; }
-
-legend {
-  display: block;
-  padding: 0;
-  white-space: normal; }
-
-img {
-  border: none; }
-
-svg:not(:root) {
-  overflow: hidden; }
-
-/* #endregion */
-/* #region 3.Импортируем миксины */
-/**
- * Миксина очистки стилей у списка.
- */
-/**
- * Миксина линейного градиента.
- * @param {Keyword | Angle} $direction Линейное направление градиента.
- */
-/**
- * Миксина округления углов (все углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (верхнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (левые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (нижнии углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина округления углов (правые углы).
- * @param {Number} $radius Значение радиуса.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {Arglist} $args Значение тени.
- */
-/**
- * Миксина добавляет тень к элементу.
- * @param {List} $shadow Значение тени.
- */
-/**
- * Миксина перехода.
- * @param {Arglist} $args Значение перехода.
- */
-/**
- * Миксина перехода.
- * @param {List} $transition Значение перехода.
- */
-/* #endregion */
-/* #region 4.Импортируем экстракты */
-.XkqLu {
-  padding-top: 15px; }
-
-._1rrqY {
-  padding-top: 22.5px; }
-
-._2RoqC {
-  padding-top: 30px; }
-
-._2nr_5 {
-  padding-top: 50px; }
-
-._2BLRs {
-  padding-top: 100px; }
-
-._3sHyK {
-  padding-bottom: 15px; }
-
-.wA_z1 {
-  padding-bottom: 22.5px; }
-
-._3uEDP {
-  padding-bottom: 30px; }
-
-.ivMeR {
-  padding-bottom: 50px; }
-
-._1FmzQ {
-  padding-bottom: 100px; }
-
-._3jiKM {
-  display: block;
-  width: 100%; }
-
-._3QMgJ {
-  padding-left: 0;
-  list-style: none; }
-
-.vh_lF {
-  display: inline-block; }
-  .vh_lF:not(:last-child) {
-    margin-right: 0.313em; }
-
-@media (max-width: 51.13333rem) {
-  ._1U1zP {
-    display: none; } }
-
-@media (min-width: 32rem) {
-  ._3jtNa {
-    display: none; } }
-
-@media (max-width: 66.06667rem) {
-  ._11bz_ {
-    display: none; } }
-
-@media (min-width: 51.2rem) {
-  ._12ZA_ {
-    display: none; } }
-
-@media (max-width: 79.93333rem) {
-  ._2ZMj1 {
-    display: none; } }
-
-@media (min-width: 66.13333rem) {
-  ._1e59p {
-    display: none; } }
-
-/* #endregion */
-/* #region 5.Импортируем сетку */
-/**
- * Количество колонок сетки.
- * @type Number
- */
-/**
- * Размер отступов сетки.
- * @type Number
- */
-/* #region Построение ряда */
-/* #endregion */
-/* #region Построение колонок */
-/* #endregion */
-/* #region Размеры контейнера */
-/** Маленький размер контейнера. */
-/** Средний размер контейнера. */
-/** Большой размер контейнера. */
-/* #endregion */
-/* #region Построение контейнера */
-._3qG5R {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._3qG5R {
-      width: 50rem; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._3qG5R {
-      width: 64.66667rem; } }
-  @media only screen and (min-width: 80rem) {
-    ._3qG5R {
-      width: 78rem; } }
-
-._2nvPH {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 1rem;
-  padding-right: 1rem; }
-
-/* #endregion */
-/* #region Построение ряда */
-._3YiRw {
-  margin-left: -1rem;
-  margin-right: -1rem;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap; }
-  ._1qZKU {
-    -ms-flex-pack: distribute;
-    -webkit-justify-content: space-around;
-    justify-content: space-around; }
-  .LbB5X {
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between; }
-  .ftwWh {
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start; }
-  .Kc0YE {
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center; }
-  ._3bzgZ {
-    -webkit-box-pack: end;
-    -moz-box-pack: end;
-    -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end; }
-  ._3n27u {
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start; }
-  ._1dc2D {
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center; }
-  ._1BqSf {
-    -webkit-align-content: flex-end;
-    -ms-flex-line-pack: end;
-    align-content: flex-end; }
-
-/* #endregion */
-/* #region Построение колонок */
-._327er {
-  position: relative;
-  max-width: 100%;
-  min-height: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  -webkit-flex: 1 0 0;
-  flex: 1 0 0; }
-  @media only screen and (max-width: 51.13333rem) {
-    ._3N0MI {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._1wf6C {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._2vaDs {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    .c5UDT {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._155Qc {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._2lFdm {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._22PdQ {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._6S8Kh {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._1PfiF {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    .r2W8n {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._2zOuR {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3otv8 {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 51.2rem) and (max-width: 66.06667rem) {
-    ._3xbOd {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._3tVN- {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    .Hb3MK {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._1lBWU {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._3qUou {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._3zPUP {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._3RKZU {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._29iiu {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._2p-FK {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._1OqJG {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._3T-LM {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._1EcjP {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 66.13333rem) and (max-width: 79.93333rem) {
-    ._1O0k2 {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._1FrSN {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    ._3pJiH {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    .zPQpm {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._11xv0 {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._1qLDO {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._2r2xo {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    .A8VB0 {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._26cNH {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._2QuP- {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._20qoF {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._3lwMy {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-  @media only screen and (min-width: 80rem) {
-    .hb5oT {
-      max-width: 8.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 8.33333%;
-      flex-basis: 8.33333%; }
-    ._2QLW7 {
-      max-width: 16.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 16.66667%;
-      flex-basis: 16.66667%; }
-    .zo1e5 {
-      max-width: 25%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 25%;
-      flex-basis: 25%; }
-    ._2IIxF {
-      max-width: 33.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 33.33333%;
-      flex-basis: 33.33333%; }
-    ._3cABE {
-      max-width: 41.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 41.66667%;
-      flex-basis: 41.66667%; }
-    ._3Cbyp {
-      max-width: 50%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 50%;
-      flex-basis: 50%; }
-    ._1u5QA {
-      max-width: 58.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 58.33333%;
-      flex-basis: 58.33333%; }
-    ._2Dabp {
-      max-width: 66.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 66.66667%;
-      flex-basis: 66.66667%; }
-    ._2x8zC {
-      max-width: 75%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 75%;
-      flex-basis: 75%; }
-    ._6H9Qp {
-      max-width: 83.33333%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 83.33333%;
-      flex-basis: 83.33333%; }
-    ._2PjWK {
-      max-width: 91.66667%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 91.66667%;
-      flex-basis: 91.66667%; }
-    ._2tjlo {
-      max-width: 100%;
-      -webkit-box-flex: 0;
-      -moz-box-flex: 0;
-      -webkit-flex-grow: 0;
-      -ms-flex: 0;
-      flex-grow: 0;
-      -webkit-flex-basis: 100%;
-      flex-basis: 100%; } }
-
-/* #endregion */
-/* #endregion */
-table {
-  border: 1px solid #eee;
-  border: 0;
-  border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 2em; }
-  table thead > tr > th, table tbody > tr > td {
-    text-align: left;
-    vertical-align: top;
-    padding: 8px; }
-  table thead {
-    border-bottom: 2px solid #dfdfdf; }
-    table thead > tr > th {
-      font-weight: 700; }
-  table tbody {
-    border-bottom: 2px solid #dfdfdf; }
-    table tbody > tr:nth-child(2n) {
-      background: #fafafa; }
-
-code {
-  font-family: 'Roboto Mono', Monaco, courier, monospace;
-  font-size: .8em;
-  -webkit-font-smoothing: initial;
-  -moz-osx-font-smoothing: initial;
-  color: #268297;
-  padding: 2px 5px;
-  margin: 0 2px;
-  border-radius: 2px;
-  border: 1px solid #edeeee;
-  white-space: nowrap; }
-
-._2lALM {
-  position: relative;
-  background: #fff;
-  padding: 15px;
-  margin-bottom: 30px;
-  border: 2px solid #f9fafb; }
-
-/* #region Общие переменные */
-/* #endregion*/
-/* #region Переменные метки */
-/* #endregion */
-/* #region Переменные поля */
-/* #endregion */
-/* #region Переменные метки */
-/* #endregion */
-/* #region Переменные поля */
-/* #endregion */
-._17qUR ._26tf6 {
-  background-color: #fafafa;
-  border-color: #999999; }
-
-._1xgdP ._26tf6 {
-  -webkit-box-shadow: none;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: none;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: none;
-  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
-
-._2jWOY ._26tf6 {
-  border-color: #cccccc; }
-
-._1y4Zo ._26tf6 {
-  border-color: #f00; }
-
-.nQ6y0 {
-  margin-bottom: 15px; }
-  ._26tf6 {
-    /* #region Цвет заливки */
-    background-color: #fff;
-    background-image: none;
-    /* #endregion */
-    /* #region Обводка элемента / Скругление углов */
-    border-width: 1px;
-    border-style: solid;
-    border-color: #cccccc;
-    -webkit-border-radius: 3px;
-    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
-    -moz-border-radius: 3px;
-    /* Firefox 1-3.6 */
-    border-radius: 3px;
-    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
-    /* #endregion */
-    /* #region Тень */
-    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    /* Firefox 3.5 - 3.6 */
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    /* #endregion */
-    /* #region Относительное позиционирование */
-    position: relative;
-    /* #endregion */
-    /* #region Размер элемента */
-    width: 100%;
-    height: auto;
-    /* #endregion */
-    /* #region Внешний и внутренний отступ */
-    margin: 0;
-    padding: 8px 16px;
-    /* #endregion */
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-    /* #region Стили шрифта */
-    font-family: inherit;
-    color: #000;
-    font-size: 0.93333rem;
-    /* #endregion */ }
-  .nQ6y0 input[type=number]::-webkit-inner-spin-button,
-  .nQ6y0 input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0; }
-  ._3YOlk {
-    display: inline-block;
-    margin-bottom: 5px;
-    /* #region Стили шрифта */
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-    /* #endregion */ }
-
-.sBFGc {
-  display: block;
-  margin-top: 5px; }
-  ._3T5R8 {
-    color: #f00; }
-
-::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 1;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-::-moz-placeholder {
-  color: inherit;
-  opacity: 1;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-:-ms-input-placeholder {
-  color: inherit;
-  opacity: 1;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-:-moz-placeholder {
-  color: inherit;
-  opacity: 1;
-  -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -o-transition: opacity 0.3s;
-  transition: opacity 0.3s; }
-
-:focus::-webkit-input-placeholder {
-  opacity: 0; }
-
-:focus::-moz-placeholder {
-  opacity: 0; }
-
-:focus:-ms-input-placeholder {
-  opacity: 0; }
-
-:focus:-moz-placeholder {
-  opacity: 0; }
 @charset "UTF-8";
 
 /* #region 1.Импортируем утилиты */
