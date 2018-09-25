@@ -29,17 +29,79 @@ $main-colors: (
 /* #endregion */
 /* #region 2.Импортируем перезагрузку и переопределяем глобальные переменные */
 @import '~timcowebapps-react.toolkit/src/global-vars.scss';
-$default-colors: (
-	brand-primary: #268297,
-	brand-info: #35bda8,
-	brand-success: #86b34d,
-	brand-warning: #e66c40,
-	brand-danger: #cb3e4b
+$gray:   #7c7c7c;
+$blue:   #457b88;
+$aqua:   #689d89;
+$green:  #5cb85c;
+$yellow: #d7992b;
+$orange: #d65e2d;
+$red:    #cd2f2c;
+$purple: #b16185;
+
+$colors: (
+	"gray":   $gray,
+	"purple": $purple,
+	"red":    $red,
+	"orange": $orange,
+	"yellow": $yellow,
+	"green":  $green,
+	"aqua":   $aqua,
+	"blue":   $blue
 );
+
+$bg-0: #fafafa;
+$bg-1: #ebebeb;
+$bg-2: #d5d5d5;
+$bg-3: #bfbfbf;
+$bg-4: #a8a8a8;
+
+$background-colors: (
+	"bg-0": $bg-0,
+	"bg-1": $bg-1,
+	"bg-2": $bg-2,
+	"bg-3": $bg-3,
+	"bg-4": $bg-4
+);
+
+$fg-0: #282828;
+$fg-1: #3c3c3c;
+$fg-2: #505050;
+$fg-3: #666666;
+$fg-4: #7c7c7c;
+
+$foreground-colors: (
+	"fg-0": $fg-0,
+	"fg-1": $fg-1,
+	"fg-2": $fg-2,
+	"fg-3": $fg-3,
+	"fg-4": $fg-4
+);
+
+$primary:   $blue;
+$secondary: $gray;
+$info:      $aqua;
+$success:   $green;
+$warning:   $yellow;
+$danger:    $red;
+
+/**
+ * Цвета по умолчанию.
+ * @type Map
+ */
+$brand-colors: (
+	"primary":   $primary,
+	"secondary": $secondary,
+	"success":   $success,
+	"info":      $info,
+	"warning":   $warning,
+	"danger":    $danger
+);
+
+$color-interval: 3%;
 $body-fontFamily: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
 $body-fontColor: #586e75;
-$body-fontSize: 15px;
-$body-lineHeight: 1.5;
+$body-fontSize: 14px;
+$body-lineHeight: 1.42857143;
 $body-background: #fff;
 $enable-rounded-corners: true;
 $enable-shadows: true;

@@ -1,6 +1,6 @@
 {
 	"name": "@timcowebapps/react.toolkit-guides",
-	"version": "0.1.1",
+	"version": "0.3.9",
 	"description": "Front-end фреймворк для разработки адаптивных web-проектов",
 	"author": "Victor Timoshin <victor-timoshin@hotmail.com>",
 	"license": "MIT",
@@ -23,8 +23,8 @@
 		"react-router-dom": "^4.3.1"
 	},
 	"devDependencies": {
-		"@timcowebapps/react.toolkit": "^0.21.31",
-		"@timcowebapps/react.utils": "^0.4.35",
+		"@timcowebapps/react.toolkit": "^0.23.47",
+		"@timcowebapps/react.utils": "^0.4.37",
 		"@types/lodash": "^4.14.116",
 		"@types/node": "^10.9.2",
 		"@types/react": "^16.4.12",

@@ -2,10 +2,11 @@
 
 @import '~timcowebapps-react.toolkit/src/components/panel/panel-vars.scss';
 $panel-name: 'panel';
-$panel-background: #fff;
+$panel-background: get-color($background-colors, "bg-0");
 $panel-boxShadow: none;
 $panel-width: 270px;
 $panel-height: 100%;
 $panel-padding: 20px 10px;
+$panel-marginBottom: 20px;
 $panel-zIndex: 1;
 @import '~timcowebapps-react.toolkit/src/components/panel/panel.scss';

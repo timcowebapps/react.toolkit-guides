@@ -1,0 +1,6 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/breadcrumb/breadcrumb-vars.scss';
+$breadcrumb-name: "breadcrumb";
+$breadcrumb-color: $body-fontColor;
+@import '~timcowebapps-react.toolkit/src/components/breadcrumb/breadcrumb.scss';

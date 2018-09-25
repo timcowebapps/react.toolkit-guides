@@ -114,7 +114,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 									properties: { content: <Link to="/react.toolkit-guides/label">Label</Link> }
 								}, {
 									uniqueId: "3",
-									properties: { content: <Link to="/react.toolkit-guides/">Panel</Link> }
+									properties: { content: <Link to="/react.toolkit-guides/panel">Panel</Link> }
 								}, {
 									uniqueId: "4",
 									properties: { content: <Link to="/react.toolkit-guides/button">Button</Link> }
@@ -123,6 +123,9 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 									properties: { content: <Link to="/react.toolkit-guides/field">Field</Link> }
 								}, {
 									uniqueId: "6",
+									properties: { content: <Link to="/react.toolkit-guides/breadcrumb">Breadcrumb</Link> }
+								}, {
+									uniqueId: "7",
 									properties: { content: <Link to="/react.toolkit-guides/tabset">TabSet</Link> }
 								}]
 							}} />

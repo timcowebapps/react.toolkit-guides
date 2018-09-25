@@ -1,7 +1,7 @@
 @import '../../../prereqs.scss';
 
 @import '~timcowebapps-react.toolkit/src/components/menu/menu-vars.scss';
-$menu-name: 'navbar-menu';
+$menu-name: "navbar-menu";
 @import '~timcowebapps-react.toolkit/src/components/menu/menu.scss';
 
 .#{$menu-name} {

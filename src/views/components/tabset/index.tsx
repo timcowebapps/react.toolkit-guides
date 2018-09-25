@@ -3,15 +3,14 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
 	BEM, Classes,
 	AlignTypes, TextAlign,
-	HtmlTagTypes,
-	Guid
+	HtmlTagTypes, ComponentTypes
 } from '@timcowebapps/react.utils';
 import {
 	Heading,
+	Link,
 	TabSet, TabSetItem
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
@@ -23,6 +22,7 @@ import { Layout } from '../../layout';
 var styles: any = require('./index.scss');
 var headingStyles: any = require('./../heading/variants.scss');
 var buttonStyles: any = require('../button/variants.scss');
+var linkStyles: any = require('../link/variants.scss');
 var tabsetStyles: any = require('./variants.scss');
 
 export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCompState.IState> {
@@ -97,7 +97,27 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 							}}>Вкладки</Heading>
 
 							<p>Вкладка - это скрытый раздел контента, активируемый меню</p>
-							<p>Смотри: <Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/">Menu</Link>, <Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/panel">Panel</Link></p>
+							<p>Смотри: <Link scheme={{
+								properties: {
+									htmlTag: HtmlTagTypes.A,
+									to: "/react.toolkit-guides/menu",
+									classes: { stylesheet: linkStyles, block: "link" }
+								},
+								items: [{
+									type: ComponentTypes.Node,
+									properties: { content: "Menu" }
+								}]
+							}} />, <Link scheme={{
+								properties: {
+									htmlTag: HtmlTagTypes.A,
+									to: "/react.toolkit-guides/panel",
+									classes: { stylesheet: linkStyles, block: "link" }
+								},
+								items: [{
+									type: ComponentTypes.Node,
+									properties: { content: "Panel" }
+								}]
+							}} /></p>
 
 							<div className={styles["component-preview"]}>
 								<TabSet scheme={{
@@ -174,7 +194,6 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
 					</div>
 				</div>

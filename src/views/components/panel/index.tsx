@@ -3,15 +3,14 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
 	BEM, Classes,
 	AlignTypes, TextAlign,
 	HtmlTagTypes
 } from '@timcowebapps/react.utils';
 import {
-	Heading
-	// Panel
+	Heading,
+	Panel
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
 import { PanelCompProps } from './index-props';
@@ -92,12 +91,12 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 							}}>Панель</Heading>
 
 							<div className={styles["component-preview"]}>
-								{/* <Panel scheme={{
+								<Panel scheme={{
 									properties: {
-										content: "Метка 1",
+										content: "Панель 1",
 										classes: { stylesheet: panelStyles, block: "panel" }
 									}
-								}} /> */}
+								}} />
 							</div>
 
 							<p><code>{"import { Panel } from '@timcowebapps/react.toolkit'"}</code></p>

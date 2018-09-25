@@ -11,11 +11,11 @@ import {
 import {
 	Heading,
 	Link,
-	Button
+	Breadcrumb
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
-import { ButtonCompProps } from './index-props';
-import { ButtonCompState } from './index-state';
+import { BreadcrumbCompProps } from './index-props';
+import { BreadcrumbCompState } from './index-state';
 
 import { Layout } from '../../layout';
 
@@ -23,13 +23,14 @@ var styles: any = require('./index.scss');
 var headingStyles: any = require('../heading/variants.scss');
 var linkStyles: any = require('../link/variants.scss');
 var buttonStyles: any = require('../button/variants.scss');
+var breadcrumbStyles: any = require('./variants.scss');
 
-export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCompState.IState> {
+export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, BreadcrumbCompState.IState> {
 	//#region Статические переменные
 
-	public static displayName: string = "ButtonComp";
-	public static propTypes: PropTypes.ValidationMap<ButtonCompProps.IProps> = ButtonCompProps.types;
-	public static defaultProps: ButtonCompProps.IProps = ButtonCompProps.defaults;
+	public static displayName: string = "BreadcrumbComp";
+	public static propTypes: PropTypes.ValidationMap<BreadcrumbCompProps.IProps> = BreadcrumbCompProps.types;
+	public static defaultProps: BreadcrumbCompProps.IProps = BreadcrumbCompProps.defaults;
 
 	//#endregion
 
@@ -42,17 +43,13 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 	/**
 	 * Начальное состояние свойств по умолчанию.
 	 * 
-	 * @class ButtonComp
+	 * @class BreadcrumbComp
 	 * @private
 	 */
-	private _getInitialState(): ButtonCompState.IState {
+	private _getInitialState(): BreadcrumbCompState.IState {
 		return {
 			// Empty
 		}
-	}
-
-	private _handleClick(event: any) {
-		// Empty
 	}
 
 	//#endregion
@@ -60,12 +57,12 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 	/**
 	 * Конструктор класса.
 	 * 
-	 * @class ButtonComp
+	 * @class BreadcrumbComp
 	 * @public
 	 * @constructor
-	 * @param {ButtonCompProps.IProps} props Свойства компонента.
+	 * @param {BreadcrumbCompProps.IProps} props Свойства компонента.
 	 */
-	public constructor(props?: ButtonCompProps.IProps) {
+	public constructor(props?: BreadcrumbCompProps.IProps) {
 		super(props);
 
 		this.state = this._getInitialState();
@@ -74,7 +71,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 	/**
 	 * Отрисовывает компонент.
 	 * 
-	 * @class ButtonComp
+	 * @class BreadcrumbComp
 	 * @public
 	 */
 	public render(): JSX.Element {
@@ -87,50 +84,66 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 						BEM.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
 						<div className={BEM.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
-
 							<Heading scheme={{
 								properties: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
 									classes: { stylesheet: headingStyles, block: "heading" }
 								}
-							}}>Кнопка</Heading>
+							}}>Хлебные крошки</Heading>
 
 							<p>Смотри: <Link scheme={{
 								properties: {
 									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/icon",
+									to: "/react.toolkit-guides/link",
 									classes: { stylesheet: linkStyles, block: "link" }
 								},
 								items: [{
 									type: ComponentTypes.Node,
-									properties: { content: "Icon" }
+									properties: { content: "Link" }
 								}]
 							}} /></p>
 
 							<div className={styles["component-preview"]}>
-								<Button scheme={{
+								<Breadcrumb scheme={{
 									properties: {
-										htmlTag: HtmlTagTypes.Button,
-										onClick: this._handleClick,
-										classes: { stylesheet: buttonStyles, block: "btn", modifiers: ["primary"], extract: "block" }
+										classes: {
+											stylesheet: breadcrumbStyles,
+											block: "breadcrumb"
+										}
 									},
 									items: [{
+										uniqueId: "0",
+										type: ComponentTypes.Link,
+										properties: {
+											to: '/react.toolkit-guides/breadcrumb',
+											classes: {
+												stylesheet: linkStyles
+											}
+										},
+										items: [{
+											type: ComponentTypes.Node,
+											properties: {
+												content: 'Главная'
+											}
+										}]
+									}, {
+										uniqueId: "1",
 										type: ComponentTypes.Node,
 										properties: {
-											content: "Block"
+											content: 'Текущая'
 										}
 									}]
 								}} />
 							</div>
 
-							<p><code>{"import { Button } from '@timcowebapps/react.toolkit'"}</code></p>
+							<p><code>{"import { Breadcrumb } from '@timcowebapps/react.toolkit'"}</code></p>
 
 							<Heading scheme={{
 								properties: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
+									classes: { stylesheet: headingStyles, block: "heading", modifiers: ["underline"] }
 								}
 							}}>Схема компонента</Heading>
 
@@ -149,31 +162,6 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>properties.htmlTag</code></td>
-										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link scheme={{
-											properties: {
-												htmlTag: HtmlTagTypes.A,
-												to: "/react.toolkit-guides/",
-												classes: { stylesheet: linkStyles, block: "link" }
-											},
-											items: [{
-												type: ComponentTypes.Node,
-												properties: { content: "HtmlTagTypes" }
-											}]
-										}} /> перечислителя: <code>HtmlTagTypes.Button</code> (по умолчанию), <code>HtmlTagTypes.A</code></td>
-									</tr>
-									<tr>
-										<td><code>properties.onClick</code></td>
-										<td>Function</td>
-										<td>Обработчик клика по кнопке</td>
-									</tr>
-									<tr>
-										<td><code>properties.value</code></td>
-										<td>String</td>
-										<td>Значение</td>
-									</tr>
-									<tr>
 										<td><code>properties.classes.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
@@ -190,7 +178,6 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 									</tr>
 								</tbody>
 							</table>
-
 						</div>
 					</div>
 				</div>

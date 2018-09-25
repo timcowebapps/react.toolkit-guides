@@ -3,7 +3,6 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
 	BEM, Classes,
 	AlignTypes, TextAlign,
@@ -11,6 +10,7 @@ import {
 } from '@timcowebapps/react.utils';
 import {
 	Heading,
+	Link,
 	Field
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
@@ -21,7 +21,9 @@ import { Layout } from '../../layout';
 
 var styles: any = require('./index.scss');
 var fieldStyles: any = require('./variants.scss');
+var labelStyles: any = require('../label//variants.scss');
 var headingStyles: any = require('../heading/variants.scss');
+var linkStyles: any = require('../link/variants.scss');
 var buttonStyles: any = require('../button/variants.scss');
 
 export class FieldComp extends React.Component<FieldCompProps.IProps, FieldCompState.IState> {
@@ -93,7 +95,17 @@ export class FieldComp extends React.Component<FieldCompProps.IProps, FieldCompS
 								}
 							}}>Поле ввода</Heading>
 
-							<p>Смотри: <Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/label">Label</Link></p>
+							<p>Смотри: <Link scheme={{
+								properties: {
+									htmlTag: HtmlTagTypes.A,
+									to: "/react.toolkit-guides/label",
+									classes: { stylesheet: linkStyles, block: "link" }
+								},
+								items: [{
+									type: ComponentTypes.Node,
+									properties: { content: "Label" }
+								}]
+							}} /></p>
 
 							<div className={styles["component-preview"]}>
 								<Field scheme={{
@@ -119,6 +131,7 @@ export class FieldComp extends React.Component<FieldCompProps.IProps, FieldCompS
 										properties: {
 											text: "Введите текст:",
 											classes: {
+												stylesheet: labelStyles,
 												modifiers: []
 											}
 										}

@@ -1,0 +1,25 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/link/link-vars.scss';
+$link-name: "link";
+$link-color: get-color($brand-colors, "primary");
+$link-color--hover: get-color($brand-colors, "primary", null, -$color-interval);
+$link-fontWeight: 700;
+$link-background: transparent;
+$link-background--hover: get-color($brand-colors, "primary", null, +9);
+$link-borderWidth: 0 0 1px;
+$link-borderStyle: dotted;
+$link-borderColor: get-color($brand-colors, "primary");
+$link-borderColor--hover: get-color($brand-colors, "primary", null, -$color-interval);
+@import '~timcowebapps-react.toolkit/src/components/link/link.scss';
+$link-name: "breadcrumb__link";
+$link-color: get-color($brand-colors, "primary");
+$link-color--hover: get-color($brand-colors, "primary", null, -$color-interval);
+$link-fontWeight: 700;
+$link-background: transparent;
+$link-background--hover: get-color($brand-colors, "primary", null, +9);
+$link-borderWidth: 0 0 1px;
+$link-borderStyle: dotted;
+$link-borderColor: get-color($brand-colors, "primary");
+$link-borderColor--hover: get-color($brand-colors, "primary", null, -$color-interval);
+@import '~timcowebapps-react.toolkit/src/components/link/link.scss';

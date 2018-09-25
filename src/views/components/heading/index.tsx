@@ -3,14 +3,14 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
 	BEM, Classes,
 	AlignTypes, TextAlign,
-	HtmlTagTypes
+	HtmlTagTypes, ComponentTypes
 } from '@timcowebapps/react.utils';
 import {
-	Heading
+	Heading,
+	Link
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
 import { HeadingCompProps } from './index-props';
@@ -20,6 +20,7 @@ import { Layout } from '../../layout';
 
 var styles: any = require('./index.scss');
 var headingStyles: any = require('./variants.scss');
+var linkStyles: any = require('../link/variants.scss');
 var buttonStyles: any = require('../button/variants.scss');
 
 export class HeadingComp extends React.Component<HeadingCompProps.IProps, HeadingCompState.IState> {
@@ -90,6 +91,15 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 							}}>Заголовок</Heading>
 
 							<div className={styles["component-preview"]}>
+								{Array.apply(0, Array(6)).map((value: any, idx: number) =>
+									<Heading key={idx} scheme={{
+										properties: {
+											htmlTag: HtmlTagTypes[`H${idx + 1}`],
+											align: TextAlign.toStr(AlignTypes.Left),
+											classes: { stylesheet: headingStyles, block: "heading" }
+										}
+									}}>h{idx + 1}. React.Toolkit heading</Heading>
+								)}
 							</div>
 
 							<p><code>{"import { Heading } from '@timcowebapps/react.toolkit'"}</code></p>
@@ -98,7 +108,7 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 								properties: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
+									classes: { stylesheet: headingStyles, block: "heading", modifiers: ["underline"] }
 								}
 							}}>Схема компонента</Heading>
 
@@ -119,7 +129,17 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 									<tr>
 										<td><code>properties.htmlTag</code></td>
 										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/">HtmlTagTypes</Link> перечислителя: <code>HtmlTagTypes.H1&nbsp;...&nbsp;H6</code>, <code>HtmlTagTypes.H3</code> (по умолчанию)</td>
+										<td>Html тег элемента. Допустимые значения <Link scheme={{
+											properties: {
+												htmlTag: HtmlTagTypes.A,
+												to: "/react.toolkit-guides/",
+												classes: { stylesheet: linkStyles, block: "link" }
+											},
+											items: [{
+												type: ComponentTypes.Node,
+												properties: { content: "HtmlTagTypes" }
+											}]
+										}} /> перечислителя: <code>HtmlTagTypes.H1&nbsp;...&nbsp;H6</code>, <code>HtmlTagTypes.H3</code> (по умолчанию)</td>
 									</tr>
 									<tr>
 										<td><code>properties.align</code></td>

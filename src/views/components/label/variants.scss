@@ -1,7 +1,17 @@
 @import '../../../prereqs.scss';
 
 @import '~timcowebapps-react.toolkit/src/components/label/label-vars.scss';
-/* #region Общие переменные */
-$label-name: 'label';
-/* #endregion*/
+$label-name: "label";
+$label-color: $body-fontColor;
+$label-fontSize: $body-fontSize;
+$label-fontWeight: 700;
+$label-textTransform: none;
+$label-marginBottom: 5px;
+@import '~timcowebapps-react.toolkit/src/components/label/label.scss';
+$label-name: "field__label";
+$label-color: $body-fontColor;
+$label-fontSize: $body-fontSize;
+$label-fontWeight: 700;
+$label-textTransform: none;
+$label-marginBottom: 5px;
 @import '~timcowebapps-react.toolkit/src/components/label/label.scss';

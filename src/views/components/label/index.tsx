@@ -3,15 +3,15 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import {
 	BEM, Classes,
 	AlignTypes, TextAlign,
-	HtmlTagTypes
+	HtmlTagTypes, ComponentTypes
 } from '@timcowebapps/react.utils';
 import {
 	Heading,
-	Label
+	Label,
+	Link
 } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
 import { LabelCompProps } from './index-props';
@@ -22,6 +22,7 @@ import { Layout } from '../../layout';
 var styles: any = require('./index.scss');
 var labelStyles: any = require('./variants.scss');
 var headingStyles: any = require('../heading/variants.scss');
+var linkStyles: any = require('../link/variants.scss');
 var buttonStyles: any = require('../button/variants.scss');
 
 export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompState.IState> {
@@ -128,7 +129,17 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 									<tr>
 										<td><code>properties.htmlTag</code></td>
 										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/">HtmlTagTypes</Link> перечислителя: <code>HtmlTagTypes.Span</code> (по умолчанию)</td>
+										<td>Html тег элемента. Допустимые значения <Link scheme={{
+											properties: {
+												htmlTag: HtmlTagTypes.A,
+												to: "/react.toolkit-guides/",
+												classes: { stylesheet: linkStyles, block: "link" }
+											},
+											items: [{
+												type: ComponentTypes.Node,
+												properties: { content: "HtmlTagTypes" }
+											}]
+										}} /> перечислителя: <code>HtmlTagTypes.Span</code> (по умолчанию)</td>
 									</tr>
 									<tr>
 										<td><code>properties.associateWith</code></td>
