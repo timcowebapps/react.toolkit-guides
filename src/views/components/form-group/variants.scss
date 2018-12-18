@@ -1,0 +1,26 @@
+@import '../../../prereqs.scss';
+@import '~timcowebapps-react.toolkit/src/components/form-group/form-group-vars.scss';
+
+/* #region Переменные поля по умолчанию*/
+$formGroup-name: "form-group";
+$formGroup-margin: 0 0 15px;
+@import '~timcowebapps-react.toolkit/src/components/form-group/form-group.scss';
+/* #endregion */
+
+// /* #region Переменные числового поля*/
+// $field-name: "num-input";
+// @import '~timcowebapps-react.toolkit/src/components/form-group/form-group.scss';
+
+// .#{$field-name} {
+// 	@include flex-display();
+// 	@include flex(0 0 auto);
+// 	@include flex-alignItems(center);
+// 	@include flex-grow(0);
+
+// 	@include element((), "input") {
+// 		text-align: center;
+// 		@include border-radius(none !important);
+// 		width: 62px;
+// 	}
+// }
+// /* #endregion */

@@ -25,36 +25,33 @@ const config = {
 		extensions: [".ts", ".tsx", ".js"],
 		alias: {
 			"timcowebapps-react.utils": path.resolve(__dirname, "node_modules", "@timcowebapps", "react.utils"),
+			"timcowebapps-react.style": path.resolve(__dirname, "node_modules", "@timcowebapps", "react.style"),
 			"timcowebapps-react.toolkit": path.resolve(__dirname, "node_modules", "@timcowebapps", "react.toolkit")
 		}
 	},
 	devtool: "source-map",
 	module: {
-		rules: [
-			{
-				test: /\.ts[x]?$/,
-				use: "ts-loader"
-			}, {
-				test: /\.scss$/,
-				use: ExtractTextPlugin.extract({
-					fallback: "style-loader",
-					use: [{
-						loader: "css-loader",
-						options: {
-							modules: true,
-							localIdentName: "[hash:base64:5]",
-							discardComments: { removeAll: true },
-							minimize: true
-						}
-					}, {
-						loader: "sass-loader",
-						options: {
-							sourceMap: true
-						}
-					}]
-				})
-			}
-		]
+		rules: [{
+			test: /\.ts[x]?$/,
+			use: "ts-loader"
+		}, {
+			test: /\.scss$/,
+			use: ExtractTextPlugin.extract({
+				fallback: "style-loader",
+				use: [{
+					loader: "css-loader",
+					options: {
+						modules: true,
+						localIdentName: "[hash:base64:5]"
+					}
+				}, {
+					loader: "sass-loader",
+					options: {
+						sourceMap: true
+					}
+				}]
+			})
+		}]
 	},
 	optimization: {
 		minimizer: (NODE_ENV === "production") ? [

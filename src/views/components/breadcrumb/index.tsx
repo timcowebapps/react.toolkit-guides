@@ -4,10 +4,12 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
-	BEM, Classes,
+	CN,
 	AlignTypes, TextAlign,
-	HtmlTagTypes, ComponentTypes
+	HtmlTagTypes
 } from '@timcowebapps/react.utils';
+import { Methodology } from '@timcowebapps/react.style';
+import { Data } from '@timcowebapps/react.componentmodel';
 import {
 	Heading,
 	Link,
@@ -78,59 +80,60 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 		return (
 			<Layout>
 				<div className={styles["container-fluid"]}>
-					<div className={Classes.many(
+					<div className={CN.many(
 						styles["row"],
-						BEM.block(styles, "spacing-above").element().modifiers(["sm"]),
-						BEM.block(styles, "spacing-below").element().modifiers(["sm"])
+						Methodology.Bem.Entities.block(styles, "spacing-above").element().modifiers(["sm"]),
+						Methodology.Bem.Entities.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
-						<div className={BEM.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
-							<Heading scheme={{
-								properties: {
+						<div className={Methodology.Bem.Entities.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Хлебные крошки</Heading>
-
-							<p>Смотри: <Link scheme={{
-								properties: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/link",
-									classes: { stylesheet: linkStyles, block: "link" }
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
 								},
 								items: [{
-									type: ComponentTypes.Node,
-									properties: { content: "Link" }
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Хлебные крошки"
+									}
+								}]
+							}} />
+
+							<p>Смотри: <Link {...{
+								requirements: {
+									htmlTag: HtmlTagTypes.A,
+									to: "/react.toolkit-guides/link",
+									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: { content: "Link" }
 								}]
 							}} /></p>
 
 							<div className={styles["component-preview"]}>
-								<Breadcrumb scheme={{
-									properties: {
-										classes: {
-											stylesheet: breadcrumbStyles,
-											block: "breadcrumb"
-										}
+								<Breadcrumb {...{
+									requirements: {
+										style: { stylesheet: breadcrumbStyles, rules: { bem: { block: "breadcrumb" } } }
 									},
 									items: [{
-										uniqueId: "0",
-										type: ComponentTypes.Link,
-										properties: {
+										uid: "0",
+										type: Data.Schema.ComponentTypes.Link,
+										requirements: {
 											to: '/react.toolkit-guides/breadcrumb',
-											classes: {
-												stylesheet: linkStyles
-											}
+											style: { stylesheet: linkStyles }
 										},
 										items: [{
-											type: ComponentTypes.Node,
-											properties: {
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: {
 												content: 'Главная'
 											}
 										}]
 									}, {
-										uniqueId: "1",
-										type: ComponentTypes.Node,
-										properties: {
+										uid: "1",
+										type: Data.Schema.ComponentTypes.Node,
+										requirements: {
 											content: 'Текущая'
 										}
 									}]
@@ -139,13 +142,19 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 
 							<p><code>{"import { Breadcrumb } from '@timcowebapps/react.toolkit'"}</code></p>
 
-							<Heading scheme={{
-								properties: {
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading", modifiers: ["underline"] }
-								}
-							}}>Схема компонента</Heading>
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading", modifiers: ["underline"] } } }
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Схема компонента"
+									}
+								}]
+							}} />
 
 							<table>
 								<thead>
@@ -157,22 +166,22 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								</thead>
 								<tbody>
 									<tr>
-										<td><code>uniqueId</code></td>
+										<td><code>uid</code></td>
 										<td>String</td>
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.stylesheet</code></td>
+										<td><code>requirements.style.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.block</code></td>
+										<td><code>requirements.style.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.modifiers</code></td>
+										<td><code>requirements.style.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

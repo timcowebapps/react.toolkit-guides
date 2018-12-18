@@ -4,10 +4,12 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
-	BEM, Classes,
+	CN,
 	AlignTypes, TextAlign,
-	HtmlTagTypes, ComponentTypes
+	HtmlTagTypes
 } from '@timcowebapps/react.utils';
+import { Methodology } from '@timcowebapps/react.style';
+import { Data } from '@timcowebapps/react.componentmodel';
 import {
 	Heading,
 	Link,
@@ -81,43 +83,51 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 		return (
 			<Layout>
 				<div className={styles["container-fluid"]}>
-					<div className={Classes.many(
+					<div className={CN.many(
 						styles["row"],
-						BEM.block(styles, "spacing-above").element().modifiers(["sm"]),
-						BEM.block(styles, "spacing-below").element().modifiers(["sm"])
+						Methodology.Bem.Entities.block(styles, "spacing-above").element().modifiers(["sm"]),
+						Methodology.Bem.Entities.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
-						<div className={BEM.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
+						<div className={Methodology.Bem.Entities.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
 
-							<Heading scheme={{
-								properties: {
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Кнопка</Heading>
-
-							<p>Смотри: <Link scheme={{
-								properties: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/icon",
-									classes: { stylesheet: linkStyles, block: "link" }
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
 								},
 								items: [{
-									type: ComponentTypes.Node,
-									properties: { content: "Icon" }
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Кнопка"
+									}
+								}]
+							}} />
+
+							<p>Используется для создания различных типов кнопок.</p>
+
+							<p>Смотри: <Link {...{
+								requirements: {
+									htmlTag: HtmlTagTypes.A,
+									to: "/react.toolkit-guides/icon",
+									style: { stylesheet: linkStyles,rules: { bem: { block: "link" }}}
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: { content: "Icon" }
 								}]
 							}} /></p>
 
 							<div className={styles["component-preview"]}>
-								<Button scheme={{
-									properties: {
+								<Button {...{
+									requirements: {
 										htmlTag: HtmlTagTypes.Button,
 										onClick: this._handleClick,
-										classes: { stylesheet: buttonStyles, block: "btn", modifiers: ["primary"], extract: "block" }
+										style: { stylesheet: buttonStyles, rules: { bem: { block: "btn", modifiers: ["primary"]}, extracts: "block" }}
 									},
 									items: [{
-										type: ComponentTypes.Node,
-										properties: {
+										type: Data.Schema.ComponentTypes.Node,
+										requirements: {
 											content: "Block"
 										}
 									}]
@@ -126,13 +136,19 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 
 							<p><code>{"import { Button } from '@timcowebapps/react.toolkit'"}</code></p>
 
-							<Heading scheme={{
-								properties: {
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Схема компонента</Heading>
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Схема компонента"
+									}
+								}]
+							}} />
 
 							<table>
 								<thead>
@@ -144,47 +160,47 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 								</thead>
 								<tbody>
 									<tr>
-										<td><code>uniqueId</code></td>
+										<td><code>uid</code></td>
 										<td>String</td>
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>properties.htmlTag</code></td>
+										<td><code>requirements.htmlTag</code></td>
 										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link scheme={{
-											properties: {
+										<td>Html тег элемента. Допустимые значения <Link {...{
+											requirements: {
 												htmlTag: HtmlTagTypes.A,
 												to: "/react.toolkit-guides/",
-												classes: { stylesheet: linkStyles, block: "link" }
+												style: { stylesheet: linkStyles, rules: { bem: { block: "link" }}}
 											},
 											items: [{
-												type: ComponentTypes.Node,
-												properties: { content: "HtmlTagTypes" }
+												type: Data.Schema.ComponentTypes.Node,
+												requirements: { content: "HtmlTagTypes" }
 											}]
 										}} /> перечислителя: <code>HtmlTagTypes.Button</code> (по умолчанию), <code>HtmlTagTypes.A</code></td>
 									</tr>
 									<tr>
-										<td><code>properties.onClick</code></td>
+										<td><code>requirements.onClick</code></td>
 										<td>Function</td>
 										<td>Обработчик клика по кнопке</td>
 									</tr>
 									<tr>
-										<td><code>properties.value</code></td>
+										<td><code>requirements.value</code></td>
 										<td>String</td>
 										<td>Значение</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.stylesheet</code></td>
+										<td><code>requirements.style.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.block</code></td>
+										<td><code>requirements.style.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.modifiers</code></td>
+										<td><code>requirements.style.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

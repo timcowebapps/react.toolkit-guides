@@ -1,0 +1,63 @@
+@import '../../../prereqs.scss';
+@import '~timcowebapps-react.toolkit/src/components/input/input-vars.scss';
+/* #region Переменные поля по умолчанию */
+$input-name: "form-group__input";
+$input-margin: 0 0 15px;
+$input-fontFamily: inherit;
+$input-fontColor: $body-fontColor;
+$input-fontSize: pxToRem(14px, $body-fontSize);
+$input-background--intermediate-unfocused: scale-color(#fff, $lightness: -2%);
+$input-background--intermediate-focused: scale-color(#fff, $lightness: -2%);
+$input-background--acceptable-unfocused: scale-color(#fff, $lightness: -2%);
+$input-background--acceptable-focused: scale-color(#fff, $lightness: -2%);
+$input-background--invalid-unfocused: scale-color(#fff, $lightness: -2%);
+$input-background--invalid-focused: scale-color(#fff, $lightness: -2%);
+$input-borderColor--intermediate-unfocused: scale-color(#fff, $lightness: -20%);
+$input-borderColor--intermediate-focused: scale-color(#fff, $lightness: -40%);
+$input-borderColor--acceptable-unfocused: get-color($brand-colors, "success");
+$input-borderColor--acceptable-focused: get-color($brand-colors, "success");
+$input-borderColor--invalid-unfocused: get-color($brand-colors, "danger");
+$input-borderColor--invalid-focused: get-color($brand-colors, "danger");
+$input-borderWidth: 1px;
+$input-borderStyle: solid;
+$input-borderRadius: $corner-radius;
+$input-boxShadow: none;
+$input-placeholder-fontColor: inherit;
+$input-width: 100%;
+$input-padding: 8px 16px;
+@import '~timcowebapps-react.toolkit/src/components/input/input.scss';
+
+$input-name: "num-input__input";
+$input-margin: 0;
+@import '~timcowebapps-react.toolkit/src/components/input/input.scss';
+/* #endregion */
+
+/* #region Переменные числового поля */
+@import '~timcowebapps-react.toolkit/src/components/num-input/num-input-vars.scss';
+$numInput-name: "num-input";
+@import '~timcowebapps-react.toolkit/src/components/num-input/num-input.scss';
+/* #endregion */
+
+/* #region Переменные поля номера телефона */
+@import '~timcowebapps-react.toolkit/src/components/phone-input/phone-input-vars.scss';
+$phoneInput-name: "phone-input";
+$phoneInput-fontFamily: inherit;
+$phoneInput-fontColor: #000;
+$phoneInput-fontSize: pxToRem(14px, $body-fontSize);
+$phoneInput-background--intermediate-unfocused: scale-color(#fff, $lightness: -2%);
+$phoneInput-background--intermediate-focused: scale-color(#fff, $lightness: -2%);
+$phoneInput-background--acceptable-unfocused: scale-color(#fff, $lightness: -2%);
+$phoneInput-background--acceptable-focused: scale-color(#fff, $lightness: -2%);
+$phoneInput-background--invalid-unfocused: scale-color(#fff, $lightness: -2%);
+$phoneInput-background--invalid-focused: scale-color(#fff, $lightness: -2%);
+$phoneInput-borderColor--intermediate-unfocused: scale-color(#fff, $lightness: -20%);
+$phoneInput-borderColor--intermediate-focused: scale-color(#fff, $lightness: -40%);
+$phoneInput-borderColor--acceptable-unfocused: get-color($brand-colors, "success");
+$phoneInput-borderColor--acceptable-focused: get-color($brand-colors, "success");
+$phoneInput-borderColor--invalid-unfocused: get-color($brand-colors, "danger");
+$phoneInput-borderColor--invalid-focused: get-color($brand-colors, "danger");
+$phoneInput-borderWidth: 1px;
+$phoneInput-borderStyle: solid;
+$phoneInput-borderRadius: $corner-radius;
+@import '~timcowebapps-react.toolkit/src/components/phone-input/phone-input.scss';
+/* #endregion */

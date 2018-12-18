@@ -3,7 +3,7 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import { Guid } from '@timcowebapps/react.utils';
+import { Guid } from '@timcowebapps/react.system';
 import { GistProps } from './index-props';
 import { GistState } from './index-state';
 

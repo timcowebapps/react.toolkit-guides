@@ -58,7 +58,7 @@ export class NotFoundPage extends React.Component<NotFoundPageProps.IProps, NotF
 		return (
 			<React.Fragment>
 				<h3>NotFoundPage</h3>
-				<Link className={buttonStyles["hyperlink"]} to="/react.toolkit-guides/">Home</Link>
+				<Link to="/react.toolkit-guides/">Home</Link>
 			</React.Fragment>
 		);
 	}

@@ -4,10 +4,12 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
-	BEM, Classes,
+	CN,
 	AlignTypes, TextAlign,
-	HtmlTagTypes, ComponentTypes
+	HtmlTagTypes
 } from '@timcowebapps/react.utils';
+import { Methodology } from '@timcowebapps/react.style';
+import { Data } from '@timcowebapps/react.componentmodel';
 import {
 	Heading,
 	Link,
@@ -82,76 +84,88 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 		return (
 			<Layout>
 				<div className={styles["container-fluid"]}>
-					<div className={Classes.many(
+					<div className={CN.many(
 						styles["row"],
-						BEM.block(styles, "spacing-above").element().modifiers(["sm"]),
-						BEM.block(styles, "spacing-below").element().modifiers(["sm"])
+						Methodology.Bem.Entities.block(styles, "spacing-above").element().modifiers(["sm"]),
+						Methodology.Bem.Entities.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
-						<div className={BEM.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
-							<Heading scheme={{
-								properties: {
+						<div className={Methodology.Bem.Entities.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Вкладки</Heading>
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Вкладки"
+									}
+								}]
+							}} />
 
 							<p>Вкладка - это скрытый раздел контента, активируемый меню</p>
-							<p>Смотри: <Link scheme={{
-								properties: {
+							<p>Смотри: <Link {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/menu",
-									classes: { stylesheet: linkStyles, block: "link" }
+									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
 								},
 								items: [{
-									type: ComponentTypes.Node,
-									properties: { content: "Menu" }
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: { content: "Menu" }
 								}]
-							}} />, <Link scheme={{
-								properties: {
+							}} />, <Link {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/panel",
-									classes: { stylesheet: linkStyles, block: "link" }
+									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
 								},
 								items: [{
-									type: ComponentTypes.Node,
-									properties: { content: "Panel" }
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: { content: "Panel" }
 								}]
 							}} /></p>
 
 							<div className={styles["component-preview"]}>
-								<TabSet scheme={{
+								<TabSet {...{
 									defaults: { currentItemIdx: 0 },
-									properties: {
+									requirements: {
 										dynamically: false,
-										classes: { stylesheet: tabsetStyles, block: "tabset" },
+										style: { stylesheet: tabsetStyles, rules: { bem: { block: "tabset" } } },
 										onTabChange: this._handleTabChange
 									},
 									items: [{
-										uniqueId: "0",
-										properties: { title: "Вкладка 1", content: "Содержимое вкладки 1" }
+										uid: "0",
+										requirements: { title: "Вкладка 1", content: "Содержимое вкладки 1" }
 									}, {
-										uniqueId: "1",
-										properties: { title: "Вкладка 2", content: "Содержимое вкладки 2" }
+										uid: "1",
+										requirements: { title: "Вкладка 2", content: "Содержимое вкладки 2" }
 									}, {
-										uniqueId: "2",
-										properties: { title: "Вкладка 3", content: "Содержимое вкладки 3" }
+										uid: "2",
+										requirements: { title: "Вкладка 3", content: "Содержимое вкладки 3" }
 									}, {
-										uniqueId: "3",
-										properties: { title: "Вкладка 4", content: "Содержимое вкладки 4" }
+										uid: "3",
+										requirements: { title: "Вкладка 4", content: "Содержимое вкладки 4" }
 									}]
 								}} />
 							</div>
 
 							<p><code>{"import { TabSet } from '@timcowebapps/react.toolkit'"}</code></p>
 
-							<Heading scheme={{
-								properties: {
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Схема компонента</Heading>
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Схема компонента"
+									}
+								}]
+							}} />
 
 							<table>
 								<thead>
@@ -163,32 +177,32 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 								</thead>
 								<tbody>
 									<tr>
-										<td><code>uniqueId</code></td>
+										<td><code>uid</code></td>
 										<td>String</td>
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>properties.dynamically</code></td>
+										<td><code>requirements.dynamically</code></td>
 										<td>Boolean</td>
 										<td>Вкладка может отображать только активную панель</td>
 									</tr>
 									<tr>
-										<td><code>properties.onTabChange</code></td>
+										<td><code>requirements.onTabChange</code></td>
 										<td>Function</td>
 										<td>Обработчик клика по пункту меню</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.stylesheet</code></td>
+										<td><code>requirements.style.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.block</code></td>
+										<td><code>requirements.style.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.modifiers</code></td>
+										<td><code>requirements.style.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

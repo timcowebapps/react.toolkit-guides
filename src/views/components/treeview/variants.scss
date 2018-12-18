@@ -1,0 +1,9 @@
+@import '../../../prereqs.scss';
+
+@import '~timcowebapps-react.toolkit/src/components/treeview/treeview-vars.scss';
+$treeview-name: "treeview";
+$treeviewItem-background: transparent;
+$treeviewItem-background--hover: map-get($background-colors, "bg-1");
+$treeviewItem-padding: 8px 0;
+$treeviewItem-margin: 1px 0;
+@import '~timcowebapps-react.toolkit/src/components/treeview/treeview.scss';

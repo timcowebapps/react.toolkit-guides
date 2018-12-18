@@ -2,14 +2,14 @@
 
 @import '~timcowebapps-react.toolkit/src/components/navbar/navbar-vars.scss';
 $navbar-name: "navbar-header";
-$navbar-background: get-color($main-colors, 'primary', 'base');
+$navbar-background: get-color($main-colors, "primary", "base");
 $navbar-direction: row;
 $navbar-width: unset;
 $navbar-height: 3.875em/*62px*/;
 $navbar-padding: 0;
 @import '~timcowebapps-react.toolkit/src/components/navbar/navbar.scss';
 $navbar-name: "navbar-aside";
-$navbar-background: get-color($main-colors, 'background');
+$navbar-background: get-color($main-colors, "background");
 $navbar-direction: column;
 $navbar-width: 15.625em/*250px*/;
 $navbar-height: 100%;

@@ -2,6 +2,8 @@
 
 export namespace FieldCompState {
 	export interface IState {
-		// Empty
+		name: string;
+		phone: string;
+		quantity: number;
 	}
 }

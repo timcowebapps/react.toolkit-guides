@@ -4,10 +4,12 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import {
-	BEM, Classes,
+	CN,
 	AlignTypes, TextAlign,
-	HtmlTagTypes, ComponentTypes
+	HtmlTagTypes
 } from '@timcowebapps/react.utils';
+import { Methodology } from '@timcowebapps/react.style';
+import { Data } from '@timcowebapps/react.componentmodel';
 import {
 	Heading,
 	Label,
@@ -78,39 +80,51 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 		return (
 			<Layout>
 				<div className={styles["container-fluid"]}>
-					<div className={Classes.many(
+					<div className={CN.many(
 						styles["row"],
-						BEM.block(styles, "spacing-above").element().modifiers(["sm"]),
-						BEM.block(styles, "spacing-below").element().modifiers(["sm"])
+						Methodology.Bem.Entities.block(styles, "spacing-above").element().modifiers(["sm"]),
+						Methodology.Bem.Entities.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
-						<div className={BEM.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
-							<Heading scheme={{
-								properties: {
+						<div className={Methodology.Bem.Entities.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Метка</Heading>
+									style: { stylesheet: headingStyles,rules: { bem: {  block: "heading" }}}
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Метка"
+									}
+								}]
+							}} />
 
 							<div className={styles["component-preview"]}>
-								<Label scheme={{
-									properties: {
+								<Label {...{
+									requirements: {
 										htmlTag: HtmlTagTypes.Span,
 										text: "Метка 1",
-										classes: { stylesheet: labelStyles }
+										style: { stylesheet: labelStyles }
 									}
 								}} />
 							</div>
 
 							<p><code>{"import { Label } from '@timcowebapps/react.toolkit'"}</code></p>
 
-							<Heading scheme={{
-								properties: {
+							<Heading {...{
+								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									classes: { stylesheet: headingStyles, block: "heading" }
-								}
-							}}>Схема компонента</Heading>
+									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Схема компонента"
+									}
+								}]
+							}} />
 
 							<table>
 								<thead>
@@ -122,47 +136,47 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 								</thead>
 								<tbody>
 									<tr>
-										<td><code>uniqueId</code></td>
+										<td><code>uid</code></td>
 										<td>String</td>
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>properties.htmlTag</code></td>
+										<td><code>requirements.htmlTag</code></td>
 										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link scheme={{
-											properties: {
+										<td>Html тег элемента. Допустимые значения <Link {...{
+											requirements: {
 												htmlTag: HtmlTagTypes.A,
 												to: "/react.toolkit-guides/",
-												classes: { stylesheet: linkStyles, block: "link" }
+												style: { stylesheet: linkStyles, rules: { bem: { block: "link" }}}
 											},
 											items: [{
-												type: ComponentTypes.Node,
-												properties: { content: "HtmlTagTypes" }
+												type: Data.Schema.ComponentTypes.Node,
+												requirements: { content: "HtmlTagTypes" }
 											}]
 										}} /> перечислителя: <code>HtmlTagTypes.Span</code> (по умолчанию)</td>
 									</tr>
 									<tr>
-										<td><code>properties.associateWith</code></td>
+										<td><code>requirements.associateWith</code></td>
 										<td>String | Number</td>
 										<td></td>
 									</tr>
 									<tr>
-										<td><code>properties.text</code></td>
+										<td><code>requirements.text</code></td>
 										<td>String</td>
 										<td></td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.stylesheet</code></td>
+										<td><code>requirements.style.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.block</code></td>
+										<td><code>requirements.style.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>properties.classes.modifiers</code></td>
+										<td><code>requirements.style.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

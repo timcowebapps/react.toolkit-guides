@@ -21,7 +21,7 @@ $main-colors: (
 }
 
 /* #region 1.Импортируем утилиты */
-@import '~timcowebapps-react.utils/src/classname/bem.scss';
+@import '~timcowebapps-react.style/src/methodology/bem/index.scss';
 @import '~timcowebapps-react.utils/src/unit/convert.scss';
 @import '~timcowebapps-react.utils/src/typography/responsive-font-size.scss';
 @import '~timcowebapps-react.utils/src/typography/text-align.scss';
@@ -120,6 +120,7 @@ $enable-shadows: true;
 /* #endregion */
 /* #region 4.Импортируем экстракты */
 @import '~timcowebapps-react.toolkit/src/extracts/spacing.scss';
+@import '~timcowebapps-react.toolkit/src/extracts/no-padding.scss';
 @import '~timcowebapps-react.toolkit/src/extracts/block.scss';
 @import '~timcowebapps-react.toolkit/src/extracts/list.scss';
 @import '~timcowebapps-react.toolkit/src/extracts/hidden.scss';

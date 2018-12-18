@@ -4,14 +4,9 @@ import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import {
-	HtmlTagTypes, ComponentTypes
-} from '@timcowebapps/react.utils';
-import {
-	Group,
-	Navbar,
-	Menu
-} from '@timcowebapps/react.toolkit';
+import { HtmlTagTypes } from '@timcowebapps/react.utils';
+import { Data } from '@timcowebapps/react.componentmodel';
+import { Navbar, TreeView } from '@timcowebapps/react.toolkit';
 import { LayoutProps } from './index-props';
 import { LayoutState } from './index-state';
 
@@ -19,6 +14,7 @@ var styles: any = require('./index.scss');
 var buttonStyles: any = require('../components/button/variants.scss');
 var navbarStyles: any = require('../components/navbar/variants.scss');
 var menuStyles: any = require('../components/menu/variants.scss');
+var treeviewStyles: any = require('../components/treeview/variants.scss');
 
 export class Layout extends React.Component<LayoutProps.IProps, LayoutState.IState> {
 	//#region Статические переменные
@@ -84,52 +80,183 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 		return (
 			<div className={styles["grid-container"]}>
 				<div className={styles["grid-item-header"]}>
-					<Navbar scheme={{
-						properties: {
+					<Navbar {...{
+						requirements: {
 							htmlTag: HtmlTagTypes.Header,
-							classes: { stylesheet: navbarStyles, block: "navbar-header" }
+							style: { stylesheet: navbarStyles, rules: { bem: { block: "navbar-header" } } }
 						}
 					}} />
 				</div>
 				<div className={styles["grid-item-aside"]}>
-					<Navbar scheme={{
-						properties: {
+					<Navbar {...{
+						requirements: {
 							htmlTag: HtmlTagTypes.Aside,
-							classes: { stylesheet: navbarStyles, block: "navbar-aside" }
+							style: { stylesheet: navbarStyles, rules: { bem: { block: "navbar-aside" } } }
 						}
 					}}>
 						<React.Fragment>
-							<Menu scheme={{
-								properties: {
-									classes: { stylesheet: menuStyles, block: "navbar-menu" }
+							<TreeView {...{
+								requirements: {
+									style: { stylesheet: treeviewStyles, rules: { bem: { block: "treeview" } } }
 								},
 								items: [{
-									uniqueId: "0",
-									properties: { content: <Link to="/react.toolkit-guides/">Home</Link> }
-								}, {
-									uniqueId: "1",
-									properties: { content: <Link to="/react.toolkit-guides/heading">Heading</Link> }
-								}, {
-									uniqueId: "2",
-									properties: { content: <Link to="/react.toolkit-guides/label">Label</Link> }
-								}, {
-									uniqueId: "3",
-									properties: { content: <Link to="/react.toolkit-guides/panel">Panel</Link> }
-								}, {
-									uniqueId: "4",
-									properties: { content: <Link to="/react.toolkit-guides/button">Button</Link> }
-								}, {
-									uniqueId: "5",
-									properties: { content: <Link to="/react.toolkit-guides/field">Field</Link> }
-								}, {
-									uniqueId: "6",
-									properties: { content: <Link to="/react.toolkit-guides/breadcrumb">Breadcrumb</Link> }
-								}, {
-									uniqueId: "7",
-									properties: { content: <Link to="/react.toolkit-guides/tabset">TabSet</Link> }
+									type: Data.Schema.ComponentTypes.Group,
+									items: [{
+										type: Data.Schema.ComponentTypes.Item,
+										items: {
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: <Link to="/react.toolkit-guides/">Home</Link> }
+										}
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Heading" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/heading">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Label" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/label">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Panel" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/panel">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Button" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/button">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "FormGroup" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/form-group">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Breadcrumb" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/breadcrumb">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "TabSet" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to="/react.toolkit-guides/tabset">Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}]
 								}]
 							}} />
-
 						</React.Fragment>
 					</Navbar>
 				</div>
