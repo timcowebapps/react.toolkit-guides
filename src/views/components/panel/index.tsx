@@ -88,7 +88,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -102,7 +102,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								<Panel {...{
 									requirements: {
 										content: "Панель 1",
-										style: { stylesheet: panelStyles,rules: { bem: {  block: "panel" }}}
+										style: { stylesheet: panelStyles, bem: { block: "panel" } }
 									}
 								}} />
 							</div>
@@ -113,7 +113,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,

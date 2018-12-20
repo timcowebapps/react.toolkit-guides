@@ -88,7 +88,7 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles,rules: { bem: {  block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -104,7 +104,7 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 										requirements: {
 											htmlTag: HtmlTagTypes[`H${idx + 1}`],
 											align: TextAlign.toStr(AlignTypes.Left),
-											style: { stylesheet: headingStyles,rules: { bem: {  block: "heading" }}}
+											style: { stylesheet: headingStyles, bem: { block: "heading" } }
 										},
 										items: [{
 											type: Data.Schema.ComponentTypes.Node,
@@ -122,7 +122,7 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles,rules: { bem: {  block: "heading", modifiers: ["underline"] }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -153,7 +153,7 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 											requirements: {
 												htmlTag: HtmlTagTypes.A,
 												to: "/react.toolkit-guides/",
-												style: { stylesheet: linkStyles, rules: { bem: { block: "link" }}}
+												style: { stylesheet: linkStyles, bem: { block: "link" } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,

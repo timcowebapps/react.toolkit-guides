@@ -1,6 +1,6 @@
 {
 	"name": "@timcowebapps/react.toolkit-guides",
-	"version": "0.4.9",
+	"version": "0.4.12",
 	"description": "Front-end фреймворк для разработки адаптивных web-проектов",
 	"author": "Victor Timoshin <victor-timoshin@hotmail.com>",
 	"license": "MIT",
@@ -23,14 +23,14 @@
 		"react-router-dom": "^4.3.1"
 	},
 	"devDependencies": {
-		"@timcowebapps/react.component": "^0.2.2",
-		"@timcowebapps/react.componentmodel": "^0.1.1",
-		"@timcowebapps/react.style": "^0.1.4",
-		"@timcowebapps/react.system": "^0.2.4",
-		"@timcowebapps/react.toolkit": "^0.43.78",
+		"@timcowebapps/react.component": "^0.3.3",
+		"@timcowebapps/react.componentmodel": "^0.1.4",
+		"@timcowebapps/react.style": "^0.3.5",
+		"@timcowebapps/react.system": "^0.2.5",
+		"@timcowebapps/react.toolkit": "^0.45.82",
 		"@timcowebapps/react.utils": "^0.14.61",
 		"@types/lodash": "^4.14.119",
-		"@types/node": "^10.12.15",
+		"@types/node": "^10.12.18",
 		"@types/react": "^16.7.17",
 		"@types/react-dom": "^16.0.11",
 		"@types/react-router-dom": "^4.3.1",
@@ -45,7 +45,7 @@
 		"ts-node": "^7.0.1",
 		"typescript": "^3.2.2",
 		"uglifyjs-webpack-plugin": "^2.0.1",
-		"webpack": "^4.27.1",
+		"webpack": "^4.28.0",
 		"webpack-cli": "^3.1.2",
 		"webpack-dev-server": "^3.1.10"
 	}

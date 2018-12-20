@@ -90,7 +90,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -104,7 +104,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/link",
-									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
+									style: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -115,7 +115,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 							<div className={styles["component-preview"]}>
 								<Breadcrumb {...{
 									requirements: {
-										style: { stylesheet: breadcrumbStyles, rules: { bem: { block: "breadcrumb" } } }
+										style: { stylesheet: breadcrumbStyles, bem: { block: "breadcrumb" } }
 									},
 									items: [{
 										uid: "0",
@@ -146,7 +146,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading", modifiers: ["underline"] } } }
+									style: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,

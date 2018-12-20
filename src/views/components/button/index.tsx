@@ -94,7 +94,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -110,7 +110,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/icon",
-									style: { stylesheet: linkStyles,rules: { bem: { block: "link" }}}
+									style: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -123,7 +123,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 									requirements: {
 										htmlTag: HtmlTagTypes.Button,
 										onClick: this._handleClick,
-										style: { stylesheet: buttonStyles, rules: { bem: { block: "btn", modifiers: ["primary"]}, extracts: "block" }}
+										style: { stylesheet: buttonStyles, bem: { block: "btn", modifiers: ["primary"] }, extracts: "block" }
 									},
 									items: [{
 										type: Data.Schema.ComponentTypes.Node,
@@ -140,7 +140,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -171,7 +171,7 @@ export class ButtonComp extends React.Component<ButtonCompProps.IProps, ButtonCo
 											requirements: {
 												htmlTag: HtmlTagTypes.A,
 												to: "/react.toolkit-guides/",
-												style: { stylesheet: linkStyles, rules: { bem: { block: "link" }}}
+												style: { stylesheet: linkStyles, bem: { block: "link" } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,

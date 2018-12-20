@@ -113,7 +113,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles,rules: { bem: {  block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -127,7 +127,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/label",
-									style: { stylesheet: linkStyles, rules: { bem: { block: "link" }}}
+									style: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -139,13 +139,13 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								<FormGroup {...{
 									uid: this._uids[0],
 									requirements: {
-										style: { stylesheet: formGroupStyles,rules: { bem: { block: "form-group" }}}
+										style: { stylesheet: formGroupStyles, bem: { block: "form-group" } }
 									},
 									items: [{
 										type: Data.Schema.ComponentTypes.Label,
 										requirements: {
 											text: "Введите текст:",
-											style: {stylesheet: labelStyles}
+											style: { stylesheet: labelStyles }
 										}
 									}, {
 										type: Data.Schema.ComponentTypes.Input,
@@ -157,7 +157,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 											validators: [],
 											onValueChange: this._handleNameChange,
 											placeholder: "Текст",
-											style: { stylesheet: inputStyles,rules: { bem: {  block: "form-group", element: "input" }}}
+											style: { stylesheet: inputStyles, bem: { block: "form-group", element: "input" } }
 										}
 									}]
 								}} />
@@ -165,7 +165,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								<PhoneInput {...{
 									uid: this._uids[1],
 									requirements: {
-										style: { stylesheet: inputStyles, rules: { bem: { block: "phone-input" }}}
+										style: { stylesheet: inputStyles, bem: { block: "phone-input" } }
 									},
 									items: [{
 										type: Data.Schema.ComponentTypes.Input,
@@ -175,7 +175,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 											value: this.state.phone,
 											validators: [],
 											onValueChange: this._handlePhoneChange,
-											style: { stylesheet: inputStyles,rules: { bem: {  block: "phone-input", element: "input" }}}
+											style: { stylesheet: inputStyles, bem: { block: "phone-input", element: "input" } }
 										}
 									}]
 								}} />
@@ -183,7 +183,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								<NumInput {...{
 									uid: this._uids[2],
 									requirements: {
-										style: { stylesheet: inputStyles, rules: { bem: { block: "num-input" }}}
+										style: { stylesheet: inputStyles, bem: { block: "num-input" } }
 									},
 									items: [{
 										type: Data.Schema.ComponentTypes.Input,
@@ -193,7 +193,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 											value: this.state.quantity.toString(),
 											validators: [],
 											onValueChange: this._handleQuantityChange,
-											style: { stylesheet: inputStyles,rules: { bem: {  block: "num-input", element: "input" }}}
+											style: { stylesheet: inputStyles, bem: { block: "num-input", element: "input" } }
 										}
 									}, {
 										type: Data.Schema.ComponentTypes.Spinner,
@@ -204,7 +204,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 												dataAttribs: {
 													quantity: "decrement"
 												},
-												style: { stylesheet: buttonStyles, rules: { bem: { block: "num-input", element: "btn", modifiers: ["primary", "decrement"] }}}
+												style: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "decrement"] } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,
@@ -219,7 +219,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 												dataAttribs: {
 													quantity: "increment"
 												},
-												style: { stylesheet: buttonStyles,rules: { bem: {  block: "num-input", element: "btn", modifiers: ["primary", "increment"] }}}
+												style: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "increment"] } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,
@@ -238,7 +238,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" }}}
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,

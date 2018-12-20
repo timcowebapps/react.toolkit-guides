@@ -94,7 +94,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -109,7 +109,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/menu",
-									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
+									style: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -119,7 +119,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/panel",
-									style: { stylesheet: linkStyles, rules: { bem: { block: "link" } } }
+									style: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -132,7 +132,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 									defaults: { currentItemIdx: 0 },
 									requirements: {
 										dynamically: false,
-										style: { stylesheet: tabsetStyles, rules: { bem: { block: "tabset" } } },
+										style: { stylesheet: tabsetStyles, bem: { block: "tabset" } },
 										onTabChange: this._handleTabChange
 									},
 									items: [{
@@ -157,7 +157,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, rules: { bem: { block: "heading" } } }
+									style: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
