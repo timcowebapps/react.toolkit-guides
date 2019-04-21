@@ -80,24 +80,20 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 		return (
 			<div className={styles["grid-container"]}>
 				<div className={styles["grid-item-header"]}>
-					<Navbar {...{
-						requirements: {
-							htmlTag: HtmlTagTypes.Header,
-							style: { stylesheet: navbarStyles, bem: { block: "navbar-header" } }
-						}
+					<Navbar requirements={{
+						htmlTag: HtmlTagTypes.Header,
+						viewStyle: { stylesheet: navbarStyles, bem: { block: "navbar-header" } }
 					}} />
 				</div>
 				<div className={styles["grid-item-aside"]}>
-					<Navbar {...{
-						requirements: {
-							htmlTag: HtmlTagTypes.Aside,
-							style: { stylesheet: navbarStyles, bem: { block: "navbar-aside" } }
-						}
+					<Navbar requirements={{
+						htmlTag: HtmlTagTypes.Aside,
+						viewStyle: { stylesheet: navbarStyles, bem: { block: "navbar-aside" } }
 					}}>
 						<React.Fragment>
 							<TreeView {...{
 								requirements: {
-									style: { stylesheet: treeviewStyles, bem: { block: "treeview" } }
+									viewStyle: { stylesheet: treeviewStyles, bem: { block: "treeview" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Group,

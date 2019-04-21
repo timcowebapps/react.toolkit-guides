@@ -90,7 +90,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -104,7 +104,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/link",
-									style: { stylesheet: linkStyles, bem: { block: "link" } }
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -115,14 +115,14 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 							<div className={styles["component-preview"]}>
 								<Breadcrumb {...{
 									requirements: {
-										style: { stylesheet: breadcrumbStyles, bem: { block: "breadcrumb" } }
+										viewStyle: { stylesheet: breadcrumbStyles, bem: { block: "breadcrumb" } }
 									},
 									items: [{
 										uid: "0",
 										type: Data.Schema.ComponentTypes.Link,
 										requirements: {
 											to: '/react.toolkit-guides/breadcrumb',
-											style: { stylesheet: linkStyles }
+											viewStyle: { stylesheet: linkStyles }
 										},
 										items: [{
 											type: Data.Schema.ComponentTypes.Node,
@@ -146,7 +146,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -171,17 +171,17 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.stylesheet</code></td>
+										<td><code>requirements.viewStyle.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.block</code></td>
+										<td><code>requirements.viewStyle.bem.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.modifiers</code></td>
+										<td><code>requirements.viewStyle.bem.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

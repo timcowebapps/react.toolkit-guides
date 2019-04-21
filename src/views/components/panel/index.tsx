@@ -88,7 +88,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -102,7 +102,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								<Panel {...{
 									requirements: {
 										content: "Панель 1",
-										style: { stylesheet: panelStyles, bem: { block: "panel" } }
+										viewStyle: { stylesheet: panelStyles, bem: { block: "panel" } }
 									}
 								}} />
 							</div>
@@ -113,7 +113,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -148,17 +148,17 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 										<td></td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.stylesheet</code></td>
+										<td><code>requirements.viewStyle.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.block</code></td>
+										<td><code>requirements.viewStyle.bem.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.modifiers</code></td>
+										<td><code>requirements.viewStyle.bem.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

@@ -90,7 +90,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -105,7 +105,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 									requirements: {
 										htmlTag: HtmlTagTypes.Span,
 										text: "Метка 1",
-										style: { stylesheet: labelStyles }
+										viewStyle: { stylesheet: labelStyles }
 									}
 								}} />
 							</div>
@@ -116,7 +116,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -147,7 +147,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 											requirements: {
 												htmlTag: HtmlTagTypes.A,
 												to: "/react.toolkit-guides/",
-												style: { stylesheet: linkStyles, bem: { block: "link" } }
+												viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,
@@ -166,17 +166,17 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 										<td></td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.stylesheet</code></td>
+										<td><code>requirements.viewStyle.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.block</code></td>
+										<td><code>requirements.viewStyle.bem.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.modifiers</code></td>
+										<td><code>requirements.viewStyle.bem.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>

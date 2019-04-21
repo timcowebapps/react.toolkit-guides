@@ -113,7 +113,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -127,7 +127,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.A,
 									to: "/react.toolkit-guides/label",
-									style: { stylesheet: linkStyles, bem: { block: "link" } }
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -136,16 +136,14 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 							}} /></p>
 
 							<div className={styles["component-preview"]}>
-								<FormGroup {...{
-									uid: this._uids[0],
-									requirements: {
-										style: { stylesheet: formGroupStyles, bem: { block: "form-group" } }
-									},
-									items: [{
+								<FormGroup uid={this._uids[0]} requirements={{
+										viewStyle: { stylesheet: formGroupStyles, bem: { block: "form-group" } }
+									}}
+									items={[{
 										type: Data.Schema.ComponentTypes.Label,
 										requirements: {
 											text: "Введите текст:",
-											style: { stylesheet: labelStyles }
+											viewStyle: { stylesheet: labelStyles }
 										}
 									}, {
 										type: Data.Schema.ComponentTypes.Input,
@@ -154,46 +152,42 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 											htmlType: HtmlInputTypes.Text,
 											name: "name",
 											value: "",
-											validators: [],
+											validations: [],
 											onValueChange: this._handleNameChange,
 											placeholder: "Текст",
-											style: { stylesheet: inputStyles, bem: { block: "form-group", element: "input" } }
+											viewStyle: { stylesheet: inputStyles, bem: { block: "form-group", element: "input" } }
 										}
 									}]
-								}} />
+								} />
 
-								<PhoneInput {...{
-									uid: this._uids[1],
-									requirements: {
-										style: { stylesheet: inputStyles, bem: { block: "phone-input" } }
-									},
-									items: [{
+								<PhoneInput uid={this._uids[1]} requirements={{
+										viewStyle: { stylesheet: inputStyles, bem: { block: "phone-input" } }
+									}}
+									items={[{
 										type: Data.Schema.ComponentTypes.Input,
 										requirements: {
 											htmlType: HtmlInputTypes.Text,
 											name: "phone",
 											value: this.state.phone,
-											validators: [],
+											validations: [],
 											onValueChange: this._handlePhoneChange,
-											style: { stylesheet: inputStyles, bem: { block: "phone-input", element: "input" } }
+											viewStyle: { stylesheet: inputStyles, bem: { block: "phone-input", element: "input" } }
 										}
 									}]
-								}} />
+								} />
 
-								<NumInput {...{
-									uid: this._uids[2],
-									requirements: {
-										style: { stylesheet: inputStyles, bem: { block: "num-input" } }
-									},
-									items: [{
+								<NumInput uid={this._uids[2]} requirements={{
+										viewStyle: { stylesheet: inputStyles, bem: { block: "num-input" } }
+									}}
+									items={[{
 										type: Data.Schema.ComponentTypes.Input,
 										requirements: {
 											htmlType: HtmlInputTypes.Number,
 											name: "quantity",
 											value: this.state.quantity.toString(),
-											validators: [],
+											validations: [],
 											onValueChange: this._handleQuantityChange,
-											style: { stylesheet: inputStyles, bem: { block: "num-input", element: "input" } }
+											viewStyle: { stylesheet: inputStyles, bem: { block: "num-input", element: "input" } }
 										}
 									}, {
 										type: Data.Schema.ComponentTypes.Spinner,
@@ -204,7 +198,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 												dataAttribs: {
 													quantity: "decrement"
 												},
-												style: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "decrement"] } }
+												viewStyle: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "decrement"] } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,
@@ -219,7 +213,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 												dataAttribs: {
 													quantity: "increment"
 												},
-												style: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "increment"] } }
+												viewStyle: { stylesheet: buttonStyles, bem: { block: "num-input", element: "btn", modifiers: ["primary", "increment"] } }
 											},
 											items: [{
 												type: Data.Schema.ComponentTypes.Node,
@@ -229,7 +223,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 											}]
 										}]
 									}]
-								}} />
+								} />
 							</div>
 
 							<p><code>{"import { FormGroup } from '@timcowebapps/react.toolkit'"}</code></p>
@@ -238,7 +232,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: TextAlign.toStr(AlignTypes.Left),
-									style: { stylesheet: headingStyles, bem: { block: "heading" } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -263,17 +257,17 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.stylesheet</code></td>
+										<td><code>requirements.viewStyle.stylesheet</code></td>
 										<td>Object</td>
 										<td>Карта каскадных стилей</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.block</code></td>
+										<td><code>requirements.viewStyle.bem.block</code></td>
 										<td>String</td>
 										<td>Имя блока</td>
 									</tr>
 									<tr>
-										<td><code>requirements.style.modifiers</code></td>
+										<td><code>requirements.viewStyle.bem.modifiers</code></td>
 										<td>Array&#x0003C;String&#x0003E;</td>
 										<td>Имена модификаторов</td>
 									</tr>
