@@ -3,19 +3,12 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import {
-	CN,
-	AlignTypes, TextAlign,
-	HtmlTagTypes
-} from '@timcowebapps/react.utils';
+import { CN, AlignTypes, AlignTransform, HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import {
-	Heading,
-	Link,
-	Breadcrumb
-} from '@timcowebapps/react.toolkit';
+import { Heading, Hyperlink, Breadcrumb } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
+import { RouteConstants } from '../../../shared/routeconstants';
 import { BreadcrumbCompProps } from './index-props';
 import { BreadcrumbCompState } from './index-state';
 
@@ -89,7 +82,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -100,15 +93,20 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 								}]
 							}} />
 
-							<p>Смотри: <Link {...{
+							<p>Смотри: <Hyperlink {...{
 								requirements: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/link",
-									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
+									to: RouteConstants.Home,
+									onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+										e.preventDefault();
+										this.props.history.replace(href);
+									},
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
-									requirements: { content: "Link" }
+									requirements: {
+										content: "Link"
+									}
 								}]
 							}} /></p>
 
@@ -121,7 +119,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 										uid: "0",
 										type: Data.Schema.ComponentTypes.Link,
 										requirements: {
-											to: '/react.toolkit-guides/breadcrumb',
+											to: RouteConstants.Breadcrumb,
 											viewStyle: { stylesheet: linkStyles }
 										},
 										items: [{
@@ -145,7 +143,7 @@ export class BreadcrumbComp extends React.Component<BreadcrumbCompProps.IProps, 
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
 								},
 								items: [{

@@ -3,7 +3,7 @@
 import * as PropTypes from 'prop-types';
 import { RouteComponentProps } from 'react-router';
 
-export namespace FieldCompProps {
+export namespace CheckboxCompProps {
 	export interface IProps extends RouteComponentProps<any> {
 		// Empty
 	}

@@ -1,9 +1,10 @@
 'use strict';
 
 import * as PropTypes from 'prop-types';
+import { RouteComponentProps } from 'react-router';
 
 export namespace HeadingCompProps {
-	export interface IProps {
+	export interface IProps extends RouteComponentProps<any> {
 		// Empty
 	}
 
@@ -12,6 +13,10 @@ export namespace HeadingCompProps {
 	}
 
 	export const defaults: IProps = {
-		// Empty
+		//#region RouteComponentProps
+		history: null,
+		location: null,
+		match: null
+		//#endregion
 	}
 }

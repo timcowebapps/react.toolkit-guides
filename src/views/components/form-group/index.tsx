@@ -3,20 +3,13 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import {
-	CN,
-	AlignTypes, TextAlign,
-	HtmlTagTypes, HtmlInputTypes
-} from '@timcowebapps/react.utils';
+import { CN, AlignTypes, AlignTransform, HtmlTagTypes, HtmlInputTypes } from '@timcowebapps/react.utils';
 import { Guid } from '@timcowebapps/react.system';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import {
-	Heading,
-	Link,
-	FormGroup, NumInput, PhoneInput
-} from '@timcowebapps/react.toolkit';
+import { Heading, Hyperlink, FormGroup, NumInput, PhoneInput } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
+import { RouteConstants } from '../../../shared/routeconstants';
 import { FieldCompProps } from './index-props';
 import { FieldCompState } from './index-state';
 
@@ -112,7 +105,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -123,15 +116,20 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 								}]
 							}} />
 
-							<p>Смотри: <Link {...{
+							<p>Смотри:<Hyperlink {...{
 								requirements: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/label",
-									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
+									to: RouteConstants.Label,
+									onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+										e.preventDefault();
+										this.props.history.replace(href);
+									},
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
-									requirements: { content: "Label" }
+									requirements: {
+										content: "Label"
+									}
 								}]
 							}} /></p>
 
@@ -231,7 +229,7 @@ export class FormGroupComp extends React.Component<FieldCompProps.IProps, FieldC
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{

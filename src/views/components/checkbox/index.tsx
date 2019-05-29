@@ -6,25 +6,25 @@ import * as PropTypes from 'prop-types';
 import { CN, AlignTypes, AlignTransform, HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import { Heading, Hyperlink } from '@timcowebapps/react.toolkit';
+import { Heading, Hyperlink, Checkbox } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
 import { RouteConstants } from '../../../shared/routeconstants';
-import { HeadingCompProps } from './index-props';
-import { HeadingCompState } from './index-state';
+import { CheckboxCompProps } from './index-props';
+import { CheckboxCompState } from './index-state';
 
 import { Layout } from '../../layout';
 
 var styles: any = require('./index.scss');
-var headingStyles: any = require('./variants.scss');
+var headingStyles: any = require('../heading/variants.scss');
 var linkStyles: any = require('../link/variants.scss');
-var buttonStyles: any = require('../button/variants.scss');
+var checkboxStyles: any = require('../checkbox/variants.scss');
 
-export class HeadingComp extends React.Component<HeadingCompProps.IProps, HeadingCompState.IState> {
+export class CheckboxComp extends React.Component<CheckboxCompProps.IProps, CheckboxCompState.IState> {
 	//#region Статические переменные
 
-	public static displayName: string = "HeadingComp";
-	public static propTypes: PropTypes.ValidationMap<HeadingCompProps.IProps> = HeadingCompProps.types;
-	public static defaultProps: HeadingCompProps.IProps = HeadingCompProps.defaults;
+	public static displayName: string = "CheckboxComp";
+	public static propTypes: PropTypes.ValidationMap<CheckboxCompProps.IProps> = CheckboxCompProps.types;
+	public static defaultProps: CheckboxCompProps.IProps = CheckboxCompProps.defaults;
 
 	//#endregion
 
@@ -37,13 +37,19 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 	/**
 	 * Начальное состояние свойств по умолчанию.
 	 * 
-	 * @class HeadingComp
+	 * @class CheckboxComp
 	 * @private
 	 */
-	private _getInitialState(): HeadingCompState.IState {
+	private _getInitialState(): CheckboxCompState.IState {
 		return {
-			// Empty
+			checked: false
 		}
+	}
+
+	private _handleChange(event: any) {
+		this.setState({
+			checked: !this.state.checked
+		})
 	}
 
 	//#endregion
@@ -51,33 +57,39 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 	/**
 	 * Конструктор класса.
 	 * 
-	 * @class HeadingComp
+	 * @class CheckboxComp
 	 * @public
 	 * @constructor
-	 * @param {HeadingCompProps.IProps} props Свойства компонента.
+	 * @param {CheckboxCompProps.IProps} props Свойства компонента.
 	 */
-	public constructor(props?: HeadingCompProps.IProps) {
+	public constructor(props?: CheckboxCompProps.IProps) {
 		super(props);
 
 		this.state = this._getInitialState();
+
+		//#region Bindings
+		
+		this._handleChange = this._handleChange.bind(this);
+
+		//#endregion
 	}
 
 	/**
 	 * Отрисовывает компонент.
 	 * 
-	 * @class HeadingComp
+	 * @class CheckboxComp
 	 * @public
 	 */
 	public render(): JSX.Element {
 		return (
 			<Layout>
 				<div className={styles["container-fluid"]}>
-					<div className={CN.many(
-						styles["row"],
+					<div className={CN.many(styles["row"],
 						Methodology.Bem.Entities.block(styles, "spacing-above").element().modifiers(["sm"]),
 						Methodology.Bem.Entities.block(styles, "spacing-below").element().modifiers(["sm"])
 					)}>
 						<div className={Methodology.Bem.Entities.block(styles, "col").element().modifiers(["xs-12", "sm-12", "md-12", "lg-12"])}>
+
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
@@ -87,36 +99,59 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
 									requirements: {
-										content: "Заголовок"
+										content: "Чек"
 									}
 								}]
 							}} />
 
+							<p></p>
+
+							<p>Смотри: <Hyperlink {...{
+								requirements: {
+									to: RouteConstants.Label,
+									onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+										e.preventDefault();
+										this.props.history.replace(href);
+									},
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
+								},
+								items: [{
+									type: Data.Schema.ComponentTypes.Node,
+									requirements: {
+										content: "Label"
+									}
+								}]
+							}} /></p>
+
 							<div className={styles["component-preview"]}>
-								{Array.apply(0, Array(6)).map((value: any, idx: number) =>
-									<Heading key={idx} {...{
+								<Checkbox {...{
+									requirements: {
+										name: "noname",
+										value: 0,
+										checked: this.state.checked,
+										disabled: false,
+										onChange: this._handleChange,
+										viewStyle: { stylesheet: checkboxStyles, bem: { block: "checkbox" } }
+									},
+									items: [{
+										type: Data.Schema.ComponentTypes.Input,
+										requirements: { }
+									}, {
+										type: Data.Schema.ComponentTypes.Label,
 										requirements: {
-											htmlTag: HtmlTagTypes[`H${idx + 1}`],
-											align: AlignTransform.toStr(AlignTypes.Left),
-											viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
-										},
-										items: [{
-											type: Data.Schema.ComponentTypes.Node,
-											requirements: {
-												content: `h${idx + 1}. React.Toolkit heading`
-											}
-										}]
-									}} />
-								)}
+											text: this.state.checked ? "checkbox is checked" : "checkbox"
+										}
+									}]
+								}} />
 							</div>
 
-							<p><code>{"import { Heading } from '@timcowebapps/react.toolkit'"}</code></p>
+							<p><code>{"import { Checkbox } from '@timcowebapps/react.toolkit'"}</code></p>
 
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
 									align: AlignTransform.toStr(AlignTypes.Left),
-									viewStyle: { stylesheet: headingStyles, bem: { block: "heading", modifiers: ["underline"] } }
+									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
@@ -141,29 +176,9 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 										<td>Уникальный идентификатор компонента</td>
 									</tr>
 									<tr>
-										<td><code>requirements.htmlTag</code></td>
-										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Hyperlink {...{
-												requirements: {
-													to: RouteConstants.Home,
-													onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
-														e.preventDefault();
-														this.props.history.replace(href);
-													},
-													viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
-												},
-												items: [{
-													type: Data.Schema.ComponentTypes.Node,
-													requirements: {
-														content: "HtmlTagTypes"
-													}
-												}]
-											}} /> перечислителя: <code>HtmlTagTypes.H1&nbsp;...&nbsp;H6</code>, <code>HtmlTagTypes.H3</code> (по умолчанию)</td>
-									</tr>
-									<tr>
-										<td><code>requirements.align</code></td>
+										<td><code>requirements.value</code></td>
 										<td>String</td>
-										<td>Выравнивание текста. Допустимые значения: <code>left</code>, <code>center</code> (по умолчанию), <code>right</code> и <code>justify</code></td>
+										<td>Значение</td>
 									</tr>
 									<tr>
 										<td><code>requirements.viewStyle.stylesheet</code></td>
@@ -183,7 +198,6 @@ export class HeadingComp extends React.Component<HeadingCompProps.IProps, Headin
 								</tbody>
 							</table>
 
-							<Gist gist="7ad3f4405230ae6c0fe4eeb200d5ee71" file="heading.jsx" />
 						</div>
 					</div>
 				</div>

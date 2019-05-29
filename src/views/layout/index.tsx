@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Data } from '@timcowebapps/react.componentmodel';
 import { Navbar, TreeView } from '@timcowebapps/react.toolkit';
+import { RouteConstants } from '../../shared/routeconstants';
 import { LayoutProps } from './index-props';
 import { LayoutState } from './index-state';
 
@@ -101,7 +102,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 										type: Data.Schema.ComponentTypes.Item,
 										items: {
 											type: Data.Schema.ComponentTypes.Node,
-											requirements: { content: <Link to="/react.toolkit-guides/">Home</Link> }
+											requirements: { content: <Link to={RouteConstants.Home}>Home</Link> }
 										}
 									}, {
 										type: Data.Schema.ComponentTypes.Item,
@@ -114,7 +115,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/heading">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Heading}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -135,7 +136,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/label">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Label}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -156,7 +157,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/panel">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Panel}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -177,7 +178,28 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/button">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Button}>Overview</Link> }
+												}
+											}, {
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: "Getting Started" }
+												}
+											}]
+										}]
+									}, {
+										type: Data.Schema.ComponentTypes.Item,
+										items: [{
+											type: Data.Schema.ComponentTypes.Node,
+											requirements: { content: "Checkbox" }
+										}, {
+											type: Data.Schema.ComponentTypes.Group,
+											items: [{
+												type: Data.Schema.ComponentTypes.Item,
+												items: {
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: { content: <Link to={RouteConstants.Checkbox}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -198,7 +220,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/form-group">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.FormGroup}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -219,7 +241,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/breadcrumb">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Breadcrumb}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,
@@ -240,7 +262,7 @@ export class Layout extends React.Component<LayoutProps.IProps, LayoutState.ISta
 												type: Data.Schema.ComponentTypes.Item,
 												items: {
 													type: Data.Schema.ComponentTypes.Node,
-													requirements: { content: <Link to="/react.toolkit-guides/tabset">Overview</Link> }
+													requirements: { content: <Link to={RouteConstants.Tabset}>Overview</Link> }
 												}
 											}, {
 												type: Data.Schema.ComponentTypes.Item,

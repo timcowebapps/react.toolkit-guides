@@ -16,19 +16,8 @@ $heading-fontWeight: 300;
 $heading-textTransform: inherit;
 @import '~timcowebapps-react.toolkit/src/components/heading/heading.scss';
 
-// h1.heading {
-// 	color: get-color($main-colors, 'primary', 'dark');
-// 	font-size: 28px;
-// 	font-weight: 600;
-// 	margin: 0 0 .7em;
-// }
-
 h2.heading {
-// 	color: get-color($main-colors, 'primary', 'dark');
-// 	font-size: 24px;
-// 	font-weight: 600;
-
-	@include modifier("underline") {
+	@include modifiers((), "underline") {
 		margin: 1em 0 .8em;
 		padding-bottom: .4em;
 		border-bottom: 1px solid #ddd;

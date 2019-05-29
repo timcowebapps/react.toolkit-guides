@@ -3,19 +3,12 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import {
-	CN,
-	AlignTypes, TextAlign,
-	HtmlTagTypes
-} from '@timcowebapps/react.utils';
+import { CN, AlignTypes, AlignTransform, HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import {
-	Heading,
-	Link,
-	TabSet, TabSetItem
-} from '@timcowebapps/react.toolkit';
+import { Heading, Hyperlink, TabSet, TabSetItem } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
+import { RouteConstants } from '../../../shared/routeconstants';
 import { TabSetCompProps } from './index-props';
 import { TabSetCompState } from './index-state';
 
@@ -93,7 +86,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -105,25 +98,35 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 							}} />
 
 							<p>Вкладка - это скрытый раздел контента, активируемый меню</p>
-							<p>Смотри: <Link {...{
+							<p>Смотри: <Hyperlink {...{
 								requirements: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/menu",
-									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
+									to: RouteConstants.Home,
+									onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+										e.preventDefault();
+										this.props.history.replace(href);
+									},
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
-									requirements: { content: "Menu" }
+									requirements: {
+										content: "Menu"
+									}
 								}]
-							}} />, <Link {...{
+							}} />, <Hyperlink {...{
 								requirements: {
-									htmlTag: HtmlTagTypes.A,
-									to: "/react.toolkit-guides/panel",
-									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
+									to: RouteConstants.Panel,
+									onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+										e.preventDefault();
+										this.props.history.replace(href);
+									},
+									viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
 								},
 								items: [{
 									type: Data.Schema.ComponentTypes.Node,
-									requirements: { content: "Panel" }
+									requirements: {
+										content: "Panel"
+									}
 								}]
 							}} /></p>
 
@@ -156,7 +159,7 @@ export class TabSetComp extends React.Component<TabSetCompProps.IProps, TabSetCo
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{

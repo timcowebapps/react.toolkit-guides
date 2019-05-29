@@ -3,18 +3,12 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import {
-	CN,
-	AlignTypes, TextAlign,
-	HtmlTagTypes
-} from '@timcowebapps/react.utils';
+import { CN, AlignTypes, AlignTransform, HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import {
-	Heading,
-	Panel
-} from '@timcowebapps/react.toolkit';
+import { Heading, Panel } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
+import { RouteConstants } from '../../../shared/routeconstants';
 import { PanelCompProps } from './index-props';
 import { PanelCompState } from './index-state';
 
@@ -87,7 +81,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -112,7 +106,7 @@ export class PanelComp extends React.Component<PanelCompProps.IProps, PanelCompS
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{

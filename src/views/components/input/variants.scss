@@ -40,24 +40,8 @@ $numInput-name: "num-input";
 
 /* #region Переменные поля номера телефона */
 @import '~timcowebapps-react.toolkit/src/components/phone-input/phone-input-vars.scss';
-$phoneInput-name: "phone-input";
-$phoneInput-fontFamily: inherit;
-$phoneInput-fontColor: #000;
-$phoneInput-fontSize: pxToRem(14px, $body-fontSize);
-$phoneInput-background--intermediate-unfocused: scale-color(#fff, $lightness: -2%);
-$phoneInput-background--intermediate-focused: scale-color(#fff, $lightness: -2%);
-$phoneInput-background--acceptable-unfocused: scale-color(#fff, $lightness: -2%);
-$phoneInput-background--acceptable-focused: scale-color(#fff, $lightness: -2%);
-$phoneInput-background--invalid-unfocused: scale-color(#fff, $lightness: -2%);
-$phoneInput-background--invalid-focused: scale-color(#fff, $lightness: -2%);
-$phoneInput-borderColor--intermediate-unfocused: scale-color(#fff, $lightness: -20%);
-$phoneInput-borderColor--intermediate-focused: scale-color(#fff, $lightness: -40%);
-$phoneInput-borderColor--acceptable-unfocused: get-color($brand-colors, "success");
-$phoneInput-borderColor--acceptable-focused: get-color($brand-colors, "success");
-$phoneInput-borderColor--invalid-unfocused: get-color($brand-colors, "danger");
-$phoneInput-borderColor--invalid-focused: get-color($brand-colors, "danger");
-$phoneInput-borderWidth: 1px;
-$phoneInput-borderStyle: solid;
-$phoneInput-borderRadius: $corner-radius;
+$phoneInput-name: 'phone-input';
+$input-root: $phoneInput-name;
+$input-name: "input";
 @import '~timcowebapps-react.toolkit/src/components/phone-input/phone-input.scss';
 /* #endregion */

@@ -3,19 +3,12 @@
 import * as _ from 'lodash';
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import {
-	CN,
-	AlignTypes, TextAlign,
-	HtmlTagTypes
-} from '@timcowebapps/react.utils';
+import { CN, AlignTypes, AlignTransform, HtmlTagTypes } from '@timcowebapps/react.utils';
 import { Methodology } from '@timcowebapps/react.style';
 import { Data } from '@timcowebapps/react.componentmodel';
-import {
-	Heading,
-	Label,
-	Link
-} from '@timcowebapps/react.toolkit';
+import { Heading, Label, Hyperlink } from '@timcowebapps/react.toolkit';
 import { Gist } from '../../partials/gist';
+import { RouteConstants } from '../../../shared/routeconstants';
 import { LabelCompProps } from './index-props';
 import { LabelCompState } from './index-state';
 
@@ -89,7 +82,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H1,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -115,7 +108,7 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 							<Heading {...{
 								requirements: {
 									htmlTag: HtmlTagTypes.H2,
-									align: TextAlign.toStr(AlignTypes.Left),
+									align: AlignTransform.toStr(AlignTypes.Left),
 									viewStyle: { stylesheet: headingStyles, bem: { block: "heading" } }
 								},
 								items: [{
@@ -143,17 +136,22 @@ export class LabelComp extends React.Component<LabelCompProps.IProps, LabelCompS
 									<tr>
 										<td><code>requirements.htmlTag</code></td>
 										<td>Number</td>
-										<td>Html тег элемента. Допустимые значения <Link {...{
-											requirements: {
-												htmlTag: HtmlTagTypes.A,
-												to: "/react.toolkit-guides/",
-												viewStyle: { stylesheet: linkStyles, bem: { block: "link" } }
-											},
-											items: [{
-												type: Data.Schema.ComponentTypes.Node,
-												requirements: { content: "HtmlTagTypes" }
-											}]
-										}} /> перечислителя: <code>HtmlTagTypes.Span</code> (по умолчанию)</td>
+										<td>Html тег элемента. Допустимые значения <Hyperlink {...{
+												requirements: {
+													to: RouteConstants.Home,
+													onClick: (e: React.MouseEvent<HTMLElement>, href: string) => {
+														e.preventDefault();
+														this.props.history.replace(href);
+													},
+													viewStyle: { stylesheet: linkStyles, bem: { block: "link" } },
+												},
+												items: [{
+													type: Data.Schema.ComponentTypes.Node,
+													requirements: {
+														content: "HtmlTagTypes"
+													}
+												}]
+											}} /> перечислителя: <code>HtmlTagTypes.Span</code> (по умолчанию)</td>
 									</tr>
 									<tr>
 										<td><code>requirements.associateWith</code></td>
